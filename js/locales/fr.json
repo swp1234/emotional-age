@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "title": "Test d'Age Emotionnel | DopaBrain",
+        "description": "Decouvrez votre age emotionnel ! 12 questions pour mesurer votre maturite emotionnelle, empathie et conscience de soi."
+    },
+    "a11y": {
+        "skip": "Aller au contenu"
+    },
+    "app": {
+        "title": "Test d'Age Emotionnel",
+        "subtitle": "Quel age a votre coeur ?",
+        "description": "Repondez a 12 questions sur la regulation emotionnelle, l'empathie et la conscience de soi pour decouvrir votre veritable age emotionnel.",
+        "start": "Decouvrir Mon Age Emotionnel"
+    },
+    "quiz": {
+        "progress": "{current} / {total}"
+    },
+    "questions": {
+        "q1": { "text": "Quelqu'un vous coupe la route. Que faites-vous ?", "a": "Klaxonner agressivement et crier", "b": "Etre frustre mais ne rien faire", "c": "Respirer profondement et lacher prise", "d": "Comprendre qu'ils sont peut-etre presses" },
+        "q2": { "text": "Votre ami traverse une periode difficile. Comment reagissez-vous ?", "a": "Ecouter profondement et valider ses sentiments", "b": "Offrir des conseils pratiques pour resoudre", "c": "Essayer de remonter le moral avec humour", "d": "Se sentir mal a l'aise et changer de sujet" },
+        "q3": { "text": "Vous avez un desaccord avec votre partenaire/ami proche.", "a": "Se fermer et faire la tete", "b": "Argumenter jusqu'a gagner", "c": "Essayer de voir leur point de vue", "d": "Exprimer calmement ses sentiments et trouver un compromis" },
+        "q4": { "text": "Vous avez fait une erreur au travail/a l'ecole. Comment reagissez-vous ?", "a": "Blamer les autres ou trouver des excuses", "b": "Se punir mentalement pendant des jours", "c": "Reconnaitre et en tirer une lecon", "d": "Assumer, s'excuser et creer un plan d'amelioration" },
+        "q5": { "text": "Quelqu'un vous critique. Quelle est votre premiere reaction ?", "a": "Devenir defensif et en colere", "b": "Etre blesse mais pretendre que ca ne compte pas", "c": "Considerer si c'est valide avant de repondre", "d": "Remercier et y reflechir sincerement" },
+        "q6": { "text": "Un ami vous demande constamment des faveurs qui vous epuisent.", "a": "Dire oui a chaque fois meme epuise", "b": "Dire oui mais en vouloir silencieusement", "c": "Parfois dire non mais se sentir coupable", "d": "Poser des limites avec gentillesse mais fermete" },
+        "q7": { "text": "Comment gerez-vous le sentiment d'etre submerge ?", "a": "Prendre du temps et utiliser des strategies saines", "b": "Parler a quelqu'un de confiance", "c": "Me distraire jusqu'a ce que ca passe", "d": "M'en prendre aux gens autour de moi" },
+        "q8": { "text": "Vous voyez quelqu'un traite injustement. Que faites-vous ?", "a": "Detourner le regard — pas mon probleme", "b": "Se sentir mal mais ne pas vouloir s'impliquer", "c": "Intervenir si je me sens en securite", "d": "Les defendre quelle que soit la situation" },
+        "q9": { "text": "Apres une dispute, vous realisez que vous aviez tort.", "a": "S'excuser sincerement et reparer", "b": "Admettre avoir tort sans en faire un drame", "c": "Attendre que ca se tasse", "d": "Camper sur ses positions car admettre ses torts est signe de faiblesse" },
+        "q10": { "text": "A quel point comprenez-vous pourquoi vous ressentez ce que vous ressentez ?", "a": "Je peux identifier mes emotions et leurs causes", "b": "Je comprends generalement apres reflexion", "c": "Je sais que je ressens quelque chose mais ne peux pas toujours le nommer", "d": "Je ne reflechis pas trop a pourquoi je ressens les choses" },
+        "q11": { "text": "A quel point etes-vous a l'aise d'etre vulnerable avec les autres ?", "a": "Je partage ouvertement mes sentiments avec des personnes de confiance", "b": "Je peux etre vulnerable mais ca prend du temps", "c": "Je montre rarement ma vulnerabilite — c'est risque", "d": "Je ne montre jamais de faiblesse a personne" },
+        "q12": { "text": "Quelqu'un qui vous est cher fait quelque chose qui vous blesse.", "a": "Je communique mes sentiments calmement et directement", "b": "Je prends du temps pour digerer avant d'en parler", "c": "Je laisse entendre que je suis blesse en esperant qu'ils le remarquent", "d": "Je garde rancune et je m'eloigne" }
+    },
+    "tiers": {
+        "child": { "name": "Enfant Emotionnel", "emoji": "😢", "desc": "Vos emotions sont au volant ! Comme un enfant, vous reagissez avant de reflechir. Les sentiments frappent fort et vite, et vous n'avez pas encore appris a surfer les vagues emotionnelles. La bonne nouvelle ? La prise de conscience est le premier pas !" },
+        "teen": { "name": "Adolescent Emotionnel", "emoji": "😖", "desc": "Vous apprenez a gerer vos sentiments, mais c'est encore en cours. Parfois vous gerez bien, d'autres fois les emotions prennent le dessus. Vous etes sur la bonne voie — continuez !" },
+        "young": { "name": "Jeune Adulte Emotionnel", "emoji": "😊", "desc": "Vous developpez une vraie intelligence emotionnelle ! Vous pouvez generalement gerer vos sentiments, montrer de l'empathie et gerer les conflits avec une certaine maturite. Vous construisez des outils pour des connexions plus profondes !" },
+        "mature": { "name": "Emotionnellement Mature", "emoji": "🧘", "desc": "Vous avez atteint un bel equilibre. Vous comprenez vos emotions, etablissez des limites saines et abordez la vie avec empathie et sagesse. Les gens se sentent en securite pres de vous." },
+        "elder": { "name": "Sage Emotionnel", "emoji": "🧓", "desc": "Vous possedez une profonde sagesse emotionnelle qui vient d'un vrai travail interieur. Vous naviguez les tempetes de la vie avec grace, creez de l'espace pour les autres sans vous perdre et transformez la douleur en croissance. Vous etes une lumiere rare." }
+    },
+    "result": {
+        "title": "Votre Age Emotionnel",
+        "yearsOld": "ans",
+        "retake": "Refaire le Test"
+    },
+    "radar": {
+        "regulation": "Regulation",
+        "empathy": "Empathie",
+        "conflict": "Conflit",
+        "awareness": "Conscience",
+        "vulnerability": "Vulnerabilite",
+        "boundaries": "Limites"
+    },
+    "share": {
+        "title": "Partagez Votre Resultat",
+        "text": "Mon age emotionnel est de {age} ans ! Je suis \"{tier}\" 😢 Decouvre le tien :",
+        "twitter": "Partager sur X",
+        "copyUrl": "Copier le Lien",
+        "copied": "Copie !"
+    },
+    "nav": {
+        "back": "DopaBrain Accueil"
+    }
+}

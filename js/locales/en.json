@@ -1,0 +1,115 @@
+{
+    "meta": {
+        "title": "Emotional Age Test | DopaBrain",
+        "description": "How emotionally mature are you? Drag sliders across 10 real-life scenarios to discover your true emotional age."
+    },
+    "a11y": {
+        "skip": "Skip to content"
+    },
+    "app": {
+        "title": "Emotional Age Test",
+        "subtitle": "How old is your heart?",
+        "description": "Drag the slider between two reactions across 10 emotional scenarios to discover your true emotional age.",
+        "start": "Discover My Emotional Age"
+    },
+    "quiz": {
+        "next": "Next",
+        "finish": "See My Result"
+    },
+    "scenarios": {
+        "s1": {
+            "text": "Your friend cancels plans at the last minute.",
+            "left": "Blow up at them angrily",
+            "right": "Understand and reschedule calmly"
+        },
+        "s2": {
+            "text": "Someone criticizes your work in front of others.",
+            "left": "Get defensive and argue back",
+            "right": "Stay open to the feedback"
+        },
+        "s3": {
+            "text": "Your partner hasn't texted you back for hours.",
+            "left": "Spiral into anxiety and overthink",
+            "right": "Trust them and stay calm"
+        },
+        "s4": {
+            "text": "You make a big mistake at work.",
+            "left": "Drown in self-hatred and shame",
+            "right": "Practice self-compassion and fix it"
+        },
+        "s5": {
+            "text": "Someone cuts in front of you in line.",
+            "left": "Confront them aggressively",
+            "right": "Let it go, not worth the energy"
+        },
+        "s6": {
+            "text": "Your ex posts a photo with someone new.",
+            "left": "Obsess and stalk their profile",
+            "right": "Genuinely feel happy for them"
+        },
+        "s7": {
+            "text": "Your friend achieves something you've always wanted.",
+            "left": "Feel consumed by jealousy",
+            "right": "Celebrate their success wholeheartedly"
+        },
+        "s8": {
+            "text": "Someone completely misunderstands your intentions.",
+            "left": "Get frustrated and give up explaining",
+            "right": "Patiently clarify with empathy"
+        },
+        "s9": {
+            "text": "You feel completely overwhelmed by everything in life.",
+            "left": "Shut down and isolate yourself",
+            "right": "Seek help and allow yourself to rest"
+        },
+        "s10": {
+            "text": "A stranger is rude to you for no reason.",
+            "left": "Be rude right back at them",
+            "right": "Feel empathy \u2014 they might be having a bad day"
+        }
+    },
+    "tiers": {
+        "child": {
+            "name": "Emotional Child",
+            "emoji": "\uD83D\uDE22",
+            "desc": "Your emotions are in the driver's seat! Like a child, you react before you think. Feelings hit hard and fast. The good news? Awareness is the first step to growth."
+        },
+        "teen": {
+            "name": "Emotional Teenager",
+            "emoji": "\uD83D\uDE16",
+            "desc": "You're learning to manage your feelings, but it's still a work in progress. Sometimes you handle things well, other times emotions get the best of you."
+        },
+        "young": {
+            "name": "Emotional Young Adult",
+            "emoji": "\uD83D\uDE0A",
+            "desc": "You're developing real emotional intelligence! You can usually manage your feelings, show empathy, and handle conflict with growing maturity."
+        },
+        "mature": {
+            "name": "Emotionally Mature",
+            "emoji": "\uD83E\uDDD8",
+            "desc": "You've reached a beautiful balance. You understand your emotions, set healthy boundaries, and approach life with empathy and wisdom."
+        },
+        "elder": {
+            "name": "Emotional Elder",
+            "emoji": "\uD83E\uDDD3",
+            "desc": "You possess deep emotional wisdom. You navigate life's storms with grace, hold space for others without losing yourself, and transform pain into growth."
+        }
+    },
+    "result": {
+        "title": "Your Emotional Age",
+        "yearsOld": "years old",
+        "retake": "Retake Test",
+        "spectrumLeft": "Reactive",
+        "spectrumRight": "Wise"
+    },
+    "share": {
+        "title": "Share Your Result",
+        "text": "My emotional age is {age}! I'm \"{tier}\" \uD83D\uDE22 Check yours:",
+        "twitter": "Share on X",
+        "copyUrl": "Copy Link",
+        "copied": "Copied!"
+    },
+    "nav": {
+        "back": "DopaBrain Home"
+    }
+}

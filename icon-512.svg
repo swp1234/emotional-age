@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F0A050"/>
+      <stop offset="100%" stop-color="#C06010"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="heartGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFD700" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#FFD700" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="100" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="180" fill="url(#glow)"/>
+  <circle cx="256" cy="256" r="120" fill="url(#heartGlow)"/>
+  <!-- Heart -->
+  <path d="M256 380 C160 300 96 230 96 175 C96 125 140 90 190 90 C224 90 248 110 256 130 C264 110 288 90 322 90 C372 90 416 125 416 175 C416 230 352 300 256 380Z" fill="#FFD700" opacity="0.9"/>
+  <!-- Inner heart highlight -->
+  <path d="M256 340 C185 280 140 230 140 190 C140 155 165 130 195 130 C218 130 240 145 256 165 C272 145 294 130 317 130 C347 130 372 155 372 190 C372 230 327 280 256 340Z" fill="#FFEC80" opacity="0.3"/>
+  <!-- Large sparkles -->
+  <circle cx="100" cy="100" r="8" fill="#fff" opacity="0.8"/>
+  <circle cx="420" cy="110" r="6" fill="#fff" opacity="0.6"/>
+  <circle cx="110" cy="410" r="6" fill="#fff" opacity="0.7"/>
+  <circle cx="400" cy="400" r="8" fill="#fff" opacity="0.5"/>
+  <!-- Medium sparkles -->
+  <circle cx="180" cy="70" r="4" fill="#fff" opacity="0.5"/>
+  <circle cx="350" cy="60" r="3" fill="#fff" opacity="0.4"/>
+  <circle cx="450" cy="250" r="4" fill="#fff" opacity="0.6"/>
+  <circle cx="60" cy="280" r="3" fill="#fff" opacity="0.5"/>
+  <circle cx="330" cy="450" r="4" fill="#fff" opacity="0.4"/>
+  <circle cx="170" cy="440" r="3" fill="#fff" opacity="0.6"/>
+  <!-- Small sparkles -->
+  <circle cx="140" cy="160" r="2" fill="#fff" opacity="0.4"/>
+  <circle cx="380" cy="170" r="2" fill="#fff" opacity="0.3"/>
+  <circle cx="70" cy="350" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="440" cy="340" r="2" fill="#fff" opacity="0.4"/>
+  <circle cx="256" cy="50" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="256" cy="462" r="2" fill="#fff" opacity="0.3"/>
+  <!-- Cross sparkle accents -->
+  <g opacity="0.7">
+    <line x1="96" y1="100" x2="104" y2="100" stroke="#fff" stroke-width="2"/>
+    <line x1="100" y1="96" x2="100" y2="104" stroke="#fff" stroke-width="2"/>
+  </g>
+  <g opacity="0.5">
+    <line x1="416" y1="110" x2="424" y2="110" stroke="#fff" stroke-width="2"/>
+    <line x1="420" y1="106" x2="420" y2="114" stroke="#fff" stroke-width="2"/>
+  </g>
+  <g opacity="0.6">
+    <line x1="396" y1="400" x2="404" y2="400" stroke="#fff" stroke-width="2"/>
+    <line x1="400" y1="396" x2="400" y2="404" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,62 @@
+{
+    "meta": {
+        "title": "Duygusal Yas Testi | DopaBrain",
+        "description": "Duygusal yasini kesfet! 12 soruyla duygusal olgunlugunu, empati yetenegini ve oz farkindaligini olc."
+    },
+    "a11y": {
+        "skip": "Iceriye atla"
+    },
+    "app": {
+        "title": "Duygusal Yas Testi",
+        "subtitle": "Kalbinin yasi kac?",
+        "description": "Duygu duzenlemesi, empati ve oz farkindalik hakkinda 12 soruyu cevaplayarak gercek duygusal yasini kesfet.",
+        "start": "Duygusal Yasimi Kesfet"
+    },
+    "quiz": {
+        "progress": "{current} / {total}"
+    },
+    "questions": {
+        "q1": { "text": "Biri trafikte onune kiriyor. Ne yaparsin?", "a": "Agresif bir sekilde korna calmak ve bagirmak", "b": "Sinirli olmak ama bir sey yapmamak", "c": "Derin nefes alip birakivermek", "d": "Acelesi olabilecegini anlamak" },
+        "q2": { "text": "Arkadasin zor bir donemden geciyor. Nasil tepki verirsin?", "a": "Derinden dinleyip duygularini dogrulamak", "b": "Sorunu cozmek icin pratik tavsiye vermek", "c": "Espriyle neselendirmeye calismak", "d": "Rahatsiz hissedip konu degistirmek" },
+        "q3": { "text": "Partnerin/yakin arkadasinla fikir ayriligi yasiyorsun.", "a": "Susmak ve soguk tavir takimmak", "b": "Kazanana kadar tartismak", "c": "Onlarin bakis acisini gormeye calismak", "d": "Sakin bir sekilde duygularini ifade etmek ve uzlasma bulmak" },
+        "q4": { "text": "Iste/okulda hata yaptin. Nasil tepki verirsin?", "a": "Baskalarina suratmak veya bahane bulmak", "b": "Gunlerce kendini kotu hissetmek", "c": "Kabul etmek ve ders cikarmak", "d": "Sahiplenmek, ozur dilemek ve iyilestirme plani yapmak" },
+        "q5": { "text": "Biri seni elestiriyor. Ilk tepkin ne?", "a": "Savunmaya gecmek ve kizmak", "b": "Incinmek ama umursamiyormus gibi yapmak", "c": "Cevap vermeden once gecerli olup olmadigini dusunmek", "d": "Tesekkur edip ictenlikle dusunmek" },
+        "q6": { "text": "Bir arkadas seni tuketen iyilikler istemeye devam ediyor.", "a": "Tukenmis olsam bile her seferinde evet demek", "b": "Evet deyip icinden kin tutmak", "c": "Bazen hayir demek ama sucluluk hissetmek", "d": "Nazikce ama kararli bir sekilde sinir koymak" },
+        "q7": { "text": "Bunalmis hissettiginde nasil basa cikarsin?", "a": "Zaman ayirip saglikli basa cikma stratejileri kullanmak", "b": "Guvendigim biriyle konusmak", "c": "Duygu gecene kadar dikkatimi dagitmak", "d": "Cevremedekilere patlamak" },
+        "q8": { "text": "Birinin haksizliga ugrandigini goruyorsun. Ne yaparsin?", "a": "Baska tarafa bakmak — benim sorunum degil", "b": "Kotu hissetmek ama karismak istememek", "c": "Guvendeysen sesini cikarmak", "d": "Durum ne olursa olsun onlari savunmak" },
+        "q9": { "text": "Bir tartismadan sonra yanlis oldugunu fark ettin.", "a": "Ictenlikle ozur dileyip telafi etmek", "b": "Yanlis oldugumu kabul edip buyutmemek", "c": "Unutulmasini beklemek", "d": "Hata kabul etmek zayiflik gibi gorundugundan inat etmek" },
+        "q10": { "text": "Neden boyle hissettigini ne kadar iyi anliyorsun?", "a": "Duygularimi ve kok nedenlerini belirleyebilirim", "b": "Dusundukten sonra genellikle anlarim", "c": "Bir seyler hissettigimi biliyorum ama her zaman adlandiramiyorum", "d": "Neden bir seyler hissettigim hakkinda pek dusunmem" },
+        "q11": { "text": "Baskalarina karsi savunmasiz olmak seni ne kadar rahat hissettiriyor?", "a": "Guvendigim insanlarla duygularimi acikca paylasiyorum", "b": "Savunmasiz olabiliyorum ama zaman aliyor", "c": "Nadiren savunmasizlik gosteriyorum — riskli geliyor", "d": "Hicbir zaman kimseye zayiflik gostermem" },
+        "q12": { "text": "Onem verdigin biri seni inciten bir sey yapti.", "a": "Duygularimi sakin ve dogrudan iletmek", "b": "Islemek icin zaman ayirip sonra konusmak", "c": "Uzgun oldugumu ima edip fark etmelerini ummak", "d": "Kin tutup uzaklasiyorum" }
+    },
+    "tiers": {
+        "child": { "name": "Duygusal Cocuk", "emoji": "😢", "desc": "Duygularin direksiyonda! Bir cocuk gibi, dusunmeden tepki veriyorsun. Duygular sert ve hizli vuruyor ve henuz duygusal dalgalari surmeyi ogrenmemissin. Iyi haber? Farkindalik buyumenin ilk adimi!" },
+        "teen": { "name": "Duygusal Ergen", "emoji": "😖", "desc": "Duygularini yonetmeyi ogreniyorsun ama hala gelisim asamasinda. Bazen iyi idare ediyorsun, bazen duygular agir basiyor. Dogru yoldasin — devam et!" },
+        "young": { "name": "Duygusal Genc Yetiskin", "emoji": "😊", "desc": "Gercek duygusal zeka gelistiriyorsun! Genellikle duygularini yonetebilir, empati gosterebilir ve catismalari belli bir olgunlukla ele alabilirsin. Daha derin baglantilar icin araclar insa ediyorsun!" },
+        "mature": { "name": "Duygusal Olarak Olgun", "emoji": "🧘", "desc": "Guzel bir denge buldun. Duygularini anliyorsun, saglikli sinirlar koyuyorsun ve yasama empati ve bilgelikle yaklasiyorsun. Insanlar duygusal istikrarin sayesinde yaninda kendini guvende hissediyor." },
+        "elder": { "name": "Duygusal Bilge", "emoji": "🧓", "desc": "Gercek ic calismadan gelen derin duygusal bilgelige sahipsin. Hayatin firtinalarinda zarafetle yol aliyorsun, kendini kaybetmeden baskalarina alan yaratiyorsun ve aciyi buyumeye donusturuyorsun. Nadir bir isiksin." }
+    },
+    "result": {
+        "title": "Duygusal Yasin",
+        "yearsOld": "yas",
+        "retake": "Tekrar Yap"
+    },
+    "radar": {
+        "regulation": "Duzenleme",
+        "empathy": "Empati",
+        "conflict": "Catisma",
+        "awareness": "Farkindalik",
+        "vulnerability": "Savunmasizlik",
+        "boundaries": "Sinirlar"
+    },
+    "share": {
+        "title": "Sonucunu Paylas",
+        "text": "Duygusal yasim {age}! Ben \"{tier}\" 😢 Seninkini ogren:",
+        "twitter": "X'te Paylas",
+        "copyUrl": "Linki Kopyala",
+        "copied": "Kopyalandi!"
+    },
+    "nav": {
+        "back": "DopaBrain Ana Sayfa"
+    }
+}

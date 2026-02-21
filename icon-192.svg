@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F0A050"/>
+      <stop offset="100%" stop-color="#C06010"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <circle cx="96" cy="96" r="50" fill="url(#glow)"/>
+  <!-- Heart -->
+  <path d="M96 140 C60 110 36 85 36 65 C36 45 52 32 72 32 C84 32 92 40 96 48 C100 40 108 32 120 32 C140 32 156 45 156 65 C156 85 132 110 96 140Z" fill="#FFD700" opacity="0.9"/>
+  <!-- Tear drop -->
+  <path d="M96 60 Q92 80 88 95 C84 108 96 118 108 108 C116 100 100 80 96 60Z" fill="#fff" opacity="0.5"/>
+  <!-- Sparkles -->
+  <circle cx="45" cy="45" r="4" fill="#fff" opacity="0.8"/>
+  <circle cx="150" cy="50" r="3" fill="#fff" opacity="0.6"/>
+  <circle cx="55" cy="150" r="3" fill="#fff" opacity="0.7"/>
+  <circle cx="145" cy="145" r="4" fill="#fff" opacity="0.5"/>
+</svg>
