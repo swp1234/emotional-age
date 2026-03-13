@@ -358,6 +358,9 @@
             }, 400);
         }
 
+        // Render percentile stat
+        renderPercentileStat(emotionalAge);
+
         // GA4 event
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_complete', {
@@ -366,6 +369,23 @@
                 value: emotionalAge
             });
         }
+    }
+
+    // --- Render percentile stat ---
+    function renderPercentileStat(age) {
+        var percentileEl = $('percentile-stat');
+        if (!percentileEl) return;
+
+        // Distribution based on normal curve around maturity
+        var percent = 0;
+        if (age >= 5 && age <= 10) percent = 12;
+        else if (age >= 11 && age <= 17) percent = 23;
+        else if (age >= 18 && age <= 30) percent = 35;
+        else if (age >= 31 && age <= 55) percent = 22;
+        else if (age >= 56) percent = 8;
+
+        var template = t('result.percentileStat', 'Only <strong>{percent}%</strong> share your emotional age');
+        percentileEl.innerHTML = fmt(template, { percent: percent });
     }
 
     // --- Animate number counting ---

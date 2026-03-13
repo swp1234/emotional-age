@@ -39,7 +39,15 @@
     "result": {
         "title": "Usia Emosionalmu",
         "yearsOld": "tahun",
-        "retake": "Ulangi Tes"
+        "retake": "Ulangi Tes",
+        "moreTests": "Jelajahi lagi",
+        "percentileStat": "Hanya <strong>{percent}%</strong> memiliki usia emosional yang sama"
+    },
+    "related": {
+        "mentalAge": "Usia Mental",
+        "eqTest": "Tes EQ",
+        "emotionIceberg": "Gunung Es Emosi",
+        "hspTest": "Tes HSP"
     },
     "radar": {
         "regulation": "Regulasi",

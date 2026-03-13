@@ -1,98 +1,98 @@
 {
     "meta": {
         "title": "Teste de Idade Emocional | DopaBrain",
-        "description": "Qu\u00E3o maduro emocionalmente voc\u00EA \u00E9? Arraste os controles em 10 cen\u00E1rios reais para descobrir sua verdadeira idade emocional."
+        "description": "Quão maduro emocionalmente você é? Arraste os controles em 10 cenários reais para descobrir sua verdadeira idade emocional."
     },
     "a11y": {
-        "skip": "Pular para o conte\u00FAdo"
+        "skip": "Pular para o conteúdo"
     },
     "app": {
         "title": "Teste de Idade Emocional",
-        "subtitle": "Quantos anos tem seu cora\u00E7\u00E3o?",
-        "description": "Arraste o controle entre duas rea\u00E7\u00F5es em 10 cen\u00E1rios emocionais para descobrir sua verdadeira idade emocional.",
+        "subtitle": "Quantos anos tem seu coração?",
+        "description": "Arraste o controle entre duas reações em 10 cenários emocionais para descobrir sua verdadeira idade emocional.",
         "start": "Descobrir Minha Idade Emocional"
     },
     "quiz": {
-        "next": "Pr\u00F3ximo",
+        "next": "Próximo",
         "finish": "Ver Meu Resultado"
     },
     "scenarios": {
         "s1": {
-            "text": "Seu amigo cancela planos de \u00FAltima hora.",
+            "text": "Seu amigo cancela planos de última hora.",
             "left": "Explodir de raiva",
             "right": "Entender e remarcar com calma"
         },
         "s2": {
-            "text": "Algu\u00E9m critica seu trabalho na frente de outros.",
+            "text": "Alguém critica seu trabalho na frente de outros.",
             "left": "Ficar na defensiva e discutir",
             "right": "Estar aberto ao feedback"
         },
         "s3": {
-            "text": "Seu parceiro n\u00E3o respondeu suas mensagens por horas.",
+            "text": "Seu parceiro não respondeu suas mensagens por horas.",
             "left": "Entrar em espiral de ansiedade e pensar demais",
             "right": "Confiar e manter a calma"
         },
         "s4": {
-            "text": "Voc\u00EA comete um grande erro no trabalho.",
-            "left": "Afundar em auto\u00F3dio e vergonha",
-            "right": "Praticar autocompaix\u00E3o e consertar"
+            "text": "Você comete um grande erro no trabalho.",
+            "left": "Afundar em autoódio e vergonha",
+            "right": "Praticar autocompaixão e consertar"
         },
         "s5": {
-            "text": "Algu\u00E9m fura a fila na sua frente.",
+            "text": "Alguém fura a fila na sua frente.",
             "left": "Confrontar agressivamente",
-            "right": "Deixar pra l\u00E1, n\u00E3o vale a energia"
+            "right": "Deixar pra lá, não vale a energia"
         },
         "s6": {
-            "text": "Seu ex posta uma foto com algu\u00E9m novo.",
+            "text": "Seu ex posta uma foto com alguém novo.",
             "left": "Obsedar e stalkear o perfil",
-            "right": "Sentir felicidade genu\u00EDna por eles"
+            "right": "Sentir felicidade genuína por eles"
         },
         "s7": {
-            "text": "Seu amigo conquista algo que voc\u00EA sempre quis.",
-            "left": "Sentir ci\u00FAmes intenso",
-            "right": "Celebrar o sucesso deles de cora\u00E7\u00E3o"
+            "text": "Seu amigo conquista algo que você sempre quis.",
+            "left": "Sentir ciúmes intenso",
+            "right": "Celebrar o sucesso deles de coração"
         },
         "s8": {
-            "text": "Algu\u00E9m interpreta completamente errado suas inten\u00E7\u00F5es.",
+            "text": "Alguém interpreta completamente errado suas intenções.",
             "left": "Ficar frustrado e desistir de explicar",
-            "right": "Esclarecer com paci\u00EAncia e empatia"
+            "right": "Esclarecer com paciência e empatia"
         },
         "s9": {
-            "text": "Voc\u00EA se sente completamente sobrecarregado por tudo na vida.",
+            "text": "Você se sente completamente sobrecarregado por tudo na vida.",
             "left": "Se fechar e se isolar",
             "right": "Buscar ajuda e se permitir descansar"
         },
         "s10": {
-            "text": "Um estranho \u00E9 grosseiro com voc\u00EA sem motivo.",
+            "text": "Um estranho é grosseiro com você sem motivo.",
             "left": "Ser grosseiro de volta",
-            "right": "Sentir empatia \u2014 talvez esteja tendo um dia ruim"
+            "right": "Sentir empatia — talvez esteja tendo um dia ruim"
         }
     },
     "tiers": {
         "child": {
-            "name": "Crian\u00E7a Emocional",
-            "emoji": "\uD83D\uDE22",
-            "desc": "Suas emo\u00E7\u00F5es est\u00E3o no volante! Como uma crian\u00E7a, voc\u00EA reage antes de pensar. Os sentimentos chegam fortes e r\u00E1pidos. A boa not\u00EDcia? Consci\u00EAncia \u00E9 o primeiro passo para o crescimento."
+            "name": "Criança Emocional",
+            "emoji": "😢",
+            "desc": "Suas emoções estão no volante! Como uma criança, você reage antes de pensar. Os sentimentos chegam fortes e rápidos. A boa notícia? Consciência é o primeiro passo para o crescimento."
         },
         "teen": {
             "name": "Adolescente Emocional",
-            "emoji": "\uD83D\uDE16",
-            "desc": "Voc\u00EA est\u00E1 aprendendo a gerenciar seus sentimentos, mas ainda \u00E9 um trabalho em andamento. \u00C0s vezes lida bem, outras vezes as emo\u00E7\u00F5es levam a melhor."
+            "emoji": "😖",
+            "desc": "Você está aprendendo a gerenciar seus sentimentos, mas ainda é um trabalho em andamento. Às vezes lida bem, outras vezes as emoções levam a melhor."
         },
         "young": {
             "name": "Jovem Adulto Emocional",
-            "emoji": "\uD83D\uDE0A",
-            "desc": "Voc\u00EA est\u00E1 desenvolvendo intelig\u00EAncia emocional real! Geralmente consegue gerenciar seus sentimentos, mostrar empatia e lidar com conflitos com maturidade crescente."
+            "emoji": "😊",
+            "desc": "Você está desenvolvendo inteligência emocional real! Geralmente consegue gerenciar seus sentimentos, mostrar empatia e lidar com conflitos com maturidade crescente."
         },
         "mature": {
             "name": "Emocionalmente Maduro",
-            "emoji": "\uD83E\uDDD8",
-            "desc": "Voc\u00EA alcan\u00E7ou um belo equil\u00EDbrio. Compreende suas emo\u00E7\u00F5es, estabelece limites saud\u00E1veis e aborda a vida com empatia e sabedoria."
+            "emoji": "🧘",
+            "desc": "Você alcançou um belo equilíbrio. Compreende suas emoções, estabelece limites saudáveis e aborda a vida com empatia e sabedoria."
         },
         "elder": {
-            "name": "S\u00E1bio Emocional",
-            "emoji": "\uD83E\uDDD3",
-            "desc": "Voc\u00EA possui profunda sabedoria emocional. Navega pelas tempestades da vida com gra\u00E7a, d\u00E1 espa\u00E7o aos outros sem se perder, e transforma dor em crescimento."
+            "name": "Sábio Emocional",
+            "emoji": "🧓",
+            "desc": "Você possui profunda sabedoria emocional. Navega pelas tempestades da vida com graça, dá espaço aos outros sem se perder, e transforma dor em crescimento."
         }
     },
     "result": {
@@ -100,16 +100,24 @@
         "yearsOld": "anos",
         "retake": "Refazer Teste",
         "spectrumLeft": "Reativo",
-        "spectrumRight": "S\u00E1bio"
+        "spectrumRight": "Sábio",
+        "moreTests": "Explorar mais",
+        "percentileStat": "Apenas <strong>{percent}%</strong> compartilham sua idade emocional"
+    },
+    "related": {
+        "mentalAge": "Idade Mental",
+        "eqTest": "Teste de QE",
+        "emotionIceberg": "Iceberg Emocional",
+        "hspTest": "Teste HSP"
     },
     "share": {
         "title": "Compartilhe Seu Resultado",
-        "text": "Minha idade emocional \u00E9 {age} anos! Sou \"{tier}\" \uD83D\uDE22 Descubra a sua:",
+        "text": "Minha idade emocional é {age} anos! Sou \"{tier}\" 😢 Descubra a sua:",
         "twitter": "Compartilhar no X",
         "copyUrl": "Copiar Link",
         "copied": "Copiado!"
     },
     "nav": {
-        "back": "DopaBrain In\u00EDcio"
+        "back": "DopaBrain Início"
     }
 }

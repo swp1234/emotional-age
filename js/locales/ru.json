@@ -39,7 +39,15 @@
     "result": {
         "title": "Твой эмоциональный возраст",
         "yearsOld": "лет",
-        "retake": "Пройти снова"
+        "retake": "Пройти снова",
+        "moreTests": "Ещё тесты",
+        "percentileStat": "Только <strong>{percent}%</strong> имеют такой же эмоциональный возраст"
+    },
+    "related": {
+        "mentalAge": "Ментальный возраст",
+        "eqTest": "Тест EQ",
+        "emotionIceberg": "Айсберг эмоций",
+        "hspTest": "HSP Тест"
     },
     "radar": {
         "regulation": "Регуляция",

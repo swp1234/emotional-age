@@ -39,7 +39,15 @@
     "result": {
         "title": "Dein emotionales Alter",
         "yearsOld": "Jahre alt",
-        "retake": "Erneut testen"
+        "retake": "Erneut testen",
+        "moreTests": "Mehr entdecken",
+        "percentileStat": "Nur <strong>{percent}%</strong> teilen dein emotionales Alter"
+    },
+    "related": {
+        "mentalAge": "Mentales Alter",
+        "eqTest": "EQ-Test",
+        "emotionIceberg": "Emotions-Eisberg",
+        "hspTest": "HSP-Test"
     },
     "radar": {
         "regulation": "Regulation",

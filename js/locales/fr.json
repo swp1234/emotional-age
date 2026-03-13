@@ -39,7 +39,15 @@
     "result": {
         "title": "Votre Age Emotionnel",
         "yearsOld": "ans",
-        "retake": "Refaire le Test"
+        "retake": "Refaire le Test",
+        "moreTests": "Explorer plus",
+        "percentileStat": "Seulement <strong>{percent}%</strong> partagent votre âge émotionnel"
+    },
+    "related": {
+        "mentalAge": "Âge Mental",
+        "eqTest": "Test QE",
+        "emotionIceberg": "Iceberg Émotionnel",
+        "hspTest": "Test HSP"
     },
     "radar": {
         "regulation": "Regulation",

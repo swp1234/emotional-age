@@ -100,7 +100,15 @@
         "yearsOld": "years old",
         "retake": "Retake Test",
         "spectrumLeft": "Reactive",
-        "spectrumRight": "Wise"
+        "spectrumRight": "Wise",
+        "moreTests": "Explore More",
+        "percentileStat": "Only <strong>{percent}%</strong> share your emotional age"
+    },
+    "related": {
+        "mentalAge": "Mental Age",
+        "eqTest": "EQ Test",
+        "emotionIceberg": "Emotion Iceberg",
+        "hspTest": "HSP Test"
     },
     "share": {
         "title": "Share Your Result",

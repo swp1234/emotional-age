@@ -1,115 +1,123 @@
 {
     "meta": {
-        "title": "\u60C5\u611F\u5E74\u9F84\u6D4B\u8BD5 | DopaBrain",
-        "description": "\u4F60\u7684\u60C5\u611F\u6210\u719F\u5EA6\u5982\u4F55\uFF1F\u62D6\u52A8\u6ED1\u5757\u56DE\u5E9410\u4E2A\u771F\u5B9E\u60C5\u666F\uFF0C\u53D1\u73B0\u4F60\u7684\u771F\u5B9E\u60C5\u611F\u5E74\u9F84\u3002"
+        "title": "情感年龄测试 | DopaBrain",
+        "description": "你的情感成熟度如何？拖动滑块回答10个真实情景，发现你的真实情感年龄。"
     },
     "a11y": {
-        "skip": "\u8DF3\u5230\u5185\u5BB9"
+        "skip": "跳到内容"
     },
     "app": {
-        "title": "\u60C5\u611F\u5E74\u9F84\u6D4B\u8BD5",
-        "subtitle": "\u4F60\u7684\u5FC3\u51E0\u5C81\u4E86\uFF1F",
-        "description": "\u572810\u4E2A\u60C5\u611F\u573A\u666F\u4E2D\u62D6\u52A8\u6ED1\u5757\u5728\u4E24\u79CD\u53CD\u5E94\u4E4B\u95F4\u9009\u62E9\uFF0C\u53D1\u73B0\u4F60\u7684\u771F\u5B9E\u60C5\u611F\u5E74\u9F84\u3002",
-        "start": "\u53D1\u73B0\u6211\u7684\u60C5\u611F\u5E74\u9F84"
+        "title": "情感年龄测试",
+        "subtitle": "你的心几岁了？",
+        "description": "在10个情感场景中拖动滑块在两种反应之间选择，发现你的真实情感年龄。",
+        "start": "发现我的情感年龄"
     },
     "quiz": {
-        "next": "\u4E0B\u4E00\u4E2A",
-        "finish": "\u67E5\u770B\u7ED3\u679C"
+        "next": "下一个",
+        "finish": "查看结果"
     },
     "scenarios": {
         "s1": {
-            "text": "\u4F60\u7684\u670B\u53CB\u5728\u6700\u540E\u4E00\u523B\u53D6\u6D88\u4E86\u7EA6\u5B9A\u3002",
-            "left": "\u6124\u6012\u5730\u7206\u53D1",
-            "right": "\u7406\u89E3\u5E76\u5E73\u9759\u5730\u91CD\u65B0\u5B89\u6392"
+            "text": "你的朋友在最后一刻取消了约定。",
+            "left": "愤怒地爆发",
+            "right": "理解并平静地重新安排"
         },
         "s2": {
-            "text": "\u6709\u4EBA\u5F53\u7740\u522B\u4EBA\u7684\u9762\u6279\u8BC4\u4F60\u7684\u5DE5\u4F5C\u3002",
-            "left": "\u9632\u5FA1\u6027\u5730\u53CD\u9A73",
-            "right": "\u5F00\u653E\u5730\u63A5\u53D7\u53CD\u9988"
+            "text": "有人当着别人的面批评你的工作。",
+            "left": "防御性地反驳",
+            "right": "开放地接受反馈"
         },
         "s3": {
-            "text": "\u4F34\u4FA3\u51E0\u4E2A\u5C0F\u65F6\u6CA1\u6709\u56DE\u590D\u4F60\u7684\u6D88\u606F\u3002",
-            "left": "\u7126\u8651\u5730\u80E1\u601D\u4E71\u60F3",
-            "right": "\u4FE1\u4EFB\u5BF9\u65B9\u5E76\u4FDD\u6301\u5E73\u9759"
+            "text": "伴侣几个小时没有回复你的消息。",
+            "left": "焦虑地胡思乱想",
+            "right": "信任对方并保持平静"
         },
         "s4": {
-            "text": "\u4F60\u5728\u5DE5\u4F5C\u4E2D\u72AF\u4E86\u4E00\u4E2A\u5927\u9519\u8BEF\u3002",
-            "left": "\u6DF9\u6CA1\u5728\u81EA\u6211\u538C\u6076\u548C\u7F9E\u803B\u4E2D",
-            "right": "\u81EA\u6211\u5173\u6000\u5E76\u4FEE\u590D\u9519\u8BEF"
+            "text": "你在工作中犯了一个大错误。",
+            "left": "淹没在自我厌恶和羞耻中",
+            "right": "自我关怀并修复错误"
         },
         "s5": {
-            "text": "\u6709\u4EBA\u5728\u6392\u961F\u65F6\u63D2\u5728\u4F60\u524D\u9762\u3002",
-            "left": "\u653B\u51FB\u6027\u5730\u5BF9\u8D28",
-            "right": "\u7B97\u4E86\uFF0C\u4E0D\u503C\u5F97\u6D6A\u8D39\u7CBE\u529B"
+            "text": "有人在排队时插在你前面。",
+            "left": "攻击性地对质",
+            "right": "算了，不值得浪费精力"
         },
         "s6": {
-            "text": "\u4F60\u7684\u524D\u4EFB\u53D1\u4E86\u4E0E\u65B0\u4EBA\u7684\u5408\u7167\u3002",
-            "left": "\u6267\u8FF7\u5730\u7FFB\u770B\u4ED6\u4EEC\u7684\u4E3B\u9875",
-            "right": "\u771F\u5FC3\u4E3A\u4ED6\u4EEC\u611F\u5230\u9AD8\u5174"
+            "text": "你的前任发了与新人的合照。",
+            "left": "执迷地翻看他们的主页",
+            "right": "真心为他们感到高兴"
         },
         "s7": {
-            "text": "\u4F60\u7684\u670B\u53CB\u5B9E\u73B0\u4E86\u4F60\u4E00\u76F4\u60F3\u8981\u7684\u4E1C\u897F\u3002",
-            "left": "\u88AB\u5AC9\u5992\u541E\u566C",
-            "right": "\u8870\u5FC3\u5730\u5E86\u795D\u4ED6\u4EEC\u7684\u6210\u529F"
+            "text": "你的朋友实现了你一直想要的东西。",
+            "left": "被嫉妒吞噬",
+            "right": "衷心地庆祝他们的成功"
         },
         "s8": {
-            "text": "\u6709\u4EBA\u5B8C\u5168\u8BEF\u89E3\u4E86\u4F60\u7684\u610F\u56FE\u3002",
-            "left": "\u6C89\u4E27\u5730\u653E\u5F03\u89E3\u91CA",
-            "right": "\u6709\u540C\u7406\u5FC3\u5730\u8010\u5FC3\u89E3\u91CA"
+            "text": "有人完全误解了你的意图。",
+            "left": "沮丧地放弃解释",
+            "right": "有同理心地耐心解释"
         },
         "s9": {
-            "text": "\u4F60\u611F\u5230\u751F\u6D3B\u4E2D\u7684\u4E00\u5207\u90FD\u538B\u5F97\u4F60\u558A\u4E0D\u8FC7\u6C14\u3002",
-            "left": "\u5C01\u95ED\u81EA\u5DF1\u5E76\u5B64\u7ACB\u8D77\u6765",
-            "right": "\u5BFB\u6C42\u5E2E\u52A9\u5E76\u5141\u8BB8\u81EA\u5DF1\u4F11\u606F"
+            "text": "你感到生活中的一切都压得你喊不过气。",
+            "left": "封闭自己并孤立起来",
+            "right": "寻求帮助并允许自己休息"
         },
         "s10": {
-            "text": "\u4E00\u4E2A\u964C\u751F\u4EBA\u65E0\u7F18\u65E0\u6545\u5730\u5BF9\u4F60\u65E0\u793C\u3002",
-            "left": "\u4EE5\u7259\u8FD8\u7259",
-            "right": "\u4ED6\u4EEC\u53EF\u80FD\u4ECA\u5929\u5F88\u4E0D\u987A\u5229\uFF0C\u8868\u793A\u540C\u60C5"
+            "text": "一个陌生人无缘无故地对你无礼。",
+            "left": "以牙还牙",
+            "right": "他们可能今天很不顺利，表示同情"
         }
     },
     "tiers": {
         "child": {
-            "name": "\u60C5\u611F\u513F\u7AE5",
-            "emoji": "\uD83D\uDE22",
-            "desc": "\u60C5\u611F\u5728\u5F53\u53F8\u673A\uFF01\u50CF\u5B69\u5B50\u4E00\u6837\uFF0C\u4F60\u5728\u601D\u8003\u524D\u5C31\u5DF2\u7ECF\u53CD\u5E94\u4E86\u3002\u611F\u60C5\u5F3A\u70C8\u800C\u8FC5\u901F\u3002\u597D\u6D88\u606F\uFF1F\u610F\u8BC6\u5230\u8FD9\u4E00\u70B9\u5C31\u662F\u6210\u957F\u7684\u7B2C\u4E00\u6B65\uFF01"
+            "name": "情感儿童",
+            "emoji": "😢",
+            "desc": "情感在当司机！像孩子一样，你在思考前就已经反应了。感情强烈而迅速。好消息？意识到这一点就是成长的第一步！"
         },
         "teen": {
-            "name": "\u60C5\u611F\u9752\u5C11\u5E74",
-            "emoji": "\uD83D\uDE16",
-            "desc": "\u4F60\u6B63\u5728\u5B66\u4E60\u7BA1\u7406\u60C5\u7EEA\uFF0C\u4F46\u8FD8\u5728\u8FDB\u884C\u4E2D\u3002\u6709\u65F6\u5904\u7406\u5F97\u5F88\u597D\uFF0C\u6709\u65F6\u60C5\u7EEA\u4F1A\u5360\u4E0A\u98CE\u3002"
+            "name": "情感青少年",
+            "emoji": "😖",
+            "desc": "你正在学习管理情绪，但还在进行中。有时处理得很好，有时情绪会占上风。"
         },
         "young": {
-            "name": "\u60C5\u611F\u9752\u5E74",
-            "emoji": "\uD83D\uDE0A",
-            "desc": "\u4F60\u6B63\u5728\u53D1\u5C55\u771F\u6B63\u7684\u60C5\u5546\uFF01\u901A\u5E38\u80FD\u7BA1\u7406\u60C5\u7EEA\uFF0C\u5C55\u793A\u540C\u7406\u5FC3\uFF0C\u5E76\u4EE5\u6210\u957F\u4E2D\u7684\u6210\u719F\u5EA6\u5904\u7406\u51B2\u7A81\u3002"
+            "name": "情感青年",
+            "emoji": "😊",
+            "desc": "你正在发展真正的情商！通常能管理情绪，展示同理心，并以成长中的成熟度处理冲突。"
         },
         "mature": {
-            "name": "\u60C5\u611F\u6210\u719F",
-            "emoji": "\uD83E\uDDD8",
-            "desc": "\u4F60\u8FBE\u5230\u4E86\u7F8E\u4E3D\u7684\u5E73\u8861\u3002\u4F60\u7406\u89E3\u81EA\u5DF1\u7684\u60C5\u611F\uFF0C\u8BBE\u7ACB\u5065\u5EB7\u7684\u754C\u9650\uFF0C\u5E76\u4EE5\u540C\u7406\u5FC3\u548C\u667A\u6167\u9762\u5BF9\u751F\u6D3B\u3002"
+            "name": "情感成熟",
+            "emoji": "🧘",
+            "desc": "你达到了美丽的平衡。你理解自己的情感，设立健康的界限，并以同理心和智慧面对生活。"
         },
         "elder": {
-            "name": "\u60C5\u611F\u8D24\u8005",
-            "emoji": "\uD83E\uDDD3",
-            "desc": "\u4F60\u62E5\u6709\u6DF1\u5C42\u7684\u60C5\u611F\u667A\u6167\u3002\u4F60\u4F18\u96C5\u5730\u5E94\u5BF9\u751F\u6D3B\u7684\u98CE\u66B4\uFF0C\u5728\u4E0D\u8FF7\u5931\u81EA\u5DF1\u7684\u60C5\u51B5\u4E0B\u4E3A\u4ED6\u4EBA\u521B\u9020\u7A7A\u95F4\uFF0C\u5E76\u5C06\u75DB\u82E6\u8F6C\u5316\u4E3A\u6210\u957F\u3002"
+            "name": "情感贤者",
+            "emoji": "🧓",
+            "desc": "你拥有深层的情感智慧。你优雅地应对生活的风暴，在不迷失自己的情况下为他人创造空间，并将痛苦转化为成长。"
         }
     },
     "result": {
-        "title": "\u4F60\u7684\u60C5\u611F\u5E74\u9F84",
-        "yearsOld": "\u5C81",
-        "retake": "\u91CD\u65B0\u6D4B\u8BD5",
-        "spectrumLeft": "\u53CD\u5E94\u5F0F",
-        "spectrumRight": "\u667A\u6167"
+        "title": "你的情感年龄",
+        "yearsOld": "岁",
+        "retake": "重新测试",
+        "spectrumLeft": "反应式",
+        "spectrumRight": "智慧",
+        "moreTests": "探索更多",
+        "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的情感年龄"
+    },
+    "related": {
+        "mentalAge": "心理年龄",
+        "eqTest": "情商测试",
+        "emotionIceberg": "情感冰山",
+        "hspTest": "HSP测试"
     },
     "share": {
-        "title": "\u5206\u4EAB\u7ED3\u679C",
-        "text": "\u6211\u7684\u60C5\u611F\u5E74\u9F84\u662F{age}\u5C81\uFF01\u6211\u662F\u300C{tier}\u300D\uD83D\uDE22 \u4F60\u4E5F\u6765\u8BD5\u8BD5\uFF1A",
-        "twitter": "\u5206\u4EAB\u5230X",
-        "copyUrl": "\u590D\u5236\u94FE\u63A5",
-        "copied": "\u5DF2\u590D\u5236\uFF01"
+        "title": "分享结果",
+        "text": "我的情感年龄是{age}岁！我是「{tier}」😢 你也来试试：",
+        "twitter": "分享到X",
+        "copyUrl": "复制链接",
+        "copied": "已复制！"
     },
     "nav": {
-        "back": "DopaBrain \u9996\u9875"
+        "back": "DopaBrain 首页"
     }
 }

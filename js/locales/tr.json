@@ -39,7 +39,15 @@
     "result": {
         "title": "Duygusal Yasin",
         "yearsOld": "yas",
-        "retake": "Tekrar Yap"
+        "retake": "Tekrar Yap",
+        "moreTests": "Daha fazla keşfet",
+        "percentileStat": "Sadece <strong>{percent}%</strong>'i senin duygusal yaşına sahip"
+    },
+    "related": {
+        "mentalAge": "Zihinsel Yaş",
+        "eqTest": "EQ Testi",
+        "emotionIceberg": "Duygu Buzdağı",
+        "hspTest": "HSP Testi"
     },
     "radar": {
         "regulation": "Duzenleme",
