@@ -16,25 +16,117 @@
         "progress": "{current} / {total}"
     },
     "questions": {
-        "q1": { "text": "Seseorang menyerobot di jalan. Apa yang kamu lakukan?", "a": "Klakson keras-keras dan berteriak", "b": "Kesal tapi tidak berbuat apa-apa", "c": "Tarik napas dalam dan lupakan", "d": "Memahami mungkin mereka sedang buru-buru" },
-        "q2": { "text": "Temanmu sedang melewati masa sulit. Bagaimana responmu?", "a": "Mendengarkan dengan penuh perhatian dan memvalidasi perasaannya", "b": "Memberikan saran praktis untuk menyelesaikan masalah", "c": "Mencoba menghibur dengan humor", "d": "Merasa tidak nyaman dan mengalihkan pembicaraan" },
-        "q3": { "text": "Kamu berselisih pendapat dengan pasangan/sahabat.", "a": "Diam dan ngambek", "b": "Berdebat sampai menang", "c": "Mencoba melihat dari sudut pandang mereka", "d": "Dengan tenang mengekspresikan perasaan dan mencari kompromi" },
-        "q4": { "text": "Kamu membuat kesalahan di tempat kerja/sekolah. Bagaimana reaksimu?", "a": "Menyalahkan orang lain atau mencari alasan", "b": "Menyalahkan diri sendiri berhari-hari", "c": "Mengakui dan belajar dari kesalahan", "d": "Bertanggung jawab, minta maaf, dan buat rencana perbaikan" },
-        "q5": { "text": "Seseorang mengkritikmu. Reaksi pertamamu?", "a": "Menjadi defensif dan marah", "b": "Tersinggung tapi pura-pura tidak peduli", "c": "Mempertimbangkan apakah valid sebelum menjawab", "d": "Berterima kasih dan benar-benar merefleksikan" },
-        "q6": { "text": "Teman terus meminta bantuan yang membuatmu kelelahan.", "a": "Selalu bilang iya meskipun sudah kelelahan", "b": "Bilang iya tapi diam-diam kesal", "c": "Kadang menolak tapi merasa bersalah", "d": "Dengan baik tapi tegas menetapkan batasan" },
-        "q7": { "text": "Bagaimana kamu mengatasi perasaan kewalahan?", "a": "Meluangkan waktu dan menggunakan strategi sehat", "b": "Berbicara dengan orang yang kupercaya", "c": "Mengalihkan perhatian sampai perasaan berlalu", "d": "Melampiaskan ke orang-orang di sekitarku" },
-        "q8": { "text": "Kamu melihat seseorang diperlakukan tidak adil. Apa yang kamu lakukan?", "a": "Berpaling — bukan urusanku", "b": "Merasa kasihan tapi tidak mau ikut campur", "c": "Angkat bicara jika merasa aman", "d": "Membela mereka apapun situasinya" },
-        "q9": { "text": "Setelah bertengkar, kamu sadar kamu yang salah.", "a": "Meminta maaf dengan tulus dan memperbaiki", "b": "Mengakui salah tanpa drama", "c": "Menunggu sampai terlupakan", "d": "Tetap pada pendirian karena mengakui kesalahan terlihat lemah" },
-        "q10": { "text": "Seberapa baik kamu memahami mengapa kamu merasa seperti itu?", "a": "Bisa mengidentifikasi emosi dan akar penyebabnya", "b": "Biasanya memahami setelah merenung", "c": "Tahu ada yang dirasakan tapi tidak selalu bisa menamakannya", "d": "Tidak terlalu memikirkan mengapa merasakan sesuatu" },
-        "q11": { "text": "Seberapa nyaman kamu menunjukkan kerentanan?", "a": "Berbagi perasaan secara terbuka dengan orang yang dipercaya", "b": "Bisa menjadi rentan tapi butuh waktu", "c": "Jarang menunjukkan kerentanan — terasa berisiko", "d": "Tidak pernah menunjukkan kelemahan ke siapapun" },
-        "q12": { "text": "Seseorang yang kamu sayangi melakukan sesuatu yang menyakitimu.", "a": "Mengkomunikasikan perasaan dengan tenang dan langsung", "b": "Meluangkan waktu untuk memproses sebelum membahasnya", "c": "Memberi isyarat bahwa aku kesal dan berharap mereka menyadari", "d": "Menyimpan dendam dan menjaga jarak" }
+        "q1": {
+            "text": "Seseorang menyerobot di jalan. Apa yang kamu lakukan?",
+            "a": "Klakson keras-keras dan berteriak",
+            "b": "Kesal tapi tidak berbuat apa-apa",
+            "c": "Tarik napas dalam dan lupakan",
+            "d": "Memahami mungkin mereka sedang buru-buru"
+        },
+        "q2": {
+            "text": "Temanmu sedang melewati masa sulit. Bagaimana responmu?",
+            "a": "Mendengarkan dengan penuh perhatian dan memvalidasi perasaannya",
+            "b": "Memberikan saran praktis untuk menyelesaikan masalah",
+            "c": "Mencoba menghibur dengan humor",
+            "d": "Merasa tidak nyaman dan mengalihkan pembicaraan"
+        },
+        "q3": {
+            "text": "Kamu berselisih pendapat dengan pasangan/sahabat.",
+            "a": "Diam dan ngambek",
+            "b": "Berdebat sampai menang",
+            "c": "Mencoba melihat dari sudut pandang mereka",
+            "d": "Dengan tenang mengekspresikan perasaan dan mencari kompromi"
+        },
+        "q4": {
+            "text": "Kamu membuat kesalahan di tempat kerja/sekolah. Bagaimana reaksimu?",
+            "a": "Menyalahkan orang lain atau mencari alasan",
+            "b": "Menyalahkan diri sendiri berhari-hari",
+            "c": "Mengakui dan belajar dari kesalahan",
+            "d": "Bertanggung jawab, minta maaf, dan buat rencana perbaikan"
+        },
+        "q5": {
+            "text": "Seseorang mengkritikmu. Reaksi pertamamu?",
+            "a": "Menjadi defensif dan marah",
+            "b": "Tersinggung tapi pura-pura tidak peduli",
+            "c": "Mempertimbangkan apakah valid sebelum menjawab",
+            "d": "Berterima kasih dan benar-benar merefleksikan"
+        },
+        "q6": {
+            "text": "Teman terus meminta bantuan yang membuatmu kelelahan.",
+            "a": "Selalu bilang iya meskipun sudah kelelahan",
+            "b": "Bilang iya tapi diam-diam kesal",
+            "c": "Kadang menolak tapi merasa bersalah",
+            "d": "Dengan baik tapi tegas menetapkan batasan"
+        },
+        "q7": {
+            "text": "Bagaimana kamu mengatasi perasaan kewalahan?",
+            "a": "Meluangkan waktu dan menggunakan strategi sehat",
+            "b": "Berbicara dengan orang yang kupercaya",
+            "c": "Mengalihkan perhatian sampai perasaan berlalu",
+            "d": "Melampiaskan ke orang-orang di sekitarku"
+        },
+        "q8": {
+            "text": "Kamu melihat seseorang diperlakukan tidak adil. Apa yang kamu lakukan?",
+            "a": "Berpaling — bukan urusanku",
+            "b": "Merasa kasihan tapi tidak mau ikut campur",
+            "c": "Angkat bicara jika merasa aman",
+            "d": "Membela mereka apapun situasinya"
+        },
+        "q9": {
+            "text": "Setelah bertengkar, kamu sadar kamu yang salah.",
+            "a": "Meminta maaf dengan tulus dan memperbaiki",
+            "b": "Mengakui salah tanpa drama",
+            "c": "Menunggu sampai terlupakan",
+            "d": "Tetap pada pendirian karena mengakui kesalahan terlihat lemah"
+        },
+        "q10": {
+            "text": "Seberapa baik kamu memahami mengapa kamu merasa seperti itu?",
+            "a": "Bisa mengidentifikasi emosi dan akar penyebabnya",
+            "b": "Biasanya memahami setelah merenung",
+            "c": "Tahu ada yang dirasakan tapi tidak selalu bisa menamakannya",
+            "d": "Tidak terlalu memikirkan mengapa merasakan sesuatu"
+        },
+        "q11": {
+            "text": "Seberapa nyaman kamu menunjukkan kerentanan?",
+            "a": "Berbagi perasaan secara terbuka dengan orang yang dipercaya",
+            "b": "Bisa menjadi rentan tapi butuh waktu",
+            "c": "Jarang menunjukkan kerentanan — terasa berisiko",
+            "d": "Tidak pernah menunjukkan kelemahan ke siapapun"
+        },
+        "q12": {
+            "text": "Seseorang yang kamu sayangi melakukan sesuatu yang menyakitimu.",
+            "a": "Mengkomunikasikan perasaan dengan tenang dan langsung",
+            "b": "Meluangkan waktu untuk memproses sebelum membahasnya",
+            "c": "Memberi isyarat bahwa aku kesal dan berharap mereka menyadari",
+            "d": "Menyimpan dendam dan menjaga jarak"
+        }
     },
     "tiers": {
-        "child": { "name": "Anak Emosional", "emoji": "😢", "desc": "Emosimu yang mengemudi! Seperti anak-anak, kamu bereaksi sebelum berpikir. Perasaan datang keras dan cepat, dan kamu belum belajar mengarungi gelombang emosional. Kabar baiknya? Kesadaran adalah langkah pertama menuju pertumbuhan!" },
-        "teen": { "name": "Remaja Emosional", "emoji": "😖", "desc": "Kamu sedang belajar mengelola perasaan, tapi masih dalam proses. Kadang menanganinya dengan baik, kadang emosi menguasai. Kamu di jalur yang benar — terus maju!" },
-        "young": { "name": "Dewasa Muda Emosional", "emoji": "😊", "desc": "Kamu mengembangkan kecerdasan emosional yang nyata! Biasanya bisa mengelola perasaan, menunjukkan empati, dan menangani konflik dengan kematangan tertentu. Kamu membangun alat untuk koneksi yang lebih dalam!" },
-        "mature": { "name": "Matang Secara Emosional", "emoji": "🧘", "desc": "Kamu telah mencapai keseimbangan yang indah. Memahami emosimu, menetapkan batasan yang sehat, dan menghadapi hidup dengan empati dan kebijaksanaan. Orang-orang merasa aman di dekatmu." },
-        "elder": { "name": "Bijaksana Emosional", "emoji": "🧓", "desc": "Kamu memiliki kebijaksanaan emosional mendalam yang datang dari kerja batin yang nyata. Mengarungi badai kehidupan dengan anggun, menciptakan ruang untuk orang lain tanpa kehilangan diri sendiri, dan mengubah rasa sakit menjadi pertumbuhan. Kamu adalah cahaya yang langka." }
+        "child": {
+            "name": "Anak Emosional",
+            "emoji": "😢",
+            "desc": "Emosimu yang mengemudi! Seperti anak-anak, kamu bereaksi sebelum berpikir. Perasaan datang keras dan cepat, dan kamu belum belajar mengarungi gelombang emosional. Kabar baiknya? Kesadaran adalah langkah pertama menuju pertumbuhan!"
+        },
+        "teen": {
+            "name": "Remaja Emosional",
+            "emoji": "😖",
+            "desc": "Kamu sedang belajar mengelola perasaan, tapi masih dalam proses. Kadang menanganinya dengan baik, kadang emosi menguasai. Kamu di jalur yang benar — terus maju!"
+        },
+        "young": {
+            "name": "Dewasa Muda Emosional",
+            "emoji": "😊",
+            "desc": "Kamu mengembangkan kecerdasan emosional yang nyata! Biasanya bisa mengelola perasaan, menunjukkan empati, dan menangani konflik dengan kematangan tertentu. Kamu membangun alat untuk koneksi yang lebih dalam!"
+        },
+        "mature": {
+            "name": "Matang Secara Emosional",
+            "emoji": "🧘",
+            "desc": "Kamu telah mencapai keseimbangan yang indah. Memahami emosimu, menetapkan batasan yang sehat, dan menghadapi hidup dengan empati dan kebijaksanaan. Orang-orang merasa aman di dekatmu."
+        },
+        "elder": {
+            "name": "Bijaksana Emosional",
+            "emoji": "🧓",
+            "desc": "Kamu memiliki kebijaksanaan emosional mendalam yang datang dari kerja batin yang nyata. Mengarungi badai kehidupan dengan anggun, menciptakan ruang untuk orang lain tanpa kehilangan diri sendiri, dan mengubah rasa sakit menjadi pertumbuhan. Kamu adalah cahaya yang langka."
+        }
     },
     "result": {
         "title": "Usia Emosionalmu",
@@ -66,5 +158,19 @@
     },
     "nav": {
         "back": "DopaBrain Beranda"
+    },
+    "engage": {
+        "result1": "Emotional Age 15 -- Reactive & Impulsive",
+        "result2": "Emotional Age 30 -- Growing & Learning",
+        "result3": "Emotional Age 55 -- Wise & Balanced",
+        "result4": "Emotional Age 75+ -- Zen Master Level",
+        "socialProof": "1,560+ people discovered their emotional age"
+    },
+    "about": {
+        "toggle": "About the Emotional Age Test",
+        "heading1": "How the Emotional Age Test Works",
+        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+        "heading2": "Understanding Emotional Age",
+        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
     }
 }

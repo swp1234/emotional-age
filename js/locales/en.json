@@ -1,16 +1,16 @@
 {
     "meta": {
-        "title": "Emotional Age Test | DopaBrain",
-        "description": "How emotionally mature are you? Drag sliders across 10 real-life scenarios to discover your true emotional age."
+        "title": "What Is Your Emotional Age? Free Emotional Maturity Test | DopaBrain",
+        "description": "Drag sliders across 10 real-life emotional scenarios to discover your true emotional age! Are you emotionally 15 or 75? Free test with instant results."
     },
     "a11y": {
         "skip": "Skip to content"
     },
     "app": {
-        "title": "Emotional Age Test",
+        "title": "What Is Your Emotional Age? - Emotional Maturity Test",
         "subtitle": "How old is your heart?",
         "description": "Drag the slider between two reactions across 10 emotional scenarios to discover your true emotional age.",
-        "start": "Discover My Emotional Age"
+        "start": "Discover My Emotional Age - Free"
     },
     "quiz": {
         "next": "Next",
@@ -65,33 +65,33 @@
         "s10": {
             "text": "A stranger is rude to you for no reason.",
             "left": "Be rude right back at them",
-            "right": "Feel empathy \u2014 they might be having a bad day"
+            "right": "Feel empathy — they might be having a bad day"
         }
     },
     "tiers": {
         "child": {
             "name": "Emotional Child",
-            "emoji": "\uD83D\uDE22",
+            "emoji": "😢",
             "desc": "Your emotions are in the driver's seat! Like a child, you react before you think. Feelings hit hard and fast. The good news? Awareness is the first step to growth."
         },
         "teen": {
             "name": "Emotional Teenager",
-            "emoji": "\uD83D\uDE16",
+            "emoji": "😖",
             "desc": "You're learning to manage your feelings, but it's still a work in progress. Sometimes you handle things well, other times emotions get the best of you."
         },
         "young": {
             "name": "Emotional Young Adult",
-            "emoji": "\uD83D\uDE0A",
+            "emoji": "😊",
             "desc": "You're developing real emotional intelligence! You can usually manage your feelings, show empathy, and handle conflict with growing maturity."
         },
         "mature": {
             "name": "Emotionally Mature",
-            "emoji": "\uD83E\uDDD8",
+            "emoji": "🧘",
             "desc": "You've reached a beautiful balance. You understand your emotions, set healthy boundaries, and approach life with empathy and wisdom."
         },
         "elder": {
             "name": "Emotional Elder",
-            "emoji": "\uD83E\uDDD3",
+            "emoji": "🧓",
             "desc": "You possess deep emotional wisdom. You navigate life's storms with grace, hold space for others without losing yourself, and transform pain into growth."
         }
     },
@@ -112,12 +112,26 @@
     },
     "share": {
         "title": "Share Your Result",
-        "text": "My emotional age is {age}! I'm \"{tier}\" \uD83D\uDE22 Check yours:",
+        "text": "My emotional age is {age}! I'm \"{tier}\" 😢 Check yours:",
         "twitter": "Share on X",
         "copyUrl": "Copy Link",
         "copied": "Copied!"
     },
     "nav": {
         "back": "DopaBrain Home"
+    },
+    "engage": {
+        "result1": "Emotional Age 15 -- Reactive & Impulsive",
+        "result2": "Emotional Age 30 -- Growing & Learning",
+        "result3": "Emotional Age 55 -- Wise & Balanced",
+        "result4": "Emotional Age 75+ -- Zen Master Level",
+        "socialProof": "1,560+ people discovered their emotional age"
+    },
+    "about": {
+        "toggle": "About the Emotional Age Test",
+        "heading1": "How the Emotional Age Test Works",
+        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+        "heading2": "Understanding Emotional Age",
+        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
     }
 }

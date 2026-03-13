@@ -119,5 +119,19 @@
     },
     "nav": {
         "back": "DopaBrain होम"
+    },
+    "engage": {
+        "result1": "Emotional Age 15 -- Reactive & Impulsive",
+        "result2": "Emotional Age 30 -- Growing & Learning",
+        "result3": "Emotional Age 55 -- Wise & Balanced",
+        "result4": "Emotional Age 75+ -- Zen Master Level",
+        "socialProof": "1,560+ people discovered their emotional age"
+    },
+    "about": {
+        "toggle": "About the Emotional Age Test",
+        "heading1": "How the Emotional Age Test Works",
+        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+        "heading2": "Understanding Emotional Age",
+        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
     }
 }

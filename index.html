@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-i18n="meta.title">Emotional Age Test | DopaBrain</title>
-    <meta name="description" data-i18n="meta.description" content="How emotionally mature are you? Drag sliders across 10 real-life scenarios to discover your true emotional age.">
+    <title data-i18n="meta.title">What Is Your Emotional Age? Free Emotional Maturity Test | DopaBrain</title>
+    <meta name="description" data-i18n="meta.description" content="Drag sliders across 10 real-life emotional scenarios to discover your true emotional age! Are you emotionally 15 or 75? Free test with instant results.">
     <meta name="robots" content="max-image-preview:large">
 
     <meta property="og:title" content="What's Your Emotional Age? | DopaBrain">
@@ -66,6 +66,53 @@
     }
 }
     </script>
+    <!-- BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://dopabrain.com/" },
+            { "@type": "ListItem", "position": 2, "name": "Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 3, "name": "Emotion Tests", "item": "https://dopabrain.com/portal/" },
+            { "@type": "ListItem", "position": 4, "name": "Emotional Age Test", "item": "https://dopabrain.com/emotional-age/" }
+        ]
+    }
+    </script>
+    <!-- FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is an emotional age test?",
+                "acceptedAnswer": { "@type": "Answer", "text": "An emotional age test measures your emotional maturity by presenting real-life scenarios and analyzing how you would react. Using slider-based responses across 10 situations, it determines whether you respond more impulsively (younger emotional age) or with wisdom and balance (older emotional age)." }
+            },
+            {
+                "@type": "Question",
+                "name": "How is emotional age different from real age?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Emotional age reflects your emotional maturity, not your chronological age. A 20-year-old can have the emotional wisdom of a 60-year-old, while a 50-year-old might still react impulsively like a teenager. Emotional age is shaped by life experiences, self-awareness, and emotional intelligence." }
+            },
+            {
+                "@type": "Question",
+                "name": "How does the slider mechanic work?",
+                "acceptedAnswer": { "@type": "Answer", "text": "For each scenario, you see two opposite reactions on either end of a slider. Drag the slider toward whichever response feels most natural to you. There are no right or wrong answers. Your position on each slider contributes to your overall emotional age score." }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the emotional age test scientifically validated?",
+                "acceptedAnswer": { "@type": "Answer", "text": "This test is designed for entertainment and self-reflection, not clinical diagnosis. It draws from emotional intelligence concepts to help you think about how you handle emotions. For professional assessment, consult a licensed psychologist." }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I improve my emotional age?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Yes! Emotional maturity can be developed through practice, self-awareness, therapy, mindfulness, and life experience. Retaking the test over time can show how your emotional responses evolve as you grow." }
+            }
+        ]
+    }
+    </script>
 
     <link rel="manifest" href="manifest.json">
     <link rel="icon" href="icon-192.svg" type="image/svg+xml">
@@ -101,7 +148,7 @@
 
     <main id="main-content">
         <header>
-            <h1 class="app-title" data-i18n="app.title">😢 Emotional Age Test</h1>
+            <h1 class="app-title" data-i18n="app.title">What Is Your Emotional Age? - Emotional Maturity Test</h1>
             <p class="app-subtitle" data-i18n="app.subtitle">How old is your heart?</p>
         </header>
 
@@ -113,7 +160,21 @@
                         <div class="orb-inner">😢</div>
                     </div>
                     <p class="start-desc" data-i18n="app.description">Drag the slider between two reactions across 10 emotional scenarios to discover your true emotional age.</p>
-                    <button class="btn btn-start" id="startBtn" data-i18n="app.start">Discover My Emotional Age</button>
+
+                    <!-- Result Preview Carousel -->
+                    <div class="result-carousel" aria-live="polite">
+                        <div class="carousel-track">
+                            <div class="carousel-item" data-i18n="engage.result1">Emotional Age 15 -- Reactive & Impulsive</div>
+                            <div class="carousel-item" data-i18n="engage.result2">Emotional Age 30 -- Growing & Learning</div>
+                            <div class="carousel-item" data-i18n="engage.result3">Emotional Age 55 -- Wise & Balanced</div>
+                            <div class="carousel-item" data-i18n="engage.result4">Emotional Age 75+ -- Zen Master Level</div>
+                        </div>
+                    </div>
+
+                    <!-- Social Proof Badge -->
+                    <div class="social-proof-badge" data-i18n="engage.socialProof">1,560+ people discovered their emotional age</div>
+
+                    <button class="btn btn-start btn-pulse" id="startBtn" data-i18n="app.start">Discover My Emotional Age - Free</button>
                 </div>
             </section>
 
@@ -187,8 +248,21 @@
         </div>
     </main>
 
+    <!-- About Section -->
+    <section class="about-section collapsible-section" id="about-section">
+      <details>
+        <summary data-i18n="about.toggle">About the Emotional Age Test</summary>
+        <div class="about-content">
+          <h2 data-i18n="about.heading1">How the Emotional Age Test Works</h2>
+          <p data-i18n="about.text1">The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.</p>
+          <h2 data-i18n="about.heading2">Understanding Emotional Age</h2>
+          <p data-i18n="about.text2">Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way.</p>
+        </div>
+      </details>
+    </section>
+
     <footer>
-        <a href="/portal/" data-i18n="nav.back">🏠 DopaBrain Home</a>
+        <a href="/portal/" data-i18n="nav.back">DopaBrain Home</a>
     </footer>
 
     <script src="js/app.js"></script>

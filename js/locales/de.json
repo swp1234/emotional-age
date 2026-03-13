@@ -16,25 +16,117 @@
         "progress": "{current} / {total}"
     },
     "questions": {
-        "q1": { "text": "Jemand schneidet dir im Verkehr den Weg ab. Was machst du?", "a": "Aggressiv hupen und schreien", "b": "Genervt sein, aber nichts tun", "c": "Tief durchatmen und loslassen", "d": "Verstehen, dass sie es eilig haben koennten" },
-        "q2": { "text": "Dein Freund durchlebt eine schwierige Zeit. Wie reagierst du?", "a": "Tief zuhoeren und Gefuehle anerkennen", "b": "Praktische Ratschlaege zur Loesung anbieten", "c": "Versuchen, mit Humor aufzumuntern", "d": "Sich unwohl fuehlen und das Thema wechseln" },
-        "q3": { "text": "Du hast eine Meinungsverschiedenheit mit deinem Partner/engen Freund.", "a": "Dicht machen und schweigen", "b": "Streiten bis man gewinnt", "c": "Versuchen, ihre Perspektive zu sehen", "d": "Ruhig Gefuehle ausdruecken und Kompromiss finden" },
-        "q4": { "text": "Du hast einen Fehler bei der Arbeit/Schule gemacht. Wie reagierst du?", "a": "Andere beschuldigen oder Ausreden finden", "b": "Sich tagelang selbst fertig machen", "c": "Anerkennen und daraus lernen", "d": "Verantwortung uebernehmen, entschuldigen und Verbesserungsplan erstellen" },
-        "q5": { "text": "Jemand kritisiert dich. Was ist deine erste Reaktion?", "a": "Defensiv werden und wuetend sein", "b": "Verletzt sein, aber so tun als waere es egal", "c": "Ueberlegen, ob es berechtigt ist, bevor man antwortet", "d": "Danken und ehrlich reflektieren" },
-        "q6": { "text": "Ein Freund bittet dich staendig um Gefallen, die dich erschoepfen.", "a": "Jedes Mal ja sagen, obwohl man erschoepft ist", "b": "Ja sagen, aber innerlich grollt man", "c": "Manchmal nein sagen, aber sich schuldig fuehlen", "d": "Freundlich aber bestimmt Grenzen setzen" },
-        "q7": { "text": "Wie gehst du mit dem Gefuehl der Ueberforderung um?", "a": "Zeit nehmen und gesunde Bewaeltigungsstrategien nutzen", "b": "Mit jemandem reden, dem ich vertraue", "c": "Mich ablenken, bis das Gefuehl vorbeigeht", "d": "An den Menschen um mich herum auslassen" },
-        "q8": { "text": "Du siehst, wie jemand unfair behandelt wird. Was tust du?", "a": "Wegschauen — nicht mein Problem", "b": "Sich schlecht fuehlen, aber nicht einmischen wollen", "c": "Sich aeussern, wenn ich mich sicher fuehle", "d": "Fuer sie einstehen, egal in welcher Situation" },
-        "q9": { "text": "Nach einem Streit merkst du, dass du falsch lagst.", "a": "Aufrichtig entschuldigen und wiedergutmachen", "b": "Zugeben, dass man falsch lag, ohne Drama", "c": "Warten, bis Gras drueber waechst", "d": "Stur bleiben, weil Fehler einzugestehen schwach wirkt" },
-        "q10": { "text": "Wie gut verstehst du, warum du fuehlst, was du fuehlst?", "a": "Ich kann meine Emotionen und ihre Ursachen identifizieren", "b": "Nach Reflexion verstehe ich meistens meine Gefuehle", "c": "Ich weiss, dass ich etwas fuehle, kann es aber nicht immer benennen", "d": "Ich denke nicht viel darueber nach, warum ich fuehle" },
-        "q11": { "text": "Wie wohl fuehlst du dich, verletzlich zu sein?", "a": "Ich teile meine Gefuehle offen mit Vertrauenspersonen", "b": "Ich kann verletzlich sein, aber es braucht Zeit", "c": "Ich zeige selten Verletzlichkeit — es ist riskant", "d": "Ich zeige niemandem Schwaeche" },
-        "q12": { "text": "Jemand, der dir wichtig ist, tut etwas, das dich verletzt.", "a": "Ich kommuniziere meine Gefuehle ruhig und direkt", "b": "Ich nehme mir Zeit zum Verarbeiten, bevor ich es anspreche", "c": "Ich deute an, dass ich verletzt bin und hoffe, es wird bemerkt", "d": "Ich trage Groll und distanziere mich" }
+        "q1": {
+            "text": "Jemand schneidet dir im Verkehr den Weg ab. Was machst du?",
+            "a": "Aggressiv hupen und schreien",
+            "b": "Genervt sein, aber nichts tun",
+            "c": "Tief durchatmen und loslassen",
+            "d": "Verstehen, dass sie es eilig haben koennten"
+        },
+        "q2": {
+            "text": "Dein Freund durchlebt eine schwierige Zeit. Wie reagierst du?",
+            "a": "Tief zuhoeren und Gefuehle anerkennen",
+            "b": "Praktische Ratschlaege zur Loesung anbieten",
+            "c": "Versuchen, mit Humor aufzumuntern",
+            "d": "Sich unwohl fuehlen und das Thema wechseln"
+        },
+        "q3": {
+            "text": "Du hast eine Meinungsverschiedenheit mit deinem Partner/engen Freund.",
+            "a": "Dicht machen und schweigen",
+            "b": "Streiten bis man gewinnt",
+            "c": "Versuchen, ihre Perspektive zu sehen",
+            "d": "Ruhig Gefuehle ausdruecken und Kompromiss finden"
+        },
+        "q4": {
+            "text": "Du hast einen Fehler bei der Arbeit/Schule gemacht. Wie reagierst du?",
+            "a": "Andere beschuldigen oder Ausreden finden",
+            "b": "Sich tagelang selbst fertig machen",
+            "c": "Anerkennen und daraus lernen",
+            "d": "Verantwortung uebernehmen, entschuldigen und Verbesserungsplan erstellen"
+        },
+        "q5": {
+            "text": "Jemand kritisiert dich. Was ist deine erste Reaktion?",
+            "a": "Defensiv werden und wuetend sein",
+            "b": "Verletzt sein, aber so tun als waere es egal",
+            "c": "Ueberlegen, ob es berechtigt ist, bevor man antwortet",
+            "d": "Danken und ehrlich reflektieren"
+        },
+        "q6": {
+            "text": "Ein Freund bittet dich staendig um Gefallen, die dich erschoepfen.",
+            "a": "Jedes Mal ja sagen, obwohl man erschoepft ist",
+            "b": "Ja sagen, aber innerlich grollt man",
+            "c": "Manchmal nein sagen, aber sich schuldig fuehlen",
+            "d": "Freundlich aber bestimmt Grenzen setzen"
+        },
+        "q7": {
+            "text": "Wie gehst du mit dem Gefuehl der Ueberforderung um?",
+            "a": "Zeit nehmen und gesunde Bewaeltigungsstrategien nutzen",
+            "b": "Mit jemandem reden, dem ich vertraue",
+            "c": "Mich ablenken, bis das Gefuehl vorbeigeht",
+            "d": "An den Menschen um mich herum auslassen"
+        },
+        "q8": {
+            "text": "Du siehst, wie jemand unfair behandelt wird. Was tust du?",
+            "a": "Wegschauen — nicht mein Problem",
+            "b": "Sich schlecht fuehlen, aber nicht einmischen wollen",
+            "c": "Sich aeussern, wenn ich mich sicher fuehle",
+            "d": "Fuer sie einstehen, egal in welcher Situation"
+        },
+        "q9": {
+            "text": "Nach einem Streit merkst du, dass du falsch lagst.",
+            "a": "Aufrichtig entschuldigen und wiedergutmachen",
+            "b": "Zugeben, dass man falsch lag, ohne Drama",
+            "c": "Warten, bis Gras drueber waechst",
+            "d": "Stur bleiben, weil Fehler einzugestehen schwach wirkt"
+        },
+        "q10": {
+            "text": "Wie gut verstehst du, warum du fuehlst, was du fuehlst?",
+            "a": "Ich kann meine Emotionen und ihre Ursachen identifizieren",
+            "b": "Nach Reflexion verstehe ich meistens meine Gefuehle",
+            "c": "Ich weiss, dass ich etwas fuehle, kann es aber nicht immer benennen",
+            "d": "Ich denke nicht viel darueber nach, warum ich fuehle"
+        },
+        "q11": {
+            "text": "Wie wohl fuehlst du dich, verletzlich zu sein?",
+            "a": "Ich teile meine Gefuehle offen mit Vertrauenspersonen",
+            "b": "Ich kann verletzlich sein, aber es braucht Zeit",
+            "c": "Ich zeige selten Verletzlichkeit — es ist riskant",
+            "d": "Ich zeige niemandem Schwaeche"
+        },
+        "q12": {
+            "text": "Jemand, der dir wichtig ist, tut etwas, das dich verletzt.",
+            "a": "Ich kommuniziere meine Gefuehle ruhig und direkt",
+            "b": "Ich nehme mir Zeit zum Verarbeiten, bevor ich es anspreche",
+            "c": "Ich deute an, dass ich verletzt bin und hoffe, es wird bemerkt",
+            "d": "Ich trage Groll und distanziere mich"
+        }
     },
     "tiers": {
-        "child": { "name": "Emotionales Kind", "emoji": "😢", "desc": "Deine Emotionen sitzen am Steuer! Wie ein Kind reagierst du, bevor du denkst. Gefuehle treffen hart und schnell, und du hast noch nicht gelernt, die emotionalen Wellen zu reiten. Die gute Nachricht? Bewusstsein ist der erste Schritt zum Wachstum!" },
-        "teen": { "name": "Emotionaler Teenager", "emoji": "😖", "desc": "Du lernst, deine Gefuehle zu managen, aber es ist noch in Arbeit. Manchmal klappt es gut, manchmal gewinnen die Emotionen. Du bist auf dem richtigen Weg — mach weiter!" },
-        "young": { "name": "Emotionaler junger Erwachsener", "emoji": "😊", "desc": "Du entwickelst echte emotionale Intelligenz! Meist kannst du deine Gefuehle managen, Empathie zeigen und Konflikte mit einer gewissen Reife bewaeltigen. Du baust Werkzeuge fuer tiefere Verbindungen!" },
-        "mature": { "name": "Emotional Reif", "emoji": "🧘", "desc": "Du hast ein schoenes Gleichgewicht erreicht. Du verstehst deine Emotionen, setzt gesunde Grenzen und gehst mit Empathie und Weisheit durchs Leben. Menschen fuehlen sich sicher in deiner Naehe." },
-        "elder": { "name": "Emotionaler Weiser", "emoji": "🧓", "desc": "Du besitzt tiefe emotionale Weisheit, die aus echter innerer Arbeit kommt. Du navigierst die Stuerme des Lebens mit Anmut, schaffst Raum fuer andere ohne dich selbst zu verlieren und verwandelst Schmerz in Wachstum. Du bist ein seltenes Licht." }
+        "child": {
+            "name": "Emotionales Kind",
+            "emoji": "😢",
+            "desc": "Deine Emotionen sitzen am Steuer! Wie ein Kind reagierst du, bevor du denkst. Gefuehle treffen hart und schnell, und du hast noch nicht gelernt, die emotionalen Wellen zu reiten. Die gute Nachricht? Bewusstsein ist der erste Schritt zum Wachstum!"
+        },
+        "teen": {
+            "name": "Emotionaler Teenager",
+            "emoji": "😖",
+            "desc": "Du lernst, deine Gefuehle zu managen, aber es ist noch in Arbeit. Manchmal klappt es gut, manchmal gewinnen die Emotionen. Du bist auf dem richtigen Weg — mach weiter!"
+        },
+        "young": {
+            "name": "Emotionaler junger Erwachsener",
+            "emoji": "😊",
+            "desc": "Du entwickelst echte emotionale Intelligenz! Meist kannst du deine Gefuehle managen, Empathie zeigen und Konflikte mit einer gewissen Reife bewaeltigen. Du baust Werkzeuge fuer tiefere Verbindungen!"
+        },
+        "mature": {
+            "name": "Emotional Reif",
+            "emoji": "🧘",
+            "desc": "Du hast ein schoenes Gleichgewicht erreicht. Du verstehst deine Emotionen, setzt gesunde Grenzen und gehst mit Empathie und Weisheit durchs Leben. Menschen fuehlen sich sicher in deiner Naehe."
+        },
+        "elder": {
+            "name": "Emotionaler Weiser",
+            "emoji": "🧓",
+            "desc": "Du besitzt tiefe emotionale Weisheit, die aus echter innerer Arbeit kommt. Du navigierst die Stuerme des Lebens mit Anmut, schaffst Raum fuer andere ohne dich selbst zu verlieren und verwandelst Schmerz in Wachstum. Du bist ein seltenes Licht."
+        }
     },
     "result": {
         "title": "Dein emotionales Alter",
@@ -66,5 +158,19 @@
     },
     "nav": {
         "back": "DopaBrain Startseite"
+    },
+    "engage": {
+        "result1": "Emotional Age 15 -- Reactive & Impulsive",
+        "result2": "Emotional Age 30 -- Growing & Learning",
+        "result3": "Emotional Age 55 -- Wise & Balanced",
+        "result4": "Emotional Age 75+ -- Zen Master Level",
+        "socialProof": "1,560+ people discovered their emotional age"
+    },
+    "about": {
+        "toggle": "About the Emotional Age Test",
+        "heading1": "How the Emotional Age Test Works",
+        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+        "heading2": "Understanding Emotional Age",
+        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
     }
 }

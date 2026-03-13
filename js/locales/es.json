@@ -1,14 +1,14 @@
 {
     "meta": {
         "title": "Test de Edad Emocional | DopaBrain",
-        "description": "\u00BFQu\u00E9 tan maduro emocionalmente eres? Arrastra los controles en 10 escenarios reales para descubrir tu verdadera edad emocional."
+        "description": "¿Qué tan maduro emocionalmente eres? Arrastra los controles en 10 escenarios reales para descubrir tu verdadera edad emocional."
     },
     "a11y": {
         "skip": "Saltar al contenido"
     },
     "app": {
         "title": "Test de Edad Emocional",
-        "subtitle": "\u00BFCu\u00E1ntos a\u00F1os tiene tu coraz\u00F3n?",
+        "subtitle": "¿Cuántos años tiene tu corazón?",
         "description": "Arrastra el control deslizante entre dos reacciones en 10 escenarios emocionales para descubrir tu verdadera edad emocional.",
         "start": "Descubrir Mi Edad Emocional"
     },
@@ -18,24 +18,24 @@
     },
     "scenarios": {
         "s1": {
-            "text": "Tu amigo cancela planes en el \u00FAltimo momento.",
+            "text": "Tu amigo cancela planes en el último momento.",
             "left": "Explotar de rabia",
             "right": "Entender y reprogramar con calma"
         },
         "s2": {
             "text": "Alguien critica tu trabajo frente a otros.",
             "left": "Ponerse a la defensiva y discutir",
-            "right": "Estar abierto a la retroalimentaci\u00F3n"
+            "right": "Estar abierto a la retroalimentación"
         },
         "s3": {
             "text": "Tu pareja no te ha respondido en horas.",
-            "left": "Caer en espiral de ansiedad y pensar de m\u00E1s",
+            "left": "Caer en espiral de ansiedad y pensar de más",
             "right": "Confiar y mantener la calma"
         },
         "s4": {
             "text": "Cometes un gran error en el trabajo.",
-            "left": "Hundirte en el odio a ti mismo y la verg\u00FCenza",
-            "right": "Practicar la autocompasi\u00F3n y solucionarlo"
+            "left": "Hundirte en el odio a ti mismo y la vergüenza",
+            "right": "Practicar la autocompasión y solucionarlo"
         },
         "s5": {
             "text": "Alguien se cuela delante de ti en la fila.",
@@ -50,12 +50,12 @@
         "s7": {
             "text": "Tu amigo logra algo que siempre quisiste.",
             "left": "Sentir celos intensos",
-            "right": "Celebrar su \u00E9xito de coraz\u00F3n"
+            "right": "Celebrar su éxito de corazón"
         },
         "s8": {
             "text": "Alguien malinterpreta completamente tus intenciones.",
             "left": "Frustrarte y dejar de explicar",
-            "right": "Aclarar con paciencia y empat\u00EDa"
+            "right": "Aclarar con paciencia y empatía"
         },
         "s9": {
             "text": "Te sientes completamente abrumado por todo en la vida.",
@@ -63,41 +63,41 @@
             "right": "Buscar ayuda y permitirte descansar"
         },
         "s10": {
-            "text": "Un extra\u00F1o es grosero contigo sin raz\u00F3n.",
+            "text": "Un extraño es grosero contigo sin razón.",
             "left": "Ser grosero de vuelta",
-            "right": "Sentir empat\u00EDa \u2014 quiz\u00E1 tenga un mal d\u00EDa"
+            "right": "Sentir empatía — quizá tenga un mal día"
         }
     },
     "tiers": {
         "child": {
-            "name": "Ni\u00F1o Emocional",
-            "emoji": "\uD83D\uDE22",
-            "desc": "\u00A1Tus emociones est\u00E1n al volante! Como un ni\u00F1o, reaccionas antes de pensar. Los sentimientos llegan fuertes y r\u00E1pidos. \u00BFLa buena noticia? La conciencia es el primer paso hacia el crecimiento."
+            "name": "Niño Emocional",
+            "emoji": "😢",
+            "desc": "¡Tus emociones están al volante! Como un niño, reaccionas antes de pensar. Los sentimientos llegan fuertes y rápidos. ¿La buena noticia? La conciencia es el primer paso hacia el crecimiento."
         },
         "teen": {
             "name": "Adolescente Emocional",
-            "emoji": "\uD83D\uDE16",
-            "desc": "Est\u00E1s aprendiendo a manejar tus sentimientos, pero a\u00FAn es un trabajo en progreso. A veces lo manejas bien, otras veces las emociones te superan."
+            "emoji": "😖",
+            "desc": "Estás aprendiendo a manejar tus sentimientos, pero aún es un trabajo en progreso. A veces lo manejas bien, otras veces las emociones te superan."
         },
         "young": {
             "name": "Joven Adulto Emocional",
-            "emoji": "\uD83D\uDE0A",
-            "desc": "\u00A1Est\u00E1s desarrollando inteligencia emocional real! Generalmente puedes manejar tus sentimientos, mostrar empat\u00EDa y manejar conflictos con creciente madurez."
+            "emoji": "😊",
+            "desc": "¡Estás desarrollando inteligencia emocional real! Generalmente puedes manejar tus sentimientos, mostrar empatía y manejar conflictos con creciente madurez."
         },
         "mature": {
             "name": "Emocionalmente Maduro",
-            "emoji": "\uD83E\uDDD8",
-            "desc": "Has alcanzado un hermoso equilibrio. Comprendes tus emociones, estableces l\u00EDmites saludables y abordas la vida con empat\u00EDa y sabidur\u00EDa."
+            "emoji": "🧘",
+            "desc": "Has alcanzado un hermoso equilibrio. Comprendes tus emociones, estableces límites saludables y abordas la vida con empatía y sabiduría."
         },
         "elder": {
             "name": "Sabio Emocional",
-            "emoji": "\uD83E\uDDD3",
-            "desc": "Posees una profunda sabidur\u00EDa emocional. Navegas las tormentas de la vida con gracia, das espacio a otros sin perderte a ti mismo, y transformas el dolor en crecimiento."
+            "emoji": "🧓",
+            "desc": "Posees una profunda sabiduría emocional. Navegas las tormentas de la vida con gracia, das espacio a otros sin perderte a ti mismo, y transformas el dolor en crecimiento."
         }
     },
     "result": {
         "title": "Tu Edad Emocional",
-        "yearsOld": "a\u00F1os",
+        "yearsOld": "años",
         "retake": "Repetir Test",
         "spectrumLeft": "Reactivo",
         "spectrumRight": "Sabio",
@@ -112,12 +112,26 @@
     },
     "share": {
         "title": "Comparte Tu Resultado",
-        "text": "\u00A1Mi edad emocional es {age} a\u00F1os! Soy \"{tier}\" \uD83D\uDE22 Descubre la tuya:",
+        "text": "¡Mi edad emocional es {age} años! Soy \"{tier}\" 😢 Descubre la tuya:",
         "twitter": "Compartir en X",
         "copyUrl": "Copiar Enlace",
-        "copied": "\u00A1Copiado!"
+        "copied": "¡Copiado!"
     },
     "nav": {
         "back": "DopaBrain Inicio"
+    },
+    "engage": {
+        "result1": "Emotional Age 15 -- Reactive & Impulsive",
+        "result2": "Emotional Age 30 -- Growing & Learning",
+        "result3": "Emotional Age 55 -- Wise & Balanced",
+        "result4": "Emotional Age 75+ -- Zen Master Level",
+        "socialProof": "1,560+ people discovered their emotional age"
+    },
+    "about": {
+        "toggle": "About the Emotional Age Test",
+        "heading1": "How the Emotional Age Test Works",
+        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+        "heading2": "Understanding Emotional Age",
+        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
     }
 }
