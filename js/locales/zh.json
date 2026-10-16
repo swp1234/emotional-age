@@ -1,137 +1,140 @@
 {
-    "meta": {
-        "title": "情感年龄测试 | DopaBrain",
-        "description": "你的情感成熟度如何？拖动滑块回答10个真实情景，发现你的真实情感年龄。"
+  "meta": {
+    "title": "情感年龄测试 | DopaBrain",
+    "description": "你的情感成熟度如何？拖动滑块回答10个真实情景，发现你的真实情感年龄。"
+  },
+  "a11y": {
+    "skip": "跳到内容"
+  },
+  "app": {
+    "title": "情感年龄测试",
+    "subtitle": "你的心几岁了？",
+    "description": "在10个情感场景中拖动滑块在两种反应之间选择，发现你的真实情感年龄。",
+    "start": "发现我的情感年龄"
+  },
+  "quiz": {
+    "next": "下一个",
+    "finish": "查看结果"
+  },
+  "scenarios": {
+    "s1": {
+      "text": "你的朋友在最后一刻取消了约定。",
+      "left": "愤怒地爆发",
+      "right": "理解并平静地重新安排"
     },
-    "a11y": {
-        "skip": "跳到内容"
+    "s2": {
+      "text": "有人当着别人的面批评你的工作。",
+      "left": "防御性地反驳",
+      "right": "开放地接受反馈"
     },
-    "app": {
-        "title": "情感年龄测试",
-        "subtitle": "你的心几岁了？",
-        "description": "在10个情感场景中拖动滑块在两种反应之间选择，发现你的真实情感年龄。",
-        "start": "发现我的情感年龄"
+    "s3": {
+      "text": "伴侣几个小时没有回复你的消息。",
+      "left": "焦虑地胡思乱想",
+      "right": "信任对方并保持平静"
     },
-    "quiz": {
-        "next": "下一个",
-        "finish": "查看结果"
+    "s4": {
+      "text": "你在工作中犯了一个大错误。",
+      "left": "淹没在自我厌恶和羞耻中",
+      "right": "自我关怀并修复错误"
     },
-    "scenarios": {
-        "s1": {
-            "text": "你的朋友在最后一刻取消了约定。",
-            "left": "愤怒地爆发",
-            "right": "理解并平静地重新安排"
-        },
-        "s2": {
-            "text": "有人当着别人的面批评你的工作。",
-            "left": "防御性地反驳",
-            "right": "开放地接受反馈"
-        },
-        "s3": {
-            "text": "伴侣几个小时没有回复你的消息。",
-            "left": "焦虑地胡思乱想",
-            "right": "信任对方并保持平静"
-        },
-        "s4": {
-            "text": "你在工作中犯了一个大错误。",
-            "left": "淹没在自我厌恶和羞耻中",
-            "right": "自我关怀并修复错误"
-        },
-        "s5": {
-            "text": "有人在排队时插在你前面。",
-            "left": "攻击性地对质",
-            "right": "算了，不值得浪费精力"
-        },
-        "s6": {
-            "text": "你的前任发了与新人的合照。",
-            "left": "执迷地翻看他们的主页",
-            "right": "真心为他们感到高兴"
-        },
-        "s7": {
-            "text": "你的朋友实现了你一直想要的东西。",
-            "left": "被嫉妒吞噬",
-            "right": "衷心地庆祝他们的成功"
-        },
-        "s8": {
-            "text": "有人完全误解了你的意图。",
-            "left": "沮丧地放弃解释",
-            "right": "有同理心地耐心解释"
-        },
-        "s9": {
-            "text": "你感到生活中的一切都压得你喊不过气。",
-            "left": "封闭自己并孤立起来",
-            "right": "寻求帮助并允许自己休息"
-        },
-        "s10": {
-            "text": "一个陌生人无缘无故地对你无礼。",
-            "left": "以牙还牙",
-            "right": "他们可能今天很不顺利，表示同情"
-        }
+    "s5": {
+      "text": "有人在排队时插在你前面。",
+      "left": "攻击性地对质",
+      "right": "算了，不值得浪费精力"
     },
-    "tiers": {
-        "child": {
-            "name": "情感儿童",
-            "emoji": "😢",
-            "desc": "情感在当司机！像孩子一样，你在思考前就已经反应了。感情强烈而迅速。好消息？意识到这一点就是成长的第一步！"
-        },
-        "teen": {
-            "name": "情感青少年",
-            "emoji": "😖",
-            "desc": "你正在学习管理情绪，但还在进行中。有时处理得很好，有时情绪会占上风。"
-        },
-        "young": {
-            "name": "情感青年",
-            "emoji": "😊",
-            "desc": "你正在发展真正的情商！通常能管理情绪，展示同理心，并以成长中的成熟度处理冲突。"
-        },
-        "mature": {
-            "name": "情感成熟",
-            "emoji": "🧘",
-            "desc": "你达到了美丽的平衡。你理解自己的情感，设立健康的界限，并以同理心和智慧面对生活。"
-        },
-        "elder": {
-            "name": "情感贤者",
-            "emoji": "🧓",
-            "desc": "你拥有深层的情感智慧。你优雅地应对生活的风暴，在不迷失自己的情况下为他人创造空间，并将痛苦转化为成长。"
-        }
+    "s6": {
+      "text": "你的前任发了与新人的合照。",
+      "left": "执迷地翻看他们的主页",
+      "right": "真心为他们感到高兴"
     },
-    "result": {
-        "title": "你的情感年龄",
-        "yearsOld": "岁",
-        "retake": "重新测试",
-        "spectrumLeft": "反应式",
-        "spectrumRight": "智慧",
-        "moreTests": "探索更多",
-        "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的情感年龄"
+    "s7": {
+      "text": "你的朋友实现了你一直想要的东西。",
+      "left": "被嫉妒吞噬",
+      "right": "衷心地庆祝他们的成功"
     },
-    "related": {
-        "mentalAge": "心理年龄",
-        "eqTest": "情商测试",
-        "emotionIceberg": "情感冰山",
-        "hspTest": "HSP测试"
+    "s8": {
+      "text": "有人完全误解了你的意图。",
+      "left": "沮丧地放弃解释",
+      "right": "有同理心地耐心解释"
     },
-    "share": {
-        "title": "分享结果",
-        "text": "我的情感年龄是{age}岁！我是「{tier}」😢 你也来试试：",
-        "twitter": "分享到X",
-        "copyUrl": "复制链接",
-        "copied": "已复制！"
+    "s9": {
+      "text": "你感到生活中的一切都压得你喊不过气。",
+      "left": "封闭自己并孤立起来",
+      "right": "寻求帮助并允许自己休息"
     },
-    "nav": {
-        "back": "DopaBrain 首页"
-    },
-    "engage": {
-        "result1": "Emotional Age 15 -- Reactive & Impulsive",
-        "result2": "Emotional Age 30 -- Growing & Learning",
-        "result3": "Emotional Age 55 -- Wise & Balanced",
-        "result4": "Emotional Age 75+ -- Zen Master Level",
-        "socialProof": "1,560+ people discovered their emotional age"
-    },
-    "about": {
-        "toggle": "About the Emotional Age Test",
-        "heading1": "How the Emotional Age Test Works",
-        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
-        "heading2": "Understanding Emotional Age",
-        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "s10": {
+      "text": "一个陌生人无缘无故地对你无礼。",
+      "left": "以牙还牙",
+      "right": "他们可能今天很不顺利，表示同情"
     }
+  },
+  "tiers": {
+    "child": {
+      "name": "情感儿童",
+      "emoji": "😢",
+      "desc": "情感在当司机！像孩子一样，你在思考前就已经反应了。感情强烈而迅速。好消息？意识到这一点就是成长的第一步！"
+    },
+    "teen": {
+      "name": "情感青少年",
+      "emoji": "😖",
+      "desc": "你正在学习管理情绪，但还在进行中。有时处理得很好，有时情绪会占上风。"
+    },
+    "young": {
+      "name": "情感青年",
+      "emoji": "😊",
+      "desc": "你正在发展真正的情商！通常能管理情绪，展示同理心，并以成长中的成熟度处理冲突。"
+    },
+    "mature": {
+      "name": "情感成熟",
+      "emoji": "🧘",
+      "desc": "你达到了美丽的平衡。你理解自己的情感，设立健康的界限，并以同理心和智慧面对生活。"
+    },
+    "elder": {
+      "name": "情感贤者",
+      "emoji": "🧓",
+      "desc": "你拥有深层的情感智慧。你优雅地应对生活的风暴，在不迷失自己的情况下为他人创造空间，并将痛苦转化为成长。"
+    }
+  },
+  "result": {
+    "title": "你的情感年龄",
+    "yearsOld": "岁",
+    "retake": "重新测试",
+    "spectrumLeft": "反应式",
+    "spectrumRight": "智慧",
+    "moreTests": "探索更多",
+    "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的情感年龄"
+  },
+  "related": {
+    "mentalAge": "心理年龄",
+    "eqTest": "情商测试",
+    "emotionIceberg": "情感冰山",
+    "hspTest": "HSP测试",
+    "soulAge": "灵魂年龄测试",
+    "stressCheck": "压力检测",
+    "attachmentStyle": "依恋风格测试"
+  },
+  "share": {
+    "title": "分享结果",
+    "text": "我的情感年龄是{age}岁！我是「{tier}」😢 你也来试试：",
+    "twitter": "分享到X",
+    "copyUrl": "复制链接",
+    "copied": "已复制！"
+  },
+  "nav": {
+    "back": "DopaBrain 首页"
+  },
+  "engage": {
+    "result1": "Emotional Age 15 -- Reactive & Impulsive",
+    "result2": "Emotional Age 30 -- Growing & Learning",
+    "result3": "Emotional Age 55 -- Wise & Balanced",
+    "result4": "Emotional Age 75+ -- Zen Master Level",
+    "socialProof": "1,560+ people discovered their emotional age"
+  },
+  "about": {
+    "toggle": "About the Emotional Age Test",
+    "heading1": "How the Emotional Age Test Works",
+    "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+    "heading2": "Understanding Emotional Age",
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+  }
 }

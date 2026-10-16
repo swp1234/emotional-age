@@ -1,137 +1,140 @@
 {
-    "meta": {
-        "title": "भावनात्मक उम्र टेस्ट | DopaBrain",
-        "description": "आप भावनात्मक रूप से कितने परिपक्व हैं? 10 वास्तविक परिदृश्यों में स्लाइडर खींचें और अपनी असली भावनात्मक उम्र जानें।"
+  "meta": {
+    "title": "भावनात्मक उम्र टेस्ट | DopaBrain",
+    "description": "आप भावनात्मक रूप से कितने परिपक्व हैं? 10 वास्तविक परिदृश्यों में स्लाइडर खींचें और अपनी असली भावनात्मक उम्र जानें।"
+  },
+  "a11y": {
+    "skip": "सामग्री पर जाएं"
+  },
+  "app": {
+    "title": "भावनात्मक उम्र टेस्ट",
+    "subtitle": "आपके दिल की उम्र कितनी है?",
+    "description": "10 भावनात्मक परिदृश्यों में दो प्रतिक्रियाओं के बीच स्लाइडर खींचें और अपनी असली भावनात्मक उम्र जानें।",
+    "start": "मेरी भावनात्मक उम्र जानें"
+  },
+  "quiz": {
+    "next": "अगला",
+    "finish": "मेरा परिणाम देखें"
+  },
+  "scenarios": {
+    "s1": {
+      "text": "आपका दोस्त आखिरी समय पर योजना रद्द कर देता है।",
+      "left": "गुस्से से भड़क उठना",
+      "right": "समझना और शांति से दोबारा योजना बनाना"
     },
-    "a11y": {
-        "skip": "सामग्री पर जाएं"
+    "s2": {
+      "text": "कोई दूसरों के सामने आपके काम की आलोचना करता है।",
+      "left": "बचाव में आकर बहस करना",
+      "right": "फीडबैक के प्रति खुला रहना"
     },
-    "app": {
-        "title": "भावनात्मक उम्र टेस्ट",
-        "subtitle": "आपके दिल की उम्र कितनी है?",
-        "description": "10 भावनात्मक परिदृश्यों में दो प्रतिक्रियाओं के बीच स्लाइडर खींचें और अपनी असली भावनात्मक उम्र जानें।",
-        "start": "मेरी भावनात्मक उम्र जानें"
+    "s3": {
+      "text": "आपके पार्टनर ने घंटों से मैसेज का जवाब नहीं दिया।",
+      "left": "चिंता के चक्र में फंसना",
+      "right": "भरोसा करना और शांत रहना"
     },
-    "quiz": {
-        "next": "अगला",
-        "finish": "मेरा परिणाम देखें"
+    "s4": {
+      "text": "आप काम पर एक बड़ी गलती करते हैं।",
+      "left": "आत्म-घृणा और शर्म में डूबना",
+      "right": "आत्म-करुणा रखना और ठीक करना"
     },
-    "scenarios": {
-        "s1": {
-            "text": "आपका दोस्त आखिरी समय पर योजना रद्द कर देता है।",
-            "left": "गुस्से से भड़क उठना",
-            "right": "समझना और शांति से दोबारा योजना बनाना"
-        },
-        "s2": {
-            "text": "कोई दूसरों के सामने आपके काम की आलोचना करता है।",
-            "left": "बचाव में आकर बहस करना",
-            "right": "फीडबैक के प्रति खुला रहना"
-        },
-        "s3": {
-            "text": "आपके पार्टनर ने घंटों से मैसेज का जवाब नहीं दिया।",
-            "left": "चिंता के चक्र में फंसना",
-            "right": "भरोसा करना और शांत रहना"
-        },
-        "s4": {
-            "text": "आप काम पर एक बड़ी गलती करते हैं।",
-            "left": "आत्म-घृणा और शर्म में डूबना",
-            "right": "आत्म-करुणा रखना और ठीक करना"
-        },
-        "s5": {
-            "text": "कोई लाइन में आपके आगे कट जाता है।",
-            "left": "आक्रामक रूप से टकराना",
-            "right": "छोड़ देना, ऊर्जा बर्बाद नहीं"
-        },
-        "s6": {
-            "text": "आपका एक्स किसी नए व्यक्ति के साथ फोटो पोस्ट करता है।",
-            "left": "जुनून होकर प्रोफाइल को एंटलाना",
-            "right": "सचमुच उनकी खुशी महसूस करना"
-        },
-        "s7": {
-            "text": "आपका दोस्त वो हासिल करता है जो आप हमेशा चाहते थे।",
-            "left": "ईर्ष्या से भर जाना",
-            "right": "दिल से उनकी सफलता का जश्न मनाना"
-        },
-        "s8": {
-            "text": "कोई आपके इरादों को पूरी तरह गलत समझता है।",
-            "left": "निराश होकर समझाना छोड़ देना",
-            "right": "सहानुभूति से धैर्य से समझाना"
-        },
-        "s9": {
-            "text": "आप जीवन में सब कुछ से पूरी तरह दबे हुए महसूस करते हैं।",
-            "left": "बंद हो जाना और अलग-थलग हो जाना",
-            "right": "मदद लेना और आराम करने देना"
-        },
-        "s10": {
-            "text": "एक अजनबी बिना किसी कारण आपसे रूड़ होता है।",
-            "left": "वापस रूड़ होना",
-            "right": "सहानुभूति — शायद उनका दिन खराब चल रहा है"
-        }
+    "s5": {
+      "text": "कोई लाइन में आपके आगे कट जाता है।",
+      "left": "आक्रामक रूप से टकराना",
+      "right": "छोड़ देना, ऊर्जा बर्बाद नहीं"
     },
-    "tiers": {
-        "child": {
-            "name": "भावनात्मक बच्चा",
-            "emoji": "😢",
-            "desc": "आपकी भावनाएं ड्राइवर सीट पर हैं! एक बच्चे की तरह, आप सोचने से पहले प्रतिक्रिया करते हैं। भावनाएं कठोर और तेज प्रहार करती हैं। अच्छी खबर? जागरूकता विकास का पहला कदम है!"
-        },
-        "teen": {
-            "name": "भावनात्मक किशोर",
-            "emoji": "😖",
-            "desc": "आप अपनी भावनाओं को संभालना सीख रहे हैं, लेकिन यह अभी प्रगति पर है। कभी अच्छा संभालते हैं, कभी भावनाएं हावी हो जाती हैं।"
-        },
-        "young": {
-            "name": "भावनात्मक युवा",
-            "emoji": "😊",
-            "desc": "आप असली भावनात्मक बुद्धिमत्ता विकसित कर रहे हैं! आमतौर पर आप भावनाओं को संभाल सकते हैं, सहानुभूति दिखा सकते हैं।"
-        },
-        "mature": {
-            "name": "भावनात्मक रूप से परिपक्व",
-            "emoji": "🧘",
-            "desc": "आपने एक सुंदर संतुलन हासिल किया है। आप अपनी भावनाओं को समझते हैं, स्वस्थ सीमाएं निर्धारित करते हैं, और सहानुभूति और ज्ञान के साथ जीवन से निपटते हैं।"
-        },
-        "elder": {
-            "name": "भावनात्मक गुरु",
-            "emoji": "🧓",
-            "desc": "आपके पास गहरी भावनात्मक बुद्धिमत्ता है। आप जीवन के तूफानों को सुंदरता से पार करते हैं, अपने आपको खोए बिना दूसरों के लिए जगह बनाते हैं।"
-        }
+    "s6": {
+      "text": "आपका एक्स किसी नए व्यक्ति के साथ फोटो पोस्ट करता है।",
+      "left": "जुनून होकर प्रोफाइल को एंटलाना",
+      "right": "सचमुच उनकी खुशी महसूस करना"
     },
-    "result": {
-        "title": "आपकी भावनात्मक उम्र",
-        "yearsOld": "साल",
-        "retake": "दोबारा करें",
-        "spectrumLeft": "प्रतिक्रियाशील",
-        "spectrumRight": "बुद्धिमान",
-        "moreTests": "और जानें",
-        "percentileStat": "केवल <strong>{percent}%</strong> का आपके जैसी भावनात्मक उम्र है"
+    "s7": {
+      "text": "आपका दोस्त वो हासिल करता है जो आप हमेशा चाहते थे।",
+      "left": "ईर्ष्या से भर जाना",
+      "right": "दिल से उनकी सफलता का जश्न मनाना"
     },
-    "related": {
-        "mentalAge": "मानसिक उम्र",
-        "eqTest": "EQ परीक्षण",
-        "emotionIceberg": "भावना हिमशैल",
-        "hspTest": "HSP परीक्षण"
+    "s8": {
+      "text": "कोई आपके इरादों को पूरी तरह गलत समझता है।",
+      "left": "निराश होकर समझाना छोड़ देना",
+      "right": "सहानुभूति से धैर्य से समझाना"
     },
-    "share": {
-        "title": "अपना परिणाम शेयर करें",
-        "text": "मेरी भावनात्मक उम्र {age} साल है! मैं \"{tier}\" हूं 😢 आप भी जानें:",
-        "twitter": "X पर शेयर करें",
-        "copyUrl": "लिंक कॉपी करें",
-        "copied": "कॉपी हो गया!"
+    "s9": {
+      "text": "आप जीवन में सब कुछ से पूरी तरह दबे हुए महसूस करते हैं।",
+      "left": "बंद हो जाना और अलग-थलग हो जाना",
+      "right": "मदद लेना और आराम करने देना"
     },
-    "nav": {
-        "back": "DopaBrain होम"
-    },
-    "engage": {
-        "result1": "Emotional Age 15 -- Reactive & Impulsive",
-        "result2": "Emotional Age 30 -- Growing & Learning",
-        "result3": "Emotional Age 55 -- Wise & Balanced",
-        "result4": "Emotional Age 75+ -- Zen Master Level",
-        "socialProof": "1,560+ people discovered their emotional age"
-    },
-    "about": {
-        "toggle": "About the Emotional Age Test",
-        "heading1": "How the Emotional Age Test Works",
-        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
-        "heading2": "Understanding Emotional Age",
-        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "s10": {
+      "text": "एक अजनबी बिना किसी कारण आपसे रूड़ होता है।",
+      "left": "वापस रूड़ होना",
+      "right": "सहानुभूति — शायद उनका दिन खराब चल रहा है"
     }
+  },
+  "tiers": {
+    "child": {
+      "name": "भावनात्मक बच्चा",
+      "emoji": "😢",
+      "desc": "आपकी भावनाएं ड्राइवर सीट पर हैं! एक बच्चे की तरह, आप सोचने से पहले प्रतिक्रिया करते हैं। भावनाएं कठोर और तेज प्रहार करती हैं। अच्छी खबर? जागरूकता विकास का पहला कदम है!"
+    },
+    "teen": {
+      "name": "भावनात्मक किशोर",
+      "emoji": "😖",
+      "desc": "आप अपनी भावनाओं को संभालना सीख रहे हैं, लेकिन यह अभी प्रगति पर है। कभी अच्छा संभालते हैं, कभी भावनाएं हावी हो जाती हैं।"
+    },
+    "young": {
+      "name": "भावनात्मक युवा",
+      "emoji": "😊",
+      "desc": "आप असली भावनात्मक बुद्धिमत्ता विकसित कर रहे हैं! आमतौर पर आप भावनाओं को संभाल सकते हैं, सहानुभूति दिखा सकते हैं।"
+    },
+    "mature": {
+      "name": "भावनात्मक रूप से परिपक्व",
+      "emoji": "🧘",
+      "desc": "आपने एक सुंदर संतुलन हासिल किया है। आप अपनी भावनाओं को समझते हैं, स्वस्थ सीमाएं निर्धारित करते हैं, और सहानुभूति और ज्ञान के साथ जीवन से निपटते हैं।"
+    },
+    "elder": {
+      "name": "भावनात्मक गुरु",
+      "emoji": "🧓",
+      "desc": "आपके पास गहरी भावनात्मक बुद्धिमत्ता है। आप जीवन के तूफानों को सुंदरता से पार करते हैं, अपने आपको खोए बिना दूसरों के लिए जगह बनाते हैं।"
+    }
+  },
+  "result": {
+    "title": "आपकी भावनात्मक उम्र",
+    "yearsOld": "साल",
+    "retake": "दोबारा करें",
+    "spectrumLeft": "प्रतिक्रियाशील",
+    "spectrumRight": "बुद्धिमान",
+    "moreTests": "और जानें",
+    "percentileStat": "केवल <strong>{percent}%</strong> का आपके जैसी भावनात्मक उम्र है"
+  },
+  "related": {
+    "mentalAge": "मानसिक उम्र",
+    "eqTest": "EQ परीक्षण",
+    "emotionIceberg": "भावना हिमशैल",
+    "hspTest": "HSP परीक्षण",
+    "soulAge": "सोल एज टेस्ट",
+    "stressCheck": "स्ट्रेस चेक",
+    "attachmentStyle": "अटैचमेंट स्टाइल"
+  },
+  "share": {
+    "title": "अपना परिणाम शेयर करें",
+    "text": "मेरी भावनात्मक उम्र {age} साल है! मैं \"{tier}\" हूं 😢 आप भी जानें:",
+    "twitter": "X पर शेयर करें",
+    "copyUrl": "लिंक कॉपी करें",
+    "copied": "कॉपी हो गया!"
+  },
+  "nav": {
+    "back": "DopaBrain होम"
+  },
+  "engage": {
+    "result1": "Emotional Age 15 -- Reactive & Impulsive",
+    "result2": "Emotional Age 30 -- Growing & Learning",
+    "result3": "Emotional Age 55 -- Wise & Balanced",
+    "result4": "Emotional Age 75+ -- Zen Master Level",
+    "socialProof": "1,560+ people discovered their emotional age"
+  },
+  "about": {
+    "toggle": "About the Emotional Age Test",
+    "heading1": "How the Emotional Age Test Works",
+    "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+    "heading2": "Understanding Emotional Age",
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+  }
 }

@@ -1,137 +1,140 @@
 {
-    "meta": {
-        "title": "感情年齢テスト | DopaBrain",
-        "description": "あなたの感情成熟度は？10のリアルなシナリオでスライダーをドラッグして、本当の感情年齢を発見しよう。"
+  "meta": {
+    "title": "感情年齢テスト | DopaBrain",
+    "description": "あなたの感情成熟度は？10のリアルなシナリオでスライダーをドラッグして、本当の感情年齢を発見しよう。"
+  },
+  "a11y": {
+    "skip": "コンテンツへスキップ"
+  },
+  "app": {
+    "title": "感情年齢テスト",
+    "subtitle": "あなたの心は何歳？",
+    "description": "10の感情的なシナリオで二つの反応の間のスライダーをドラッグして、本当の感情年齢を発見しよう。",
+    "start": "感情年齢を調べる"
+  },
+  "quiz": {
+    "next": "次へ",
+    "finish": "結果を見る"
+  },
+  "scenarios": {
+    "s1": {
+      "text": "友達がドタキャンしました。",
+      "left": "怒りを爆発させる",
+      "right": "理解して落ち着いて予定を変更する"
     },
-    "a11y": {
-        "skip": "コンテンツへスキップ"
+    "s2": {
+      "text": "誰かが他の人の前であなたの仕事を批判しました。",
+      "left": "防御的になって反論する",
+      "right": "フィードバックをオープンに受け入れる"
     },
-    "app": {
-        "title": "感情年齢テスト",
-        "subtitle": "あなたの心は何歳？",
-        "description": "10の感情的なシナリオで二つの反応の間のスライダーをドラッグして、本当の感情年齢を発見しよう。",
-        "start": "感情年齢を調べる"
+    "s3": {
+      "text": "パートナーから何時間も返信がありません。",
+      "left": "不安に陥って考えすぎる",
+      "right": "信頼して落ち着いている"
     },
-    "quiz": {
-        "next": "次へ",
-        "finish": "結果を見る"
+    "s4": {
+      "text": "仕事で大きなミスをしました。",
+      "left": "自己嫌悪と恥に溺れる",
+      "right": "自己慈悲を持ち修正する"
     },
-    "scenarios": {
-        "s1": {
-            "text": "友達がドタキャンしました。",
-            "left": "怒りを爆発させる",
-            "right": "理解して落ち着いて予定を変更する"
-        },
-        "s2": {
-            "text": "誰かが他の人の前であなたの仕事を批判しました。",
-            "left": "防御的になって反論する",
-            "right": "フィードバックをオープンに受け入れる"
-        },
-        "s3": {
-            "text": "パートナーから何時間も返信がありません。",
-            "left": "不安に陥って考えすぎる",
-            "right": "信頼して落ち着いている"
-        },
-        "s4": {
-            "text": "仕事で大きなミスをしました。",
-            "left": "自己嫌悪と恥に溺れる",
-            "right": "自己慈悲を持ち修正する"
-        },
-        "s5": {
-            "text": "誰かが列に割り込みました。",
-            "left": "攻撃的に対立する",
-            "right": "気にしない、エネルギーの無駄"
-        },
-        "s6": {
-            "text": "元カノが新しい人との写真を投稿しました。",
-            "left": "執着してプロフィールを監視する",
-            "right": "心から幸せを祈る"
-        },
-        "s7": {
-            "text": "友達があなたがずっと望んでいたことを達成しました。",
-            "left": "嫉妬に飲み込まれる",
-            "right": "心から成功を祝福する"
-        },
-        "s8": {
-            "text": "誰かがあなたの意図を完全に誤解しました。",
-            "left": "苛立って説明を諦める",
-            "right": "共感を持って丁寧に説明する"
-        },
-        "s9": {
-            "text": "人生のすべてに完全に圧倒されています。",
-            "left": "閉じこもって孤立する",
-            "right": "助けを求めて休息を許す"
-        },
-        "s10": {
-            "text": "見知らぬ人が理由なく失礼な態度を取りました。",
-            "left": "同じように失礼に返す",
-            "right": "彼らがつらい日を過ごしているのかもと共感する"
-        }
+    "s5": {
+      "text": "誰かが列に割り込みました。",
+      "left": "攻撃的に対立する",
+      "right": "気にしない、エネルギーの無駄"
     },
-    "tiers": {
-        "child": {
-            "name": "感情の子供",
-            "emoji": "😢",
-            "desc": "感情がハンドルを握っています！子供のように考える前に反応します。感情が強く速く押し寄せます。良いニュース？気づきが成長の第一歩です！"
-        },
-        "teen": {
-            "name": "感情のティーン",
-            "emoji": "😖",
-            "desc": "感情の管理を学んでいますが、まだ進行中です。うまく対処できる時もあれば、感情に圧倒される時もあります。"
-        },
-        "young": {
-            "name": "感情の若者",
-            "emoji": "😊",
-            "desc": "本物の感情知性が発達しています！たいてい感情を管理し、共感を示し、成長する成熟さで対立に対処できます。"
-        },
-        "mature": {
-            "name": "感情的に成熟",
-            "emoji": "🧘",
-            "desc": "美しいバランスに到達しました。自分の感情を理解し、健全な境界を設け、共感と知恵で人生に向き合っています。"
-        },
-        "elder": {
-            "name": "感情の賢者",
-            "emoji": "🧓",
-            "desc": "深い感情的知恵を持っています。人生の嵐を優雅に乗り越え、自分を見失わずに他者のための空間を作り、痛みを成長に変えます。"
-        }
+    "s6": {
+      "text": "元カノが新しい人との写真を投稿しました。",
+      "left": "執着してプロフィールを監視する",
+      "right": "心から幸せを祈る"
     },
-    "result": {
-        "title": "あなたの感情年齢",
-        "yearsOld": "歳",
-        "retake": "もう一度",
-        "spectrumLeft": "反応的",
-        "spectrumRight": "賢明",
-        "moreTests": "もっと見る",
-        "percentileStat": "参加者の<strong>{percent}%</strong>だけがあなたと同じ感情年齢です"
+    "s7": {
+      "text": "友達があなたがずっと望んでいたことを達成しました。",
+      "left": "嫉妬に飲み込まれる",
+      "right": "心から成功を祝福する"
     },
-    "related": {
-        "mentalAge": "精神年齢",
-        "eqTest": "EQテスト",
-        "emotionIceberg": "感情の氷山",
-        "hspTest": "HSPテスト"
+    "s8": {
+      "text": "誰かがあなたの意図を完全に誤解しました。",
+      "left": "苛立って説明を諦める",
+      "right": "共感を持って丁寧に説明する"
     },
-    "share": {
-        "title": "結果をシェア",
-        "text": "私の感情年齢は{age}歳！「{tier}」😢 あなたも試して：",
-        "twitter": "Xでシェア",
-        "copyUrl": "リンクをコピー",
-        "copied": "コピーしました！"
+    "s9": {
+      "text": "人生のすべてに完全に圧倒されています。",
+      "left": "閉じこもって孤立する",
+      "right": "助けを求めて休息を許す"
     },
-    "nav": {
-        "back": "DopaBrain ホーム"
-    },
-    "engage": {
-        "result1": "Emotional Age 15 -- Reactive & Impulsive",
-        "result2": "Emotional Age 30 -- Growing & Learning",
-        "result3": "Emotional Age 55 -- Wise & Balanced",
-        "result4": "Emotional Age 75+ -- Zen Master Level",
-        "socialProof": "1,560+ people discovered their emotional age"
-    },
-    "about": {
-        "toggle": "About the Emotional Age Test",
-        "heading1": "How the Emotional Age Test Works",
-        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
-        "heading2": "Understanding Emotional Age",
-        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "s10": {
+      "text": "見知らぬ人が理由なく失礼な態度を取りました。",
+      "left": "同じように失礼に返す",
+      "right": "彼らがつらい日を過ごしているのかもと共感する"
     }
+  },
+  "tiers": {
+    "child": {
+      "name": "感情の子供",
+      "emoji": "😢",
+      "desc": "感情がハンドルを握っています！子供のように考える前に反応します。感情が強く速く押し寄せます。良いニュース？気づきが成長の第一歩です！"
+    },
+    "teen": {
+      "name": "感情のティーン",
+      "emoji": "😖",
+      "desc": "感情の管理を学んでいますが、まだ進行中です。うまく対処できる時もあれば、感情に圧倒される時もあります。"
+    },
+    "young": {
+      "name": "感情の若者",
+      "emoji": "😊",
+      "desc": "本物の感情知性が発達しています！たいてい感情を管理し、共感を示し、成長する成熟さで対立に対処できます。"
+    },
+    "mature": {
+      "name": "感情的に成熟",
+      "emoji": "🧘",
+      "desc": "美しいバランスに到達しました。自分の感情を理解し、健全な境界を設け、共感と知恵で人生に向き合っています。"
+    },
+    "elder": {
+      "name": "感情の賢者",
+      "emoji": "🧓",
+      "desc": "深い感情的知恵を持っています。人生の嵐を優雅に乗り越え、自分を見失わずに他者のための空間を作り、痛みを成長に変えます。"
+    }
+  },
+  "result": {
+    "title": "あなたの感情年齢",
+    "yearsOld": "歳",
+    "retake": "もう一度",
+    "spectrumLeft": "反応的",
+    "spectrumRight": "賢明",
+    "moreTests": "もっと見る",
+    "percentileStat": "参加者の<strong>{percent}%</strong>だけがあなたと同じ感情年齢です"
+  },
+  "related": {
+    "mentalAge": "精神年齢",
+    "eqTest": "EQテスト",
+    "emotionIceberg": "感情の氷山",
+    "hspTest": "HSPテスト",
+    "soulAge": "魂の年齢診断",
+    "stressCheck": "ストレスチェック",
+    "attachmentStyle": "愛着スタイル診断"
+  },
+  "share": {
+    "title": "結果をシェア",
+    "text": "私の感情年齢は{age}歳！「{tier}」😢 あなたも試して：",
+    "twitter": "Xでシェア",
+    "copyUrl": "リンクをコピー",
+    "copied": "コピーしました！"
+  },
+  "nav": {
+    "back": "DopaBrain ホーム"
+  },
+  "engage": {
+    "result1": "Emotional Age 15 -- Reactive & Impulsive",
+    "result2": "Emotional Age 30 -- Growing & Learning",
+    "result3": "Emotional Age 55 -- Wise & Balanced",
+    "result4": "Emotional Age 75+ -- Zen Master Level",
+    "socialProof": "1,560+ people discovered their emotional age"
+  },
+  "about": {
+    "toggle": "About the Emotional Age Test",
+    "heading1": "How the Emotional Age Test Works",
+    "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+    "heading2": "Understanding Emotional Age",
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+  }
 }

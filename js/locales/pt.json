@@ -1,137 +1,140 @@
 {
-    "meta": {
-        "title": "Teste de Idade Emocional | DopaBrain",
-        "description": "Quão maduro emocionalmente você é? Arraste os controles em 10 cenários reais para descobrir sua verdadeira idade emocional."
+  "meta": {
+    "title": "Teste de Idade Emocional | DopaBrain",
+    "description": "Quão maduro emocionalmente você é? Arraste os controles em 10 cenários reais para descobrir sua verdadeira idade emocional."
+  },
+  "a11y": {
+    "skip": "Pular para o conteúdo"
+  },
+  "app": {
+    "title": "Teste de Idade Emocional",
+    "subtitle": "Quantos anos tem seu coração?",
+    "description": "Arraste o controle entre duas reações em 10 cenários emocionais para descobrir sua verdadeira idade emocional.",
+    "start": "Descobrir Minha Idade Emocional"
+  },
+  "quiz": {
+    "next": "Próximo",
+    "finish": "Ver Meu Resultado"
+  },
+  "scenarios": {
+    "s1": {
+      "text": "Seu amigo cancela planos de última hora.",
+      "left": "Explodir de raiva",
+      "right": "Entender e remarcar com calma"
     },
-    "a11y": {
-        "skip": "Pular para o conteúdo"
+    "s2": {
+      "text": "Alguém critica seu trabalho na frente de outros.",
+      "left": "Ficar na defensiva e discutir",
+      "right": "Estar aberto ao feedback"
     },
-    "app": {
-        "title": "Teste de Idade Emocional",
-        "subtitle": "Quantos anos tem seu coração?",
-        "description": "Arraste o controle entre duas reações em 10 cenários emocionais para descobrir sua verdadeira idade emocional.",
-        "start": "Descobrir Minha Idade Emocional"
+    "s3": {
+      "text": "Seu parceiro não respondeu suas mensagens por horas.",
+      "left": "Entrar em espiral de ansiedade e pensar demais",
+      "right": "Confiar e manter a calma"
     },
-    "quiz": {
-        "next": "Próximo",
-        "finish": "Ver Meu Resultado"
+    "s4": {
+      "text": "Você comete um grande erro no trabalho.",
+      "left": "Afundar em autoódio e vergonha",
+      "right": "Praticar autocompaixão e consertar"
     },
-    "scenarios": {
-        "s1": {
-            "text": "Seu amigo cancela planos de última hora.",
-            "left": "Explodir de raiva",
-            "right": "Entender e remarcar com calma"
-        },
-        "s2": {
-            "text": "Alguém critica seu trabalho na frente de outros.",
-            "left": "Ficar na defensiva e discutir",
-            "right": "Estar aberto ao feedback"
-        },
-        "s3": {
-            "text": "Seu parceiro não respondeu suas mensagens por horas.",
-            "left": "Entrar em espiral de ansiedade e pensar demais",
-            "right": "Confiar e manter a calma"
-        },
-        "s4": {
-            "text": "Você comete um grande erro no trabalho.",
-            "left": "Afundar em autoódio e vergonha",
-            "right": "Praticar autocompaixão e consertar"
-        },
-        "s5": {
-            "text": "Alguém fura a fila na sua frente.",
-            "left": "Confrontar agressivamente",
-            "right": "Deixar pra lá, não vale a energia"
-        },
-        "s6": {
-            "text": "Seu ex posta uma foto com alguém novo.",
-            "left": "Obsedar e stalkear o perfil",
-            "right": "Sentir felicidade genuína por eles"
-        },
-        "s7": {
-            "text": "Seu amigo conquista algo que você sempre quis.",
-            "left": "Sentir ciúmes intenso",
-            "right": "Celebrar o sucesso deles de coração"
-        },
-        "s8": {
-            "text": "Alguém interpreta completamente errado suas intenções.",
-            "left": "Ficar frustrado e desistir de explicar",
-            "right": "Esclarecer com paciência e empatia"
-        },
-        "s9": {
-            "text": "Você se sente completamente sobrecarregado por tudo na vida.",
-            "left": "Se fechar e se isolar",
-            "right": "Buscar ajuda e se permitir descansar"
-        },
-        "s10": {
-            "text": "Um estranho é grosseiro com você sem motivo.",
-            "left": "Ser grosseiro de volta",
-            "right": "Sentir empatia — talvez esteja tendo um dia ruim"
-        }
+    "s5": {
+      "text": "Alguém fura a fila na sua frente.",
+      "left": "Confrontar agressivamente",
+      "right": "Deixar pra lá, não vale a energia"
     },
-    "tiers": {
-        "child": {
-            "name": "Criança Emocional",
-            "emoji": "😢",
-            "desc": "Suas emoções estão no volante! Como uma criança, você reage antes de pensar. Os sentimentos chegam fortes e rápidos. A boa notícia? Consciência é o primeiro passo para o crescimento."
-        },
-        "teen": {
-            "name": "Adolescente Emocional",
-            "emoji": "😖",
-            "desc": "Você está aprendendo a gerenciar seus sentimentos, mas ainda é um trabalho em andamento. Às vezes lida bem, outras vezes as emoções levam a melhor."
-        },
-        "young": {
-            "name": "Jovem Adulto Emocional",
-            "emoji": "😊",
-            "desc": "Você está desenvolvendo inteligência emocional real! Geralmente consegue gerenciar seus sentimentos, mostrar empatia e lidar com conflitos com maturidade crescente."
-        },
-        "mature": {
-            "name": "Emocionalmente Maduro",
-            "emoji": "🧘",
-            "desc": "Você alcançou um belo equilíbrio. Compreende suas emoções, estabelece limites saudáveis e aborda a vida com empatia e sabedoria."
-        },
-        "elder": {
-            "name": "Sábio Emocional",
-            "emoji": "🧓",
-            "desc": "Você possui profunda sabedoria emocional. Navega pelas tempestades da vida com graça, dá espaço aos outros sem se perder, e transforma dor em crescimento."
-        }
+    "s6": {
+      "text": "Seu ex posta uma foto com alguém novo.",
+      "left": "Obsedar e stalkear o perfil",
+      "right": "Sentir felicidade genuína por eles"
     },
-    "result": {
-        "title": "Sua Idade Emocional",
-        "yearsOld": "anos",
-        "retake": "Refazer Teste",
-        "spectrumLeft": "Reativo",
-        "spectrumRight": "Sábio",
-        "moreTests": "Explorar mais",
-        "percentileStat": "Apenas <strong>{percent}%</strong> compartilham sua idade emocional"
+    "s7": {
+      "text": "Seu amigo conquista algo que você sempre quis.",
+      "left": "Sentir ciúmes intenso",
+      "right": "Celebrar o sucesso deles de coração"
     },
-    "related": {
-        "mentalAge": "Idade Mental",
-        "eqTest": "Teste de QE",
-        "emotionIceberg": "Iceberg Emocional",
-        "hspTest": "Teste HSP"
+    "s8": {
+      "text": "Alguém interpreta completamente errado suas intenções.",
+      "left": "Ficar frustrado e desistir de explicar",
+      "right": "Esclarecer com paciência e empatia"
     },
-    "share": {
-        "title": "Compartilhe Seu Resultado",
-        "text": "Minha idade emocional é {age} anos! Sou \"{tier}\" 😢 Descubra a sua:",
-        "twitter": "Compartilhar no X",
-        "copyUrl": "Copiar Link",
-        "copied": "Copiado!"
+    "s9": {
+      "text": "Você se sente completamente sobrecarregado por tudo na vida.",
+      "left": "Se fechar e se isolar",
+      "right": "Buscar ajuda e se permitir descansar"
     },
-    "nav": {
-        "back": "DopaBrain Início"
-    },
-    "engage": {
-        "result1": "Emotional Age 15 -- Reactive & Impulsive",
-        "result2": "Emotional Age 30 -- Growing & Learning",
-        "result3": "Emotional Age 55 -- Wise & Balanced",
-        "result4": "Emotional Age 75+ -- Zen Master Level",
-        "socialProof": "1,560+ people discovered their emotional age"
-    },
-    "about": {
-        "toggle": "About the Emotional Age Test",
-        "heading1": "How the Emotional Age Test Works",
-        "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
-        "heading2": "Understanding Emotional Age",
-        "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "s10": {
+      "text": "Um estranho é grosseiro com você sem motivo.",
+      "left": "Ser grosseiro de volta",
+      "right": "Sentir empatia — talvez esteja tendo um dia ruim"
     }
+  },
+  "tiers": {
+    "child": {
+      "name": "Criança Emocional",
+      "emoji": "😢",
+      "desc": "Suas emoções estão no volante! Como uma criança, você reage antes de pensar. Os sentimentos chegam fortes e rápidos. A boa notícia? Consciência é o primeiro passo para o crescimento."
+    },
+    "teen": {
+      "name": "Adolescente Emocional",
+      "emoji": "😖",
+      "desc": "Você está aprendendo a gerenciar seus sentimentos, mas ainda é um trabalho em andamento. Às vezes lida bem, outras vezes as emoções levam a melhor."
+    },
+    "young": {
+      "name": "Jovem Adulto Emocional",
+      "emoji": "😊",
+      "desc": "Você está desenvolvendo inteligência emocional real! Geralmente consegue gerenciar seus sentimentos, mostrar empatia e lidar com conflitos com maturidade crescente."
+    },
+    "mature": {
+      "name": "Emocionalmente Maduro",
+      "emoji": "🧘",
+      "desc": "Você alcançou um belo equilíbrio. Compreende suas emoções, estabelece limites saudáveis e aborda a vida com empatia e sabedoria."
+    },
+    "elder": {
+      "name": "Sábio Emocional",
+      "emoji": "🧓",
+      "desc": "Você possui profunda sabedoria emocional. Navega pelas tempestades da vida com graça, dá espaço aos outros sem se perder, e transforma dor em crescimento."
+    }
+  },
+  "result": {
+    "title": "Sua Idade Emocional",
+    "yearsOld": "anos",
+    "retake": "Refazer Teste",
+    "spectrumLeft": "Reativo",
+    "spectrumRight": "Sábio",
+    "moreTests": "Explorar mais",
+    "percentileStat": "Apenas <strong>{percent}%</strong> compartilham sua idade emocional"
+  },
+  "related": {
+    "mentalAge": "Idade Mental",
+    "eqTest": "Teste de QE",
+    "emotionIceberg": "Iceberg Emocional",
+    "hspTest": "Teste HSP",
+    "soulAge": "Idade da Alma",
+    "stressCheck": "Teste de Estresse",
+    "attachmentStyle": "Estilo de Apego"
+  },
+  "share": {
+    "title": "Compartilhe Seu Resultado",
+    "text": "Minha idade emocional é {age} anos! Sou \"{tier}\" 😢 Descubra a sua:",
+    "twitter": "Compartilhar no X",
+    "copyUrl": "Copiar Link",
+    "copied": "Copiado!"
+  },
+  "nav": {
+    "back": "DopaBrain Início"
+  },
+  "engage": {
+    "result1": "Emotional Age 15 -- Reactive & Impulsive",
+    "result2": "Emotional Age 30 -- Growing & Learning",
+    "result3": "Emotional Age 55 -- Wise & Balanced",
+    "result4": "Emotional Age 75+ -- Zen Master Level",
+    "socialProof": "1,560+ people discovered their emotional age"
+  },
+  "about": {
+    "toggle": "About the Emotional Age Test",
+    "heading1": "How the Emotional Age Test Works",
+    "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
+    "heading2": "Understanding Emotional Age",
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+  }
 }
