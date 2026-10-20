@@ -207,6 +207,9 @@ body::before {
 
 .lang-btn {
   min-height: 44px;
+  min-width: 44px;
+  justify-content: center;
+  box-sizing: border-box;
   padding: 8px 14px;
   border-radius: var(--radius-sm);
   border: 1px solid var(--border);
@@ -1053,9 +1056,13 @@ footer a {
   text-decoration: none;
   font-size: 0.9rem;
   padding: 10px 20px;
+  min-height: 44px;
   border-radius: var(--radius-sm);
   transition: all var(--transition);
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 footer a:hover {
@@ -1134,6 +1141,8 @@ footer a:hover {
   .lang-btn {
     padding: 8px 10px;
     font-size: 0.8rem;
+    min-height: 44px;
+    min-width: 44px;
   }
 
   #currentLang {
