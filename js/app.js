@@ -204,6 +204,17 @@
         }
     }
 
+    // --- Related links update ---
+    function updateRelatedLinks(lang) {
+        var current = lang || (getI18n() ? getI18n().currentLang : 'ko');
+        var safeLang = /^(ko|en|zh|hi|ru|ja|es|pt|id|tr|de|fr)$/.test(current) ? current : 'ko';
+        document.querySelectorAll('.related-grid a').forEach(function(link) {
+            var base = link.getAttribute('data-base-href');
+            if (!base) return;
+            link.href = base + '?lang=' + encodeURIComponent(safeLang) + '&start=1&source=emotional_age_footer';
+        });
+    }
+
     // --- Refresh current view after language change ---
     function refreshCurrentView() {
         if (quizScreen.classList.contains('active')) {
@@ -211,6 +222,7 @@
         } else if (resultScreen.classList.contains('active')) {
             renderResult();
         }
+        updateRelatedLinks();
     }
 
     // --- Start quiz ---
@@ -489,6 +501,7 @@
         initTheme();
         initLangSelector();
         bindEvents();
+        updateRelatedLinks();
 
         var inst = getI18n();
         if (inst && typeof inst.loadTranslations === 'function') {
