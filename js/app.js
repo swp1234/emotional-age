@@ -208,10 +208,36 @@
     function updateRelatedLinks(lang) {
         var current = lang || (getI18n() ? getI18n().currentLang : 'ko');
         var safeLang = /^(ko|en|zh|hi|ru|ja|es|pt|id|tr|de|fr)$/.test(current) ? current : 'ko';
+        try {
+            var currentUrl = new URL(window.location.href);
+            if (currentUrl.searchParams.get('lang') !== safeLang) {
+                currentUrl.searchParams.set('lang', safeLang);
+                window.history.replaceState({}, '', currentUrl.pathname + '?' + currentUrl.searchParams.toString());
+            }
+        } catch (_) {}
         document.querySelectorAll('.related-grid a').forEach(function(link) {
             var base = link.getAttribute('data-base-href');
             if (!base) return;
             link.href = base + '?lang=' + encodeURIComponent(safeLang) + '&start=1&source=emotional_age_footer';
+        });
+        initRelatedTracking();
+    }
+
+    function initRelatedTracking() {
+        document.querySelectorAll('.related-grid a').forEach(function(link) {
+            if (link.dataset.trackedCta) return;
+            link.dataset.trackedCta = 'true';
+            link.addEventListener('click', function() {
+                if (typeof gtag === 'function') {
+                    var text = (link.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 40);
+                    gtag('event', 'content_cta_click', {
+                        link_id: 'emotional_age_related_' + (link.getAttribute('data-base-href') || '').replace(/[^a-zA-Z0-9_-]/g, '_').slice(0, 30),
+                        link_text: text,
+                        target_url: link.href || '',
+                        source_page: 'emotional_age'
+                    });
+                }
+            });
         });
     }
 
