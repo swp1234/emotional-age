@@ -174,6 +174,18 @@
     "heading1": "How the Emotional Age Test Works",
     "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
     "heading2": "Understanding Emotional Age",
-    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way.",
+    "boundary": "Ce test est conçu pour l'introspection et la prise de conscience émotionnelle. Il ne remplace pas une évaluation psychologique clinique.",
+    "faqTitle": "Foire Aux Questions (FAQ)",
+    "faq1Q": "Q: Qu'est-ce que l'âge émotionnel comparé à l'âge biologique ?",
+    "faq1A": "A: L'âge biologique compte les années, tandis que l'âge émotionnel évalue la régulation des impulsions, la maturité affective et la perspective empathique.",
+    "faq2Q": "Q: Comment les curseurs des 10 situations mesurent-ils cette maturité ?",
+    "faq2A": "A: Chaque curseur continu (0-100) permet de nuancer entre impulsion immédiate et recul posé, classant le profil selon 4 paliers d'équilibre.",
+    "faq3Q": "Q: L'âge émotionnel peut-il évoluer avec le temps ?",
+    "faq3A": "A: Absolument. La neuroplasticité cérébrale permet de développer la régulation affective et la résilience à tout moment de la vie.",
+    "faq4Q": "Q: Mes réponses ou mon profil sont-ils stockés ?",
+    "faq4A": "A: Non, jamais. Toutes les données sont calculées localement et restent strictement confidentielles dans votre navigateur.",
+    "reviewDate": "Revue Éditoriale : Novembre 2026",
+    "reviewTeam": "Équipe Psychologie DopaBrain"
   }
 }

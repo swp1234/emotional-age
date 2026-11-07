@@ -174,6 +174,18 @@
     "heading1": "How the Emotional Age Test Works",
     "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
     "heading2": "Understanding Emotional Age",
-    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way.",
+    "boundary": "Этот тест является образовательным инструментом для самопознания и не заменяет клиническую психологическую диагностику.",
+    "faqTitle": "Часто задаваемые вопросы (FAQ)",
+    "faq1Q": "Q: Что такое эмоциональный возраст и чем он отличается от паспортного?",
+    "faq1A": "A: Паспортный возраст считает прожитые годы, а эмоциональный определяет уровень зрелости реакций, контроль импульсов и эмпатию.",
+    "faq2Q": "Q: Как 10 ползунков в сценариях определяют зрелость?",
+    "faq2A": "A: Каждая ситуация предлагает плавный спектр от импульсивной реакции до мудрого осознанного ответа, синтезируя 4 ступени зрелости.",
+    "faq3Q": "Q: Может ли эмоциональный возраст меняться со временем?",
+    "faq3A": "A: Да. Эмоциональная регуляция пластична: практики осознанности и рефлексии развивают эмоциональную зрелость в любом возрасте.",
+    "faq4Q": "Q: Сохраняются ли ответы или результаты теста?",
+    "faq4A": "A: Никогда. Все вычисления производятся исключительно в вашем браузере без отправки на сервер.",
+    "reviewDate": "Редакционная проверка: ноябрь 2026",
+    "reviewTeam": "Команда психологии DopaBrain"
   }
 }

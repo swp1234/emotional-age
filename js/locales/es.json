@@ -135,6 +135,18 @@
     "heading1": "How the Emotional Age Test Works",
     "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
     "heading2": "Understanding Emotional Age",
-    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way.",
+    "boundary": "Esta evaluación es un marco educativo de autorreflexión y no sustituye evaluaciones diagnósticas clínicas o psiquiátricas.",
+    "faqTitle": "Preguntas Frecuentes (FAQ)",
+    "faq1Q": "Q: ¿Qué es la edad emocional y en qué se diferencia de la edad cronológica?",
+    "faq1A": "A: La edad cronológica cuenta los años transcurridos, mientras que la edad emocional refleja la madurez afectiva, la autorregulación de impulsos y la empatía.",
+    "faq2Q": "Q: ¿Cómo miden la madurez los 10 controles deslizantes?",
+    "faq2A": "A: En lugar de opciones rígidas, cada escenario ofrece una escala continua entre la reacción impulsiva y la respuesta reflexiva, agrupando resultados en 4 niveles.",
+    "faq3Q": "Q: ¿Puede cambiar la edad emocional con el tiempo?",
+    "faq3A": "A: Sí. La regulación emocional posee plasticidad neural continua. La atención plena y la reevaluación cognitiva fortalecen la madurez afectiva.",
+    "faq4Q": "Q: ¿Se guardan mis respuestas o resultados?",
+    "faq4A": "A: En absoluto. Todo el procesamiento se realiza 100% de forma local en su navegador.",
+    "reviewDate": "Revisión Editorial: Noviembre 2026",
+    "reviewTeam": "Equipo de Bienestar Psicológico DopaBrain"
   }
 }

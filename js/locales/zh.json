@@ -135,6 +135,18 @@
     "heading1": "How the Emotional Age Test Works",
     "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
     "heading2": "Understanding Emotional Age",
-    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way.",
+    "boundary": "本测试旨在帮助使用者进行情绪觉察与自我反思，不构成临床心理学或精神病学诊断。",
+    "faqTitle": "常见问题解答 (FAQ)",
+    "faq1Q": "Q: 什么是心理/情绪年龄？它与生理年龄有何不同？",
+    "faq1A": "A: 生理年龄代表出生的自然岁数，而情绪年龄体现了个体在面对情绪刺激时的冲动调控、同理心深度及前额叶的情感整合成熟度。",
+    "faq2Q": "Q: 10个场景滑块是如何评估情绪成熟度的？",
+    "faq2A": "A: 区别于死板的单选题，每个场景提供从本能冲动到理智包容的连续滑块（0-100），全方位映射出4个发展维度的情绪成熟区间。",
+    "faq3Q": "Q: 情绪年龄会随着时间和经历发生改变吗？",
+    "faq3A": "A: 当然会。情绪调节能力具有高度神经可塑性，通过正念觉察、认知重构和有效沟通，可以在任何年龄实现情绪维度的成长。",
+    "faq4Q": "Q: 我的滑块选项或测试结果会被记录吗？",
+    "faq4A": "A: 绝不。所有计算均在您的本地浏览器端即时完成，不会收集或上传至任何外部服务器。",
+    "reviewDate": "内容审阅：2026年11月",
+    "reviewTeam": "DopaBrain 心理健康团队"
   }
 }

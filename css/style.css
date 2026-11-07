@@ -1380,3 +1380,13 @@ footer a:hover {
 .about-content { padding: 0 18px 18px; }
 .about-content h2 { font-size: 16px; color: var(--primary); margin: 16px 0 8px; }
 .about-content p { font-size: 14px; color: var(--text-dim); line-height: 1.7; }
+
+/* FAQ & E-E-A-T Guide Enhancements */
+.about-section summary { min-height: 48px; box-sizing: border-box; touch-action: manipulation; }
+.about-note { font-size: 12px; font-style: italic; color: var(--text-dim); border-left: 2px solid var(--primary); padding-left: 10px; margin: 12px 0 16px; line-height: 1.6; }
+.faq-heading { font-size: 16px; color: var(--primary); margin: 20px 0 12px; font-weight: 700; }
+.faq-section { display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px; }
+.about-faq-item { background: rgba(255, 255, 255, 0.03); border: 1px solid var(--border); border-radius: 10px; padding: 12px 14px; }
+.about-faq-q { display: block; font-size: 13px; font-weight: 600; color: var(--text); margin-bottom: 6px; }
+.about-faq-a { font-size: 12px; line-height: 1.6; color: var(--text-dim); margin: 0; }
+.about-review-meta { font-size: 11px; color: var(--text-dim); opacity: 0.8; margin-top: 16px; padding-top: 12px; border-top: 1px solid var(--border); }

@@ -135,6 +135,18 @@
     "heading1": "How the Emotional Age Test Works",
     "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
     "heading2": "Understanding Emotional Age",
-    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way.",
+    "boundary": "Esta avaliação é uma ferramenta educativa de autoconhecimento e não substitui diagnósticos clínicos psicológicos.",
+    "faqTitle": "Perguntas Frequentes (FAQ)",
+    "faq1Q": "Q: O que é idade emocional e como difere da idade cronológica?",
+    "faq1A": "A: A idade cronológica soma os anos de vida, enquanto a idade emocional reflete autocontrole, estabilidade afetiva e capacidade empática.",
+    "faq2Q": "Q: Como os 10 controles deslizantes avaliam a maturidade?",
+    "faq2A": "A: Em vez de respostas fechadas, oferecem um gradiente de 0 a 100 entre impulso imediato e sabedoria reflexiva em 4 níveis de maturidade.",
+    "faq3Q": "Q: A idade emocional pode mudar com o tempo?",
+    "faq3A": "A: Sim. A autorregulação emocional tem plasticidade neural e pode ser aperfeiçoada com mindfulness e prática de autorreflexão.",
+    "faq4Q": "Q: As minhas respostas ou resultados são enviados a servidores?",
+    "faq4A": "A: Nunca. Todo o cálculo é realizado localmente no seu dispositivo através do navegador.",
+    "reviewDate": "Revisão Editorial: Novembro 2026",
+    "reviewTeam": "Equipe de Psicologia DopaBrain"
   }
 }

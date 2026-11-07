@@ -135,6 +135,18 @@
     "heading1": "How the Emotional Age Test Works",
     "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
     "heading2": "Understanding Emotional Age",
-    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way.",
+    "boundary": "このテストは感情のセルフチェックと自己理解を深めるための教育ツールであり、精神科的な診断に代わるものではありません。",
+    "faqTitle": "よくある質問 (FAQ)",
+    "faq1Q": "Q: 精神的・感情的年齢とは何ですか？実際の年齢とどう違いますか？",
+    "faq1A": "A: 実年齢が経過年数を表すのに対し、感情年齢はストレスや衝動に対する自己統制力、共感性、前頭葉の実行機能の成熟度を反映します。",
+    "faq2Q": "Q: 10問のスライダーはどのように感情の成熟度を判定しますか？",
+    "faq2A": "A: 単純な選択式ではなく、衝動的反応から思慮深い対応までの連続スライダー（0〜100）を採用し、4段階の成熟段階として多角的に評価します。",
+    "faq3Q": "Q: 感情年齢は時間や経験によって変化しますか？",
+    "faq3A": "A: はい、変化します。脳の神経可塑性により、マインドフルネスや感情のラベリングを実践することで感情的成熟度を高めることが可能です。",
+    "faq4Q": "Q: スライダーの回答や結果が保存されることはありますか？",
+    "faq4A": "A: 一切ありません。すべての計算はお使いのブラウザ内でローカルに実行され、外部サーバーに送信されることはありません。",
+    "reviewDate": "コンテンツ監修：2026年11月",
+    "reviewTeam": "DopaBrain 心理ウェルネスチーム"
   }
 }

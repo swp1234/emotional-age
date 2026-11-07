@@ -174,6 +174,18 @@
     "heading1": "How the Emotional Age Test Works",
     "text1": "The Emotional Age Test presents 10 real-life emotional scenarios. For each situation, you drag a slider between two opposite reactions, from impulsive to wise. Your position on each slider reveals your emotional maturity level.",
     "heading2": "Understanding Emotional Age",
-    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way."
+    "text2": "Emotional age differs from chronological age. Some young people display remarkable emotional wisdom, while some adults remain emotionally reactive. This test helps you reflect on your emotional responses in a fun, non-judgmental way.",
+    "boundary": "Bu değerlendirme öz farkındalık ve duygusal denge amaçlı bir eğitim aracıdır, tıbbi tanı yerine geçmez.",
+    "faqTitle": "Sıkça Sorulan Sorular (SSS)",
+    "faq1Q": "Q: Duygusal yaş nedir ve kronolojik yaştan nasıl ayrılır?",
+    "faq1A": "A: Kronolojik yaş doğum yılına dayanır; duygusal yaş ise dürtü kontrolü, duygu düzenleme ve empati olgunluğunu ifade eder.",
+    "faq2Q": "Q: 10 senaryo kaydırıcısı olgunluğu nasıl ölçer?",
+    "faq2A": "A: Katı seçenekler yerine dürtüsel tepki ile sağduyulu yanıt arasında kesintisiz bir skala (0-100) sunarak 4 olgunluk seviyesi belirler.",
+    "faq3Q": "Q: Duygusal yaş zamanla gelişebilir mi?",
+    "faq3A": "A: Evet. Nöroplastisite sayesinde farkındalık ve duygu yönetimi pratikleriyle duygusal olgunluk her yaşta geliştirilebilir.",
+    "faq4Q": "Q: Yanıtlarım veya sonuçlarım sunucuya iletiliyor mu?",
+    "faq4A": "A: Kesinlikle hayır. Tüm hesaplamalar tarayıcınızda yerel olarak gerçekleşir.",
+    "reviewDate": "Editöryal İnceleme: Kasım 2026",
+    "reviewTeam": "DopaBrain Psikoloji Ekibi"
   }
 }
