@@ -132,8 +132,7 @@
     "title": "Usia Emosionalmu",
     "yearsOld": "tahun",
     "retake": "Ulangi Tes",
-    "moreTests": "Jelajahi lagi",
-    "percentileStat": "Hanya <strong>{percent}%</strong> memiliki usia emosional yang sama"
+    "moreTests": "Jelajahi lagi"
   },
   "related": {
     "mentalAge": "Usia Mental",
@@ -157,7 +156,8 @@
     "text": "Usia emosionalku {age} tahun! Aku \"{tier}\" 😢 Cek punyamu:",
     "twitter": "Bagikan di X",
     "copyUrl": "Salin Link",
-    "copied": "Disalin!"
+    "copied": "Disalin!",
+    "downloadCard": "Simpan Kartu"
   },
   "nav": {
     "back": "DopaBrain Beranda"
@@ -166,8 +166,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -187,5 +186,15 @@
     "faq4A": "A: Tidak pernah. Semua penghitungan berlangsung lokal di peramban Anda tanpa pengiriman data keluar.",
     "reviewDate": "Tinjauan Redaksi: November 2026",
     "reviewTeam": "Tim Psikologi DopaBrain"
+  },
+  "curated": {
+    "badge": "BACAAN KEMATANGAN EMOSIONAL",
+    "title": "Bangun Regulasi Emosi Lebih Dalam",
+    "book1Title": "Emotional Intelligence",
+    "book1Desc": "Daniel Goleman • Sains dasar tentang kesadaran diri dan kontrol impuls.",
+    "book2Title": "Atlas of the Heart",
+    "book2Desc": "Brené Brown • Bahasa praktis untuk memahami emosi yang kompleks.",
+    "readPill": "Lihat Buku ↗",
+    "disclosure": "Bacaan pilihan literasi emosi. Tautan menyesuaikan wilayah (dopabrain-20)."
   }
 }

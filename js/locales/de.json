@@ -132,8 +132,7 @@
     "title": "Dein emotionales Alter",
     "yearsOld": "Jahre alt",
     "retake": "Erneut testen",
-    "moreTests": "Mehr entdecken",
-    "percentileStat": "Nur <strong>{percent}%</strong> teilen dein emotionales Alter"
+    "moreTests": "Mehr entdecken"
   },
   "related": {
     "mentalAge": "Mentales Alter",
@@ -157,7 +156,8 @@
     "text": "Mein emotionales Alter ist {age} Jahre! Ich bin \"{tier}\" 😢 Finde deins heraus:",
     "twitter": "Auf X teilen",
     "copyUrl": "Link kopieren",
-    "copied": "Kopiert!"
+    "copied": "Kopiert!",
+    "downloadCard": "Karte speichern"
   },
   "nav": {
     "back": "DopaBrain Startseite"
@@ -166,8 +166,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -187,5 +186,15 @@
     "faq4A": "A: Niemals. Sämtliche Auswertungen finden vollständig lokal in Ihrem Browser statt.",
     "reviewDate": "Redaktionelle Prüfung: November 2026",
     "reviewTeam": "DopaBrain Psychologie-Team"
+  },
+  "curated": {
+    "badge": "LEKTÜRE FÜR EMOTIONALE REIFE",
+    "title": "Emotionsregulation gezielt vertiefen",
+    "book1Title": "Emotionale Intelligenz",
+    "book1Desc": "Daniel Goleman • Grundlagenwerk über Selbstwahrnehmung und Impulskontrolle.",
+    "book2Title": "Atlas des Herzens (Atlas of the Heart)",
+    "book2Desc": "Brené Brown • Präzise Sprache für komplexe Gefühle und Grenzen.",
+    "readPill": "Buch ansehen ↗",
+    "disclosure": "Kuratierte Lektüre zur Emotionskompetenz. Regionale Links (dopabrain-20)."
   }
 }

@@ -101,8 +101,7 @@
     "retake": "Repetir Test",
     "spectrumLeft": "Reactivo",
     "spectrumRight": "Sabio",
-    "moreTests": "Explorar más",
-    "percentileStat": "Solo el <strong>{percent}%</strong> comparten tu edad emocional"
+    "moreTests": "Explorar más"
   },
   "related": {
     "mentalAge": "Edad Mental",
@@ -118,7 +117,8 @@
     "text": "¡Mi edad emocional es {age} años! Soy \"{tier}\" 😢 Descubre la tuya:",
     "twitter": "Compartir en X",
     "copyUrl": "Copiar Enlace",
-    "copied": "¡Copiado!"
+    "copied": "¡Copiado!",
+    "downloadCard": "Guardar tarjeta"
   },
   "nav": {
     "back": "DopaBrain Inicio"
@@ -127,8 +127,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -148,5 +147,15 @@
     "faq4A": "A: En absoluto. Todo el procesamiento se realiza 100% de forma local en su navegador.",
     "reviewDate": "Revisión Editorial: Noviembre 2026",
     "reviewTeam": "Equipo de Bienestar Psicológico DopaBrain"
+  },
+  "curated": {
+    "badge": "LECTURA SOBRE MADUREZ EMOCIONAL",
+    "title": "Fortalece tu regulación emocional",
+    "book1Title": "Inteligencia Emocional",
+    "book1Desc": "Daniel Goleman • Ciencia clave sobre autoconciencia y control de impulsos.",
+    "book2Title": "Atlas del Corazón (Atlas of the Heart)",
+    "book2Desc": "Brené Brown • Lenguaje práctico para navegar emociones complejas.",
+    "readPill": "Ver libro ↗",
+    "disclosure": "Lecturas curadas de educación emocional. Enlaces adaptados por región (dopabrain-20)."
   }
 }

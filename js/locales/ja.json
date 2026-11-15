@@ -101,8 +101,7 @@
     "retake": "もう一度",
     "spectrumLeft": "反応的",
     "spectrumRight": "賢明",
-    "moreTests": "もっと見る",
-    "percentileStat": "参加者の<strong>{percent}%</strong>だけがあなたと同じ感情年齢です"
+    "moreTests": "もっと見る"
   },
   "related": {
     "mentalAge": "精神年齢",
@@ -118,7 +117,8 @@
     "text": "私の感情年齢は{age}歳！「{tier}」😢 あなたも試して：",
     "twitter": "Xでシェア",
     "copyUrl": "リンクをコピー",
-    "copied": "コピーしました！"
+    "copied": "コピーしました！",
+    "downloadCard": "カードを保存"
   },
   "nav": {
     "back": "DopaBrain ホーム"
@@ -127,8 +127,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -148,5 +147,15 @@
     "faq4A": "A: 一切ありません。すべての計算はお使いのブラウザ内でローカルに実行され、外部サーバーに送信されることはありません。",
     "reviewDate": "コンテンツ監修：2026年11月",
     "reviewTeam": "DopaBrain 心理ウェルネスチーム"
+  },
+  "curated": {
+    "badge": "感情知性・成熟度読書ガイド",
+    "title": "感情コントロールと自己理解を深める",
+    "book1Title": "EQ こころの知能指数",
+    "book1Desc": "ダニエル・ゴールマン • 自己認識と衝動制御の科学的ベストセラー。",
+    "book2Title": "Atlas of the Heart (ハートの地図)",
+    "book2Desc": "ブレネー・ブラウン • 複雑な感情を言葉にし整理する実践ガイド。",
+    "readPill": "書籍を見る ↗",
+    "disclosure": "感情理解のための厳選ブックガイド。地域別リンク対応 (dopabrain-20)。"
   }
 }

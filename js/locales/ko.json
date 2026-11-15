@@ -101,8 +101,7 @@
     "retake": "다시 하기",
     "spectrumLeft": "반응적",
     "spectrumRight": "지혜로운",
-    "moreTests": "더 많은 테스트",
-    "percentileStat": "참가자의 <strong>{percent}%</strong>만이 당신과 같은 감정 연령입니다"
+    "moreTests": "더 많은 테스트"
   },
   "related": {
     "mentalAge": "정신 연령",
@@ -118,7 +117,8 @@
     "text": "내 감정 나이는 {age}세! 나는 \"{tier}\" 😢 너도 해봐:",
     "twitter": "X에 공유",
     "copyUrl": "링크 복사",
-    "copied": "복사됨!"
+    "copied": "복사됨!",
+    "downloadCard": "카드 저장"
   },
   "nav": {
     "back": "DopaBrain 홈"
@@ -127,8 +127,7 @@
     "result1": "감정 나이 15세 -- 충동적 & 반응적",
     "result2": "감정 나이 30세 -- 성장 & 학습 중",
     "result3": "감정 나이 55세 -- 지혜롭고 균형 잡힌",
-    "result4": "감정 나이 75+세 -- 선 마스터 레벨",
-    "socialProof": "1,560+명이 감정 나이를 발견했어요"
+    "result4": "감정 나이 75+세 -- 선 마스터 레벨"
   },
   "about": {
     "toggle": "감정 나이 테스트 알아보기",
@@ -148,5 +147,15 @@
     "faq4A": "A: 절대 저장되지 않습니다. 모든 슬라이더 위치와 점수 연산은 사용자 브라우저 내부에서만 즉시 처리되며 외부로 유출되지 않습니다.",
     "reviewDate": "콘텐츠 검수: 2026년 11월",
     "reviewTeam": "DopaBrain 심리웰빙 연구팀"
+  },
+  "curated": {
+    "badge": "감정 지능 & 성숙도 추천 도서",
+    "title": "감정 조절과 마음의 성숙도 깊이 키우기",
+    "book1Title": "EQ 감성지능 (Emotional Intelligence)",
+    "book1Desc": "다니엘 골먼 • 자기 인식과 감정 조절의 과학적 원리를 다룬 고전.",
+    "book2Title": "마음의 지도 (Atlas of the Heart)",
+    "book2Desc": "브레네 브라운 • 87가지 감정을 정확히 구분하고 건강하게 표현하는 법.",
+    "readPill": "도서 보기 ↗",
+    "disclosure": "감정 이해를 돕기 위한 큐레이션 도서입니다. 지역별 서점 링크가 연결됩니다 (dopabrain-20)."
   }
 }

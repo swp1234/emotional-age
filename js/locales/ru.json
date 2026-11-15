@@ -132,8 +132,7 @@
     "title": "Твой эмоциональный возраст",
     "yearsOld": "лет",
     "retake": "Пройти снова",
-    "moreTests": "Ещё тесты",
-    "percentileStat": "Только <strong>{percent}%</strong> имеют такой же эмоциональный возраст"
+    "moreTests": "Ещё тесты"
   },
   "related": {
     "mentalAge": "Ментальный возраст",
@@ -157,7 +156,8 @@
     "text": "Мой эмоциональный возраст — {age} лет! Я «{tier}» 😢 Узнай свой:",
     "twitter": "Поделиться в X",
     "copyUrl": "Копировать ссылку",
-    "copied": "Скопировано!"
+    "copied": "Скопировано!",
+    "downloadCard": "Сохранить карту"
   },
   "nav": {
     "back": "DopaBrain Главная"
@@ -166,8 +166,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -187,5 +186,15 @@
     "faq4A": "A: Никогда. Все вычисления производятся исключительно в вашем браузере без отправки на сервер.",
     "reviewDate": "Редакционная проверка: ноябрь 2026",
     "reviewTeam": "Команда психологии DopaBrain"
+  },
+  "curated": {
+    "badge": "ЧТЕНИЕ ОБ ЭМОЦИОНАЛЬНОЙ ЗРЕЛОСТИ",
+    "title": "Развивайте эмоциональную регуляцию",
+    "book1Title": "Эмоциональный интеллект",
+    "book1Desc": "Дэниел Гоулман • Классика науки о самосознании и управлении импульсами.",
+    "book2Title": "Атлас сердца (Atlas of the Heart)",
+    "book2Desc": "Брене Браун • Ясный язык для понимания сложных чувств и границ.",
+    "readPill": "Открыть книгу ↗",
+    "disclosure": "Подборка книг об эмоциях. Ссылки адаптируются по региону (dopabrain-20)."
   }
 }

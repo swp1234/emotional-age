@@ -101,8 +101,7 @@
     "retake": "Retake Test",
     "spectrumLeft": "Reactive",
     "spectrumRight": "Wise",
-    "moreTests": "Explore More",
-    "percentileStat": "Only <strong>{percent}%</strong> share your emotional age"
+    "moreTests": "Explore More"
   },
   "related": {
     "mentalAge": "Mental Age",
@@ -118,7 +117,8 @@
     "text": "My emotional age is {age}! I'm \"{tier}\" 😢 Check yours:",
     "twitter": "Share on X",
     "copyUrl": "Copy Link",
-    "copied": "Copied!"
+    "copied": "Copied!",
+    "downloadCard": "Save Story Card"
   },
   "nav": {
     "back": "DopaBrain Home"
@@ -127,8 +127,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -148,5 +147,15 @@
     "faq4A": "A: Never. All calculations are executed 100% locally on your device within your browser. No scenario slider positions or scores are logged or sent to external servers.",
     "reviewDate": "Editorial Review: November 2026",
     "reviewTeam": "DopaBrain Psychology & Wellness Team"
+  },
+  "curated": {
+    "badge": "EMOTIONAL MATURITY READING",
+    "title": "Build Deeper Emotional Regulation",
+    "book1Title": "Emotional Intelligence",
+    "book1Desc": "Daniel Goleman • Foundational science on self-awareness and impulse regulation.",
+    "book2Title": "Atlas of the Heart",
+    "book2Desc": "Brené Brown • Practical language for navigating complex feelings cleanly.",
+    "readPill": "View Book ↗",
+    "disclosure": "Curated emotional literacy reading. Links adapt by region (dopabrain-20)."
   }
 }

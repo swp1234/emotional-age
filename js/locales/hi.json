@@ -101,8 +101,7 @@
     "retake": "दोबारा करें",
     "spectrumLeft": "प्रतिक्रियाशील",
     "spectrumRight": "बुद्धिमान",
-    "moreTests": "और जानें",
-    "percentileStat": "केवल <strong>{percent}%</strong> का आपके जैसी भावनात्मक उम्र है"
+    "moreTests": "और जानें"
   },
   "related": {
     "mentalAge": "मानसिक उम्र",
@@ -118,7 +117,8 @@
     "text": "मेरी भावनात्मक उम्र {age} साल है! मैं \"{tier}\" हूं 😢 आप भी जानें:",
     "twitter": "X पर शेयर करें",
     "copyUrl": "लिंक कॉपी करें",
-    "copied": "कॉपी हो गया!"
+    "copied": "कॉपी हो गया!",
+    "downloadCard": "कार्ड सहेजें"
   },
   "nav": {
     "back": "DopaBrain होम"
@@ -127,8 +127,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -148,5 +147,15 @@
     "faq4A": "A: कभी नहीं। सभी गणनाएँ आपके ब्राउज़र में पूरी तरह से स्थानीय रूप से निष्पादित होती हैं।",
     "reviewDate": "संपादकीय समीक्षा: नवंबर 2026",
     "reviewTeam": "डोपाब्रेन मनोविज्ञान टीम"
+  },
+  "curated": {
+    "badge": "भावनात्मक परिपक्वता पठन",
+    "title": "गहरी भावनात्मक समझ विकसित करें",
+    "book1Title": "Emotional Intelligence",
+    "book1Desc": "डैनियल गोलमैन • आत्म-जागरूकता और आवेग नियंत्रण का आधारभूत विज्ञान।",
+    "book2Title": "Atlas of the Heart",
+    "book2Desc": "ब्रेने ब्राउन • जटिल भावनाओं को स्पष्टता से समझने की व्यावहारिक भाषा।",
+    "readPill": "पुस्तक देखें ↗",
+    "disclosure": "भावनात्मक साक्षरता के लिए चयनित पुस्तकें। लिंक क्षेत्र के अनुसार बदलते हैं (dopabrain-20)।"
   }
 }

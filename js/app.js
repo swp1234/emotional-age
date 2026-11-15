@@ -92,6 +92,7 @@
     var tierDesc = $('tierDesc');
     var spectrumMarker = $('spectrumMarker');
     var retakeBtn = $('retakeBtn');
+    var downloadCardBtn = $('downloadCard');
     var shareTwitterBtn = $('shareTwitter');
     var shareCopyBtn = $('shareCopy');
     var themeToggle = $('themeToggle');
@@ -241,6 +242,62 @@
         });
     }
 
+    function getShareUrl() {
+        var lang = getI18n() ? getI18n().currentLang : 'ko';
+        var safeLang = /^(ko|en|zh|hi|ru|ja|es|pt|id|tr|de|fr)$/.test(lang) ? lang : 'en';
+        return 'https://dopabrain.com/emotional-age/?lang=' + encodeURIComponent(safeLang) + '&utm_source=share&utm_medium=result_card';
+    }
+
+    function updateCuratedResources(lang) {
+        var resolvedLang = lang || (getI18n() ? getI18n().currentLang : 'en');
+        var asins = {
+            emotionalIntelligence: '055338371X',
+            atlasOfTheHeart: '0399592555'
+        };
+        var koQueries = {
+            emotionalIntelligence: 'EQ 감성지능 다니엘 골먼',
+            atlasOfTheHeart: '마음의 지도 브레네 브라운'
+        };
+        var amazonDomains = {
+            en: { domain: 'amazon.com', tag: 'dopabrain-20' },
+            de: { domain: 'amazon.de', tag: '' },
+            fr: { domain: 'amazon.fr', tag: '' },
+            es: { domain: 'amazon.es', tag: '' },
+            pt: { domain: 'amazon.com', tag: 'dopabrain-20' },
+            ja: { domain: 'amazon.co.jp', tag: '' }
+        };
+        document.querySelectorAll('#curated-resources-card .curated-item').forEach(function(item) {
+            var key = item.dataset.curatedKey;
+            var asin = asins[key];
+            if (!asin) return;
+            if (resolvedLang === 'ko') {
+                item.href = 'https://search.kyobobook.co.kr/search?keyword=' + encodeURIComponent(koQueries[key] || key);
+            } else {
+                var market = amazonDomains[resolvedLang] || amazonDomains.en;
+                item.href = 'https://www.' + market.domain + '/dp/' + asin + (market.tag ? ('?tag=' + market.tag) : '');
+            }
+            if (!item.dataset.curatedTracked) {
+                item.dataset.curatedTracked = 'true';
+                item.addEventListener('click', function() {
+                    if (typeof gtag === 'function') {
+                        var activeLang = getI18n() ? getI18n().currentLang : resolvedLang;
+                        gtag('event', 'curated_resource_click', {
+                            app_name: 'emotional-age',
+                            resource_key: key,
+                            content_locale: activeLang,
+                            cta_surface: 'curated_resources'
+                        });
+                        gtag('event', 'content_cta_click', {
+                            cta_type: 'curated_book',
+                            destination: item.href,
+                            source: 'emotional_age'
+                        });
+                    }
+                });
+            }
+        });
+    }
+
     // --- Refresh current view after language change ---
     function refreshCurrentView() {
         if (quizScreen.classList.contains('active')) {
@@ -248,7 +305,9 @@
         } else if (resultScreen.classList.contains('active')) {
             renderResult();
         }
-        updateRelatedLinks();
+        var current = getI18n() ? getI18n().currentLang : 'en';
+        updateCuratedResources(current);
+        updateRelatedLinks(current);
     }
 
     // --- Start quiz ---
@@ -261,6 +320,7 @@
 
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_start', { event_category: 'emotional-age' });
+            gtag('event', 'test_start', { app_name: 'emotional-age', content_type: 'emotional_maturity' });
         }
     }
 
@@ -400,8 +460,101 @@
         if (typeof gtag === 'function') {
             gtag('event', 'quiz_complete', {
                 event_category: 'emotional-age',
-                event_label: tier.key,
-                value: emotionalAge
+                event_label: tier.key
+            });
+            gtag('event', 'test_complete', {
+                app_name: 'emotional-age',
+                result_type: tier.key
+            });
+        }
+        updateCuratedResources(getI18n() ? getI18n().currentLang : 'en');
+    }
+
+    function downloadStoryCard() {
+        var maturityScore = getMaturityScore();
+        var tier = getTier(maturityScore);
+        var emotionalAge = calculateAge(maturityScore);
+        var tierLabel = t('tiers.' + tier.key + '.name', tier.key);
+        var tierText = t('tiers.' + tier.key + '.desc', '');
+
+        var canvas = document.createElement('canvas');
+        canvas.width = 1080;
+        canvas.height = 1920;
+        var ctx = canvas.getContext('2d');
+
+        var bgGrad = ctx.createLinearGradient(0, 0, 1080, 1920);
+        bgGrad.addColorStop(0, '#0f172a');
+        bgGrad.addColorStop(0.55, '#1e293b');
+        bgGrad.addColorStop(1, '#312e81');
+        ctx.fillStyle = bgGrad;
+        ctx.fillRect(0, 0, 1080, 1920);
+
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.06)';
+        ctx.beginPath();
+        ctx.arc(540, 610, 290, 0, Math.PI * 2);
+        ctx.fill();
+
+        ctx.textAlign = 'center';
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.72)';
+        ctx.font = 'bold 34px Arial';
+        ctx.fillText('DOPABRAIN · EMOTIONAL AGE', 540, 170);
+
+        ctx.font = '180px Arial';
+        ctx.fillText(tier.emoji, 540, 560);
+
+        ctx.fillStyle = tier.color || '#f59e0b';
+        ctx.font = 'bold 148px Arial';
+        ctx.fillText(String(emotionalAge), 540, 770);
+
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+        ctx.font = 'bold 38px Arial';
+        ctx.fillText(t('result.yearsOld', 'years old'), 540, 835);
+
+        ctx.fillStyle = '#ffffff';
+        ctx.font = 'bold 62px Arial';
+        ctx.fillText(tierLabel, 540, 960);
+
+        // Spectrum bar
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.14)';
+        ctx.fillRect(140, 1060, 800, 26);
+        var gradBar = ctx.createLinearGradient(140, 0, 940, 0);
+        gradBar.addColorStop(0, '#ef4444');
+        gradBar.addColorStop(0.5, '#3b82f6');
+        gradBar.addColorStop(1, '#a855f7');
+        ctx.fillStyle = gradBar;
+        ctx.fillRect(140, 1060, Math.max(40, (maturityScore / 100) * 800), 26);
+
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.85)';
+        ctx.font = '32px Arial';
+        var words = String(tierText || '').split(' ');
+        var line = '';
+        var y = 1190;
+        for (var i = 0; i < words.length; i++) {
+            var testLine = line + words[i] + ' ';
+            if (ctx.measureText(testLine).width > 840) {
+                ctx.fillText(line.trim(), 540, y);
+                line = words[i] + ' ';
+                y += 48;
+            } else {
+                line = testLine;
+            }
+        }
+        if (line.trim()) ctx.fillText(line.trim(), 540, y);
+
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.55)';
+        ctx.font = 'bold 28px Arial';
+        ctx.fillText('dopabrain.com/emotional-age/', 540, 1810);
+
+        var a = document.createElement('a');
+        a.href = canvas.toDataURL('image/png');
+        a.download = 'emotional-age-' + tier.key + '-story.png';
+        a.click();
+
+        if (typeof gtag === 'function') {
+            gtag('event', 'save_image', {
+                app_name: 'emotional-age',
+                result_type: tier.key,
+                save_surface: 'result_story_1080x1920'
             });
         }
     }
@@ -437,7 +590,7 @@
             age: emotionalAge,
             tier: tierLabel
         });
-        var url = 'https://dopabrain.com/emotional-age/';
+        var url = getShareUrl();
         window.open(
             'https://twitter.com/intent/tweet?text=' + encodeURIComponent(text) + '&url=' + encodeURIComponent(url),
             '_blank',
@@ -450,7 +603,7 @@
 
     // --- Share: Copy URL ---
     function copyUrl() {
-        var url = 'https://dopabrain.com/emotional-age/';
+        var url = getShareUrl();
         if (navigator.clipboard && navigator.clipboard.writeText) {
             navigator.clipboard.writeText(url).then(function() {
                 showCopiedFeedback();
@@ -520,6 +673,10 @@
         if (shareCopyBtn) {
             shareCopyBtn.addEventListener('click', copyUrl);
         }
+
+        if (downloadCardBtn) {
+            downloadCardBtn.addEventListener('click', downloadStoryCard);
+        }
     }
 
     // --- Init ---
@@ -528,6 +685,7 @@
         initLangSelector();
         bindEvents();
         updateRelatedLinks();
+        updateCuratedResources(getI18n() ? getI18n().currentLang : 'en');
 
         var inst = getI18n();
         if (inst && typeof inst.loadTranslations === 'function') {

@@ -132,8 +132,7 @@
     "title": "Duygusal Yasin",
     "yearsOld": "yas",
     "retake": "Tekrar Yap",
-    "moreTests": "Daha fazla keşfet",
-    "percentileStat": "Sadece <strong>{percent}%</strong>'i senin duygusal yaşına sahip"
+    "moreTests": "Daha fazla keşfet"
   },
   "related": {
     "mentalAge": "Zihinsel Yaş",
@@ -157,7 +156,8 @@
     "text": "Duygusal yasim {age}! Ben \"{tier}\" 😢 Seninkini ogren:",
     "twitter": "X'te Paylas",
     "copyUrl": "Linki Kopyala",
-    "copied": "Kopyalandi!"
+    "copied": "Kopyalandi!",
+    "downloadCard": "Kartı Kaydet"
   },
   "nav": {
     "back": "DopaBrain Ana Sayfa"
@@ -166,8 +166,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -187,5 +186,15 @@
     "faq4A": "A: Kesinlikle hayır. Tüm hesaplamalar tarayıcınızda yerel olarak gerçekleşir.",
     "reviewDate": "Editöryal İnceleme: Kasım 2026",
     "reviewTeam": "DopaBrain Psikoloji Ekibi"
+  },
+  "curated": {
+    "badge": "DUYGUSAL OLGUNLUK OKUMALARI",
+    "title": "Duygusal Düzenleme Becerini Güçlendir",
+    "book1Title": "Duygusal Zeka (Emotional Intelligence)",
+    "book1Desc": "Daniel Goleman • Öz-farkındalık ve dürtü kontrolü üzerine temel çalışma.",
+    "book2Title": "Kalbin Atlası (Atlas of the Heart)",
+    "book2Desc": "Brené Brown • Karmaşık duyguları net biçimde anlama rehberi.",
+    "readPill": "Kitabı Gör ↗",
+    "disclosure": "Seçilmiş duygusal okuryazarlık kitapları. Bölgesel bağlantılar (dopabrain-20)."
   }
 }

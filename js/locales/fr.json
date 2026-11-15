@@ -132,8 +132,7 @@
     "title": "Votre Age Emotionnel",
     "yearsOld": "ans",
     "retake": "Refaire le Test",
-    "moreTests": "Explorer plus",
-    "percentileStat": "Seulement <strong>{percent}%</strong> partagent votre âge émotionnel"
+    "moreTests": "Explorer plus"
   },
   "related": {
     "mentalAge": "Âge Mental",
@@ -157,7 +156,8 @@
     "text": "Mon age emotionnel est de {age} ans ! Je suis \"{tier}\" 😢 Decouvre le tien :",
     "twitter": "Partager sur X",
     "copyUrl": "Copier le Lien",
-    "copied": "Copie !"
+    "copied": "Copie !",
+    "downloadCard": "Enregistrer carte"
   },
   "nav": {
     "back": "DopaBrain Accueil"
@@ -166,8 +166,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -187,5 +186,15 @@
     "faq4A": "A: Non, jamais. Toutes les données sont calculées localement et restent strictement confidentielles dans votre navigateur.",
     "reviewDate": "Revue Éditoriale : Novembre 2026",
     "reviewTeam": "Équipe Psychologie DopaBrain"
+  },
+  "curated": {
+    "badge": "LECTURES MATURITÉ ÉMOTIONNELLE",
+    "title": "Renforcer votre régulation émotionnelle",
+    "book1Title": "L’Intelligence émotionnelle",
+    "book1Desc": "Daniel Goleman • Science clé sur la conscience de soi et la maîtrise de soi.",
+    "book2Title": "L’Atlas du cœur (Atlas of the Heart)",
+    "book2Desc": "Brené Brown • Des mots précis pour naviguer les émotions complexes.",
+    "readPill": "Voir le livre ↗",
+    "disclosure": "Lectures choisies sur l’intelligence émotionnelle. Liens par région (dopabrain-20)."
   }
 }

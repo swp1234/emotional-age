@@ -101,8 +101,7 @@
     "retake": "重新测试",
     "spectrumLeft": "反应式",
     "spectrumRight": "智慧",
-    "moreTests": "探索更多",
-    "percentileStat": "仅 <strong>{percent}%</strong> 拥有与你相同的情感年龄"
+    "moreTests": "探索更多"
   },
   "related": {
     "mentalAge": "心理年龄",
@@ -118,7 +117,8 @@
     "text": "我的情感年龄是{age}岁！我是「{tier}」😢 你也来试试：",
     "twitter": "分享到X",
     "copyUrl": "复制链接",
-    "copied": "已复制！"
+    "copied": "已复制！",
+    "downloadCard": "保存结果卡"
   },
   "nav": {
     "back": "DopaBrain 首页"
@@ -127,8 +127,7 @@
     "result1": "Emotional Age 15 -- Reactive & Impulsive",
     "result2": "Emotional Age 30 -- Growing & Learning",
     "result3": "Emotional Age 55 -- Wise & Balanced",
-    "result4": "Emotional Age 75+ -- Zen Master Level",
-    "socialProof": "1,560+ people discovered their emotional age"
+    "result4": "Emotional Age 75+ -- Zen Master Level"
   },
   "about": {
     "toggle": "About the Emotional Age Test",
@@ -148,5 +147,15 @@
     "faq4A": "A: 绝不。所有计算均在您的本地浏览器端即时完成，不会收集或上传至任何外部服务器。",
     "reviewDate": "内容审阅：2026年11月",
     "reviewTeam": "DopaBrain 心理健康团队"
+  },
+  "curated": {
+    "badge": "情绪成熟度阅读推荐",
+    "title": "深化情绪调节与共情能力",
+    "book1Title": "情商 (Emotional Intelligence)",
+    "book1Desc": "丹尼尔·戈尔曼 • 自我觉察与冲动调节的经典心理学指南。",
+    "book2Title": "心灵地图 (Atlas of the Heart)",
+    "book2Desc": "布琳·布朗 • 用清晰语言理解复杂情绪与边界。",
+    "readPill": "查看书籍 ↗",
+    "disclosure": "精选情绪成长延伸阅读。链接按地区自动适配 (dopabrain-20)。"
   }
 }
