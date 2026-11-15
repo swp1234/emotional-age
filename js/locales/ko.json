@@ -110,7 +110,8 @@
     "hspTest": "HSP 테스트",
     "soulAge": "영혼 나이 테스트",
     "stressCheck": "스트레스 체크",
-    "attachmentStyle": "애착 유형 테스트"
+    "attachmentStyle": "애착 유형 테스트",
+    "futureSelf": "미래의 나"
   },
   "share": {
     "title": "결과 공유하기",

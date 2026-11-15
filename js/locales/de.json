@@ -13,7 +13,8 @@
     "start": "Mein emotionales Alter entdecken"
   },
   "quiz": {
-    "progress": "{current} / {total}"
+    "progress": "{current} / {total}",
+    "next": "Weiter"
   },
   "questions": {
     "q1": {
@@ -132,7 +133,9 @@
     "title": "Dein emotionales Alter",
     "yearsOld": "Jahre alt",
     "retake": "Erneut testen",
-    "moreTests": "Mehr entdecken"
+    "moreTests": "Mehr entdecken",
+    "spectrumLeft": "Reaktiv",
+    "spectrumRight": "Weise"
   },
   "related": {
     "mentalAge": "Mentales Alter",
@@ -141,7 +144,8 @@
     "hspTest": "HSP-Test",
     "soulAge": "Seelenalter-Test",
     "stressCheck": "Stress-Check",
-    "attachmentStyle": "Bindungsstil-Test"
+    "attachmentStyle": "Bindungsstil-Test",
+    "futureSelf": "Zukünftiges Ich"
   },
   "radar": {
     "regulation": "Regulation",

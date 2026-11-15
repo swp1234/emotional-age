@@ -13,7 +13,8 @@
     "start": "Decouvrir Mon Age Emotionnel"
   },
   "quiz": {
-    "progress": "{current} / {total}"
+    "progress": "{current} / {total}",
+    "next": "Suivant"
   },
   "questions": {
     "q1": {
@@ -132,7 +133,9 @@
     "title": "Votre Age Emotionnel",
     "yearsOld": "ans",
     "retake": "Refaire le Test",
-    "moreTests": "Explorer plus"
+    "moreTests": "Explorer plus",
+    "spectrumLeft": "Réactif",
+    "spectrumRight": "Sage"
   },
   "related": {
     "mentalAge": "Âge Mental",
@@ -141,7 +144,8 @@
     "hspTest": "Test HSP",
     "soulAge": "Âge de l’Âme",
     "stressCheck": "Bilan de Stress",
-    "attachmentStyle": "Style d’Attachement"
+    "attachmentStyle": "Style d’Attachement",
+    "futureSelf": "Moi Futur"
   },
   "radar": {
     "regulation": "Regulation",

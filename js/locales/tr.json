@@ -13,7 +13,8 @@
     "start": "Duygusal Yasimi Kesfet"
   },
   "quiz": {
-    "progress": "{current} / {total}"
+    "progress": "{current} / {total}",
+    "next": "İleri"
   },
   "questions": {
     "q1": {
@@ -132,7 +133,9 @@
     "title": "Duygusal Yasin",
     "yearsOld": "yas",
     "retake": "Tekrar Yap",
-    "moreTests": "Daha fazla keşfet"
+    "moreTests": "Daha fazla keşfet",
+    "spectrumLeft": "Tepkisel",
+    "spectrumRight": "Bilge"
   },
   "related": {
     "mentalAge": "Zihinsel Yaş",
@@ -141,7 +144,8 @@
     "hspTest": "HSP Testi",
     "soulAge": "Ruh Yaşı Testi",
     "stressCheck": "Stres Kontrolü",
-    "attachmentStyle": "Bağlanma Stili"
+    "attachmentStyle": "Bağlanma Stili",
+    "futureSelf": "Gelecekteki Ben"
   },
   "radar": {
     "regulation": "Duzenleme",

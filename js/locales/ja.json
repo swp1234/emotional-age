@@ -110,7 +110,8 @@
     "hspTest": "HSPテスト",
     "soulAge": "魂の年齢診断",
     "stressCheck": "ストレスチェック",
-    "attachmentStyle": "愛着スタイル診断"
+    "attachmentStyle": "愛着スタイル診断",
+    "futureSelf": "未来の自分"
   },
   "share": {
     "title": "結果をシェア",

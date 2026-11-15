@@ -13,7 +13,8 @@
     "start": "Узнать мой эмоциональный возраст"
   },
   "quiz": {
-    "progress": "{current} / {total}"
+    "progress": "{current} / {total}",
+    "next": "Далее"
   },
   "questions": {
     "q1": {
@@ -132,7 +133,9 @@
     "title": "Твой эмоциональный возраст",
     "yearsOld": "лет",
     "retake": "Пройти снова",
-    "moreTests": "Ещё тесты"
+    "moreTests": "Ещё тесты",
+    "spectrumLeft": "Реактивный",
+    "spectrumRight": "Мудрый"
   },
   "related": {
     "mentalAge": "Ментальный возраст",
@@ -141,7 +144,8 @@
     "hspTest": "HSP Тест",
     "soulAge": "Возраст души",
     "stressCheck": "Тест на стресс",
-    "attachmentStyle": "Тип привязанности"
+    "attachmentStyle": "Тип привязанности",
+    "futureSelf": "Будущее Я"
   },
   "radar": {
     "regulation": "Регуляция",

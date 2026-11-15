@@ -13,7 +13,8 @@
     "start": "Temukan Usia Emosionalku"
   },
   "quiz": {
-    "progress": "{current} / {total}"
+    "progress": "{current} / {total}",
+    "next": "Lanjut"
   },
   "questions": {
     "q1": {
@@ -132,7 +133,9 @@
     "title": "Usia Emosionalmu",
     "yearsOld": "tahun",
     "retake": "Ulangi Tes",
-    "moreTests": "Jelajahi lagi"
+    "moreTests": "Jelajahi lagi",
+    "spectrumLeft": "Reaktif",
+    "spectrumRight": "Bijaksana"
   },
   "related": {
     "mentalAge": "Usia Mental",
@@ -141,7 +144,8 @@
     "hspTest": "Tes HSP",
     "soulAge": "Usia Jiwa",
     "stressCheck": "Cek Stres",
-    "attachmentStyle": "Gaya Kelekatan"
+    "attachmentStyle": "Gaya Kelekatan",
+    "futureSelf": "Diri Masa Depan"
   },
   "radar": {
     "regulation": "Regulasi",
