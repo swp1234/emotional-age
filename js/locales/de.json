@@ -14,93 +14,8 @@
   },
   "quiz": {
     "progress": "{current} / {total}",
-    "next": "Weiter"
-  },
-  "questions": {
-    "q1": {
-      "text": "Jemand schneidet dir im Verkehr den Weg ab. Was machst du?",
-      "a": "Aggressiv hupen und schreien",
-      "b": "Genervt sein, aber nichts tun",
-      "c": "Tief durchatmen und loslassen",
-      "d": "Verstehen, dass sie es eilig haben koennten"
-    },
-    "q2": {
-      "text": "Dein Freund durchlebt eine schwierige Zeit. Wie reagierst du?",
-      "a": "Tief zuhoeren und Gefuehle anerkennen",
-      "b": "Praktische Ratschlaege zur Loesung anbieten",
-      "c": "Versuchen, mit Humor aufzumuntern",
-      "d": "Sich unwohl fuehlen und das Thema wechseln"
-    },
-    "q3": {
-      "text": "Du hast eine Meinungsverschiedenheit mit deinem Partner/engen Freund.",
-      "a": "Dicht machen und schweigen",
-      "b": "Streiten bis man gewinnt",
-      "c": "Versuchen, ihre Perspektive zu sehen",
-      "d": "Ruhig Gefuehle ausdruecken und Kompromiss finden"
-    },
-    "q4": {
-      "text": "Du hast einen Fehler bei der Arbeit/Schule gemacht. Wie reagierst du?",
-      "a": "Andere beschuldigen oder Ausreden finden",
-      "b": "Sich tagelang selbst fertig machen",
-      "c": "Anerkennen und daraus lernen",
-      "d": "Verantwortung uebernehmen, entschuldigen und Verbesserungsplan erstellen"
-    },
-    "q5": {
-      "text": "Jemand kritisiert dich. Was ist deine erste Reaktion?",
-      "a": "Defensiv werden und wuetend sein",
-      "b": "Verletzt sein, aber so tun als waere es egal",
-      "c": "Ueberlegen, ob es berechtigt ist, bevor man antwortet",
-      "d": "Danken und ehrlich reflektieren"
-    },
-    "q6": {
-      "text": "Ein Freund bittet dich staendig um Gefallen, die dich erschoepfen.",
-      "a": "Jedes Mal ja sagen, obwohl man erschoepft ist",
-      "b": "Ja sagen, aber innerlich grollt man",
-      "c": "Manchmal nein sagen, aber sich schuldig fuehlen",
-      "d": "Freundlich aber bestimmt Grenzen setzen"
-    },
-    "q7": {
-      "text": "Wie gehst du mit dem Gefuehl der Ueberforderung um?",
-      "a": "Zeit nehmen und gesunde Bewaeltigungsstrategien nutzen",
-      "b": "Mit jemandem reden, dem ich vertraue",
-      "c": "Mich ablenken, bis das Gefuehl vorbeigeht",
-      "d": "An den Menschen um mich herum auslassen"
-    },
-    "q8": {
-      "text": "Du siehst, wie jemand unfair behandelt wird. Was tust du?",
-      "a": "Wegschauen — nicht mein Problem",
-      "b": "Sich schlecht fuehlen, aber nicht einmischen wollen",
-      "c": "Sich aeussern, wenn ich mich sicher fuehle",
-      "d": "Fuer sie einstehen, egal in welcher Situation"
-    },
-    "q9": {
-      "text": "Nach einem Streit merkst du, dass du falsch lagst.",
-      "a": "Aufrichtig entschuldigen und wiedergutmachen",
-      "b": "Zugeben, dass man falsch lag, ohne Drama",
-      "c": "Warten, bis Gras drueber waechst",
-      "d": "Stur bleiben, weil Fehler einzugestehen schwach wirkt"
-    },
-    "q10": {
-      "text": "Wie gut verstehst du, warum du fuehlst, was du fuehlst?",
-      "a": "Ich kann meine Emotionen und ihre Ursachen identifizieren",
-      "b": "Nach Reflexion verstehe ich meistens meine Gefuehle",
-      "c": "Ich weiss, dass ich etwas fuehle, kann es aber nicht immer benennen",
-      "d": "Ich denke nicht viel darueber nach, warum ich fuehle"
-    },
-    "q11": {
-      "text": "Wie wohl fuehlst du dich, verletzlich zu sein?",
-      "a": "Ich teile meine Gefuehle offen mit Vertrauenspersonen",
-      "b": "Ich kann verletzlich sein, aber es braucht Zeit",
-      "c": "Ich zeige selten Verletzlichkeit — es ist riskant",
-      "d": "Ich zeige niemandem Schwaeche"
-    },
-    "q12": {
-      "text": "Jemand, der dir wichtig ist, tut etwas, das dich verletzt.",
-      "a": "Ich kommuniziere meine Gefuehle ruhig und direkt",
-      "b": "Ich nehme mir Zeit zum Verarbeiten, bevor ich es anspreche",
-      "c": "Ich deute an, dass ich verletzt bin und hoffe, es wird bemerkt",
-      "d": "Ich trage Groll und distanziere mich"
-    }
+    "next": "Weiter",
+    "finish": "Mein Ergebnis ansehen"
   },
   "tiers": {
     "child": {
@@ -200,5 +115,57 @@
     "book2Desc": "Brené Brown • Präzise Sprache für komplexe Gefühle und Grenzen.",
     "readPill": "Buch ansehen ↗",
     "disclosure": "Kuratierte Lektüre zur Emotionskompetenz. Regionale Links (dopabrain-20)."
+  },
+  "scenarios": {
+    "s1": {
+      "text": "Ein Freund sagt eure Verabredung in letzter Minute ab.",
+      "left": "Wütend ausrasten",
+      "right": "Verständnis zeigen und ruhig neu planen"
+    },
+    "s2": {
+      "text": "Jemand kritisiert deine Arbeit vor anderen.",
+      "left": "Abwehrend reagieren und zurückstreiten",
+      "right": "Offen für das Feedback bleiben"
+    },
+    "s3": {
+      "text": "Dein Partner hat dir seit Stunden nicht zurückgeschrieben.",
+      "left": "In Angst und Grübelei verfallen",
+      "right": "Vertrauen und ruhig bleiben"
+    },
+    "s4": {
+      "text": "Dir unterläuft bei der Arbeit ein großer Fehler.",
+      "left": "In Selbsthass und Scham versinken",
+      "right": "Mitgefühl mit dir selbst haben und ihn beheben"
+    },
+    "s5": {
+      "text": "Jemand drängelt sich vor dir in die Warteschlange.",
+      "left": "Aggressiv zur Rede stellen",
+      "right": "Loslassen – es ist die Energie nicht wert"
+    },
+    "s6": {
+      "text": "Dein Ex postet ein Foto mit einer neuen Person.",
+      "left": "Besessen das Profil durchstöbern",
+      "right": "Sich aufrichtig für sie oder ihn freuen"
+    },
+    "s7": {
+      "text": "Ein Freund erreicht etwas, wovon du immer geträumt hast.",
+      "left": "Von Neid zerfressen sein",
+      "right": "Den Erfolg von ganzem Herzen feiern"
+    },
+    "s8": {
+      "text": "Jemand missversteht deine Absichten völlig.",
+      "left": "Frustriert aufgeben, es zu erklären",
+      "right": "Geduldig und mit Empathie klären"
+    },
+    "s9": {
+      "text": "Du fühlst dich von allem im Leben völlig überfordert.",
+      "left": "Dich verschließen und isolieren",
+      "right": "Hilfe suchen und dir Ruhe gönnen"
+    },
+    "s10": {
+      "text": "Ein Fremder ist grundlos unhöflich zu dir.",
+      "left": "Genauso unhöflich zurücksein",
+      "right": "Empathie zeigen – vielleicht hat die Person einen schlechten Tag"
+    }
   }
 }

@@ -14,93 +14,8 @@
   },
   "quiz": {
     "progress": "{current} / {total}",
-    "next": "Lanjut"
-  },
-  "questions": {
-    "q1": {
-      "text": "Seseorang menyerobot di jalan. Apa yang kamu lakukan?",
-      "a": "Klakson keras-keras dan berteriak",
-      "b": "Kesal tapi tidak berbuat apa-apa",
-      "c": "Tarik napas dalam dan lupakan",
-      "d": "Memahami mungkin mereka sedang buru-buru"
-    },
-    "q2": {
-      "text": "Temanmu sedang melewati masa sulit. Bagaimana responmu?",
-      "a": "Mendengarkan dengan penuh perhatian dan memvalidasi perasaannya",
-      "b": "Memberikan saran praktis untuk menyelesaikan masalah",
-      "c": "Mencoba menghibur dengan humor",
-      "d": "Merasa tidak nyaman dan mengalihkan pembicaraan"
-    },
-    "q3": {
-      "text": "Kamu berselisih pendapat dengan pasangan/sahabat.",
-      "a": "Diam dan ngambek",
-      "b": "Berdebat sampai menang",
-      "c": "Mencoba melihat dari sudut pandang mereka",
-      "d": "Dengan tenang mengekspresikan perasaan dan mencari kompromi"
-    },
-    "q4": {
-      "text": "Kamu membuat kesalahan di tempat kerja/sekolah. Bagaimana reaksimu?",
-      "a": "Menyalahkan orang lain atau mencari alasan",
-      "b": "Menyalahkan diri sendiri berhari-hari",
-      "c": "Mengakui dan belajar dari kesalahan",
-      "d": "Bertanggung jawab, minta maaf, dan buat rencana perbaikan"
-    },
-    "q5": {
-      "text": "Seseorang mengkritikmu. Reaksi pertamamu?",
-      "a": "Menjadi defensif dan marah",
-      "b": "Tersinggung tapi pura-pura tidak peduli",
-      "c": "Mempertimbangkan apakah valid sebelum menjawab",
-      "d": "Berterima kasih dan benar-benar merefleksikan"
-    },
-    "q6": {
-      "text": "Teman terus meminta bantuan yang membuatmu kelelahan.",
-      "a": "Selalu bilang iya meskipun sudah kelelahan",
-      "b": "Bilang iya tapi diam-diam kesal",
-      "c": "Kadang menolak tapi merasa bersalah",
-      "d": "Dengan baik tapi tegas menetapkan batasan"
-    },
-    "q7": {
-      "text": "Bagaimana kamu mengatasi perasaan kewalahan?",
-      "a": "Meluangkan waktu dan menggunakan strategi sehat",
-      "b": "Berbicara dengan orang yang kupercaya",
-      "c": "Mengalihkan perhatian sampai perasaan berlalu",
-      "d": "Melampiaskan ke orang-orang di sekitarku"
-    },
-    "q8": {
-      "text": "Kamu melihat seseorang diperlakukan tidak adil. Apa yang kamu lakukan?",
-      "a": "Berpaling — bukan urusanku",
-      "b": "Merasa kasihan tapi tidak mau ikut campur",
-      "c": "Angkat bicara jika merasa aman",
-      "d": "Membela mereka apapun situasinya"
-    },
-    "q9": {
-      "text": "Setelah bertengkar, kamu sadar kamu yang salah.",
-      "a": "Meminta maaf dengan tulus dan memperbaiki",
-      "b": "Mengakui salah tanpa drama",
-      "c": "Menunggu sampai terlupakan",
-      "d": "Tetap pada pendirian karena mengakui kesalahan terlihat lemah"
-    },
-    "q10": {
-      "text": "Seberapa baik kamu memahami mengapa kamu merasa seperti itu?",
-      "a": "Bisa mengidentifikasi emosi dan akar penyebabnya",
-      "b": "Biasanya memahami setelah merenung",
-      "c": "Tahu ada yang dirasakan tapi tidak selalu bisa menamakannya",
-      "d": "Tidak terlalu memikirkan mengapa merasakan sesuatu"
-    },
-    "q11": {
-      "text": "Seberapa nyaman kamu menunjukkan kerentanan?",
-      "a": "Berbagi perasaan secara terbuka dengan orang yang dipercaya",
-      "b": "Bisa menjadi rentan tapi butuh waktu",
-      "c": "Jarang menunjukkan kerentanan — terasa berisiko",
-      "d": "Tidak pernah menunjukkan kelemahan ke siapapun"
-    },
-    "q12": {
-      "text": "Seseorang yang kamu sayangi melakukan sesuatu yang menyakitimu.",
-      "a": "Mengkomunikasikan perasaan dengan tenang dan langsung",
-      "b": "Meluangkan waktu untuk memproses sebelum membahasnya",
-      "c": "Memberi isyarat bahwa aku kesal dan berharap mereka menyadari",
-      "d": "Menyimpan dendam dan menjaga jarak"
-    }
+    "next": "Lanjut",
+    "finish": "Lihat Hasilku"
   },
   "tiers": {
     "child": {
@@ -200,5 +115,57 @@
     "book2Desc": "Brené Brown • Bahasa praktis untuk memahami emosi yang kompleks.",
     "readPill": "Lihat Buku ↗",
     "disclosure": "Bacaan pilihan literasi emosi. Tautan menyesuaikan wilayah (dopabrain-20)."
+  },
+  "scenarios": {
+    "s1": {
+      "text": "Temanmu membatalkan rencana di menit-menit terakhir.",
+      "left": "Marah besar kepadanya",
+      "right": "Memahami dan menjadwalkan ulang dengan tenang"
+    },
+    "s2": {
+      "text": "Seseorang mengkritik pekerjaanmu di depan orang lain.",
+      "left": "Bersikap defensif dan membantah",
+      "right": "Tetap terbuka terhadap masukan"
+    },
+    "s3": {
+      "text": "Pasanganmu belum membalas pesan selama berjam-jam.",
+      "left": "Cemas berlebihan dan overthinking",
+      "right": "Mempercayainya dan tetap tenang"
+    },
+    "s4": {
+      "text": "Kamu membuat kesalahan besar di tempat kerja.",
+      "left": "Tenggelam dalam rasa malu dan membenci diri",
+      "right": "Berbelas kasih pada diri sendiri dan memperbaikinya"
+    },
+    "s5": {
+      "text": "Seseorang menyerobot antrean di depanmu.",
+      "left": "Menegurnya dengan agresif",
+      "right": "Biarkan saja, tidak sepadan dengan energimu"
+    },
+    "s6": {
+      "text": "Mantanmu mengunggah foto bersama orang baru.",
+      "left": "Terobsesi dan menguntit profilnya",
+      "right": "Turut merasa bahagia dengan tulus untuknya"
+    },
+    "s7": {
+      "text": "Temanmu meraih sesuatu yang selalu kamu impikan.",
+      "left": "Dikuasai rasa iri hati",
+      "right": "Merayakan keberhasilannya dengan sepenuh hati"
+    },
+    "s8": {
+      "text": "Seseorang salah paham total terhadap niatmu.",
+      "left": "Frustrasi dan berhenti menjelaskan",
+      "right": "Menjelaskan dengan sabar dan empati"
+    },
+    "s9": {
+      "text": "Kamu merasa benar-benar kewalahan oleh segala hal dalam hidup.",
+      "left": "Menutup diri dan mengisolasi diri",
+      "right": "Mencari bantuan dan mengizinkan diri beristirahat"
+    },
+    "s10": {
+      "text": "Orang asing bersikap kasar padamu tanpa alasan.",
+      "left": "Membalasnya dengan sikap kasar juga",
+      "right": "Berempati — mungkin harinya sedang buruk"
+    }
   }
 }

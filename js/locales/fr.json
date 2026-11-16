@@ -14,93 +14,8 @@
   },
   "quiz": {
     "progress": "{current} / {total}",
-    "next": "Suivant"
-  },
-  "questions": {
-    "q1": {
-      "text": "Quelqu'un vous coupe la route. Que faites-vous ?",
-      "a": "Klaxonner agressivement et crier",
-      "b": "Etre frustre mais ne rien faire",
-      "c": "Respirer profondement et lacher prise",
-      "d": "Comprendre qu'ils sont peut-etre presses"
-    },
-    "q2": {
-      "text": "Votre ami traverse une periode difficile. Comment reagissez-vous ?",
-      "a": "Ecouter profondement et valider ses sentiments",
-      "b": "Offrir des conseils pratiques pour resoudre",
-      "c": "Essayer de remonter le moral avec humour",
-      "d": "Se sentir mal a l'aise et changer de sujet"
-    },
-    "q3": {
-      "text": "Vous avez un desaccord avec votre partenaire/ami proche.",
-      "a": "Se fermer et faire la tete",
-      "b": "Argumenter jusqu'a gagner",
-      "c": "Essayer de voir leur point de vue",
-      "d": "Exprimer calmement ses sentiments et trouver un compromis"
-    },
-    "q4": {
-      "text": "Vous avez fait une erreur au travail/a l'ecole. Comment reagissez-vous ?",
-      "a": "Blamer les autres ou trouver des excuses",
-      "b": "Se punir mentalement pendant des jours",
-      "c": "Reconnaitre et en tirer une lecon",
-      "d": "Assumer, s'excuser et creer un plan d'amelioration"
-    },
-    "q5": {
-      "text": "Quelqu'un vous critique. Quelle est votre premiere reaction ?",
-      "a": "Devenir defensif et en colere",
-      "b": "Etre blesse mais pretendre que ca ne compte pas",
-      "c": "Considerer si c'est valide avant de repondre",
-      "d": "Remercier et y reflechir sincerement"
-    },
-    "q6": {
-      "text": "Un ami vous demande constamment des faveurs qui vous epuisent.",
-      "a": "Dire oui a chaque fois meme epuise",
-      "b": "Dire oui mais en vouloir silencieusement",
-      "c": "Parfois dire non mais se sentir coupable",
-      "d": "Poser des limites avec gentillesse mais fermete"
-    },
-    "q7": {
-      "text": "Comment gerez-vous le sentiment d'etre submerge ?",
-      "a": "Prendre du temps et utiliser des strategies saines",
-      "b": "Parler a quelqu'un de confiance",
-      "c": "Me distraire jusqu'a ce que ca passe",
-      "d": "M'en prendre aux gens autour de moi"
-    },
-    "q8": {
-      "text": "Vous voyez quelqu'un traite injustement. Que faites-vous ?",
-      "a": "Detourner le regard — pas mon probleme",
-      "b": "Se sentir mal mais ne pas vouloir s'impliquer",
-      "c": "Intervenir si je me sens en securite",
-      "d": "Les defendre quelle que soit la situation"
-    },
-    "q9": {
-      "text": "Apres une dispute, vous realisez que vous aviez tort.",
-      "a": "S'excuser sincerement et reparer",
-      "b": "Admettre avoir tort sans en faire un drame",
-      "c": "Attendre que ca se tasse",
-      "d": "Camper sur ses positions car admettre ses torts est signe de faiblesse"
-    },
-    "q10": {
-      "text": "A quel point comprenez-vous pourquoi vous ressentez ce que vous ressentez ?",
-      "a": "Je peux identifier mes emotions et leurs causes",
-      "b": "Je comprends generalement apres reflexion",
-      "c": "Je sais que je ressens quelque chose mais ne peux pas toujours le nommer",
-      "d": "Je ne reflechis pas trop a pourquoi je ressens les choses"
-    },
-    "q11": {
-      "text": "A quel point etes-vous a l'aise d'etre vulnerable avec les autres ?",
-      "a": "Je partage ouvertement mes sentiments avec des personnes de confiance",
-      "b": "Je peux etre vulnerable mais ca prend du temps",
-      "c": "Je montre rarement ma vulnerabilite — c'est risque",
-      "d": "Je ne montre jamais de faiblesse a personne"
-    },
-    "q12": {
-      "text": "Quelqu'un qui vous est cher fait quelque chose qui vous blesse.",
-      "a": "Je communique mes sentiments calmement et directement",
-      "b": "Je prends du temps pour digerer avant d'en parler",
-      "c": "Je laisse entendre que je suis blesse en esperant qu'ils le remarquent",
-      "d": "Je garde rancune et je m'eloigne"
-    }
+    "next": "Suivant",
+    "finish": "Voir mon résultat"
   },
   "tiers": {
     "child": {
@@ -200,5 +115,57 @@
     "book2Desc": "Brené Brown • Des mots précis pour naviguer les émotions complexes.",
     "readPill": "Voir le livre ↗",
     "disclosure": "Lectures choisies sur l’intelligence émotionnelle. Liens par région (dopabrain-20)."
+  },
+  "scenarios": {
+    "s1": {
+      "text": "Un ami annule vos plans à la dernière minute.",
+      "left": "Exploser de colère contre lui",
+      "right": "Comprendre et replanifier calmement"
+    },
+    "s2": {
+      "text": "Quelqu’un critique votre travail devant les autres.",
+      "left": "Se mettre sur la défensive et répliquer",
+      "right": "Rester ouvert aux remarques"
+    },
+    "s3": {
+      "text": "Votre partenaire n’a pas répondu à votre message depuis des heures.",
+      "left": "Céder à l’anxiété et tout imaginer",
+      "right": "Faire confiance et rester serein"
+    },
+    "s4": {
+      "text": "Vous faites une grosse erreur au travail.",
+      "left": "Sombrer dans la honte et l’auto-reproche",
+      "right": "Faire preuve d’autocompassion et la corriger"
+    },
+    "s5": {
+      "text": "Quelqu’un vous passe devant dans la file.",
+      "left": "L’affronter agressivement",
+      "right": "Laisser passer, cela ne vaut pas votre énergie"
+    },
+    "s6": {
+      "text": "Votre ex publie une photo avec quelqu’un de nouveau.",
+      "left": "Obséder et scruter son profil",
+      "right": "Être sincèrement heureux pour cette personne"
+    },
+    "s7": {
+      "text": "Un ami réussit quelque chose dont vous avez toujours rêvé.",
+      "left": "Être rongé par la jalousie",
+      "right": "Célébrer son succès de tout cœur"
+    },
+    "s8": {
+      "text": "Quelqu’un se méprend totalement sur vos intentions.",
+      "left": "Vous frustrer et cesser d’expliquer",
+      "right": "Clarifier patiemment avec empathie"
+    },
+    "s9": {
+      "text": "Vous vous sentez complètement dépassé par tout dans votre vie.",
+      "left": "Vous renfermer et vous isoler",
+      "right": "Demander de l’aide et vous autoriser à vous reposer"
+    },
+    "s10": {
+      "text": "Un inconnu est impoli avec vous sans aucune raison.",
+      "left": "Lui répondre tout aussi sèchement",
+      "right": "Avoir de l’empathie — il passe peut-être une mauvaise journée"
+    }
   }
 }

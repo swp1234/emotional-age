@@ -14,93 +14,8 @@
   },
   "quiz": {
     "progress": "{current} / {total}",
-    "next": "İleri"
-  },
-  "questions": {
-    "q1": {
-      "text": "Biri trafikte onune kiriyor. Ne yaparsin?",
-      "a": "Agresif bir sekilde korna calmak ve bagirmak",
-      "b": "Sinirli olmak ama bir sey yapmamak",
-      "c": "Derin nefes alip birakivermek",
-      "d": "Acelesi olabilecegini anlamak"
-    },
-    "q2": {
-      "text": "Arkadasin zor bir donemden geciyor. Nasil tepki verirsin?",
-      "a": "Derinden dinleyip duygularini dogrulamak",
-      "b": "Sorunu cozmek icin pratik tavsiye vermek",
-      "c": "Espriyle neselendirmeye calismak",
-      "d": "Rahatsiz hissedip konu degistirmek"
-    },
-    "q3": {
-      "text": "Partnerin/yakin arkadasinla fikir ayriligi yasiyorsun.",
-      "a": "Susmak ve soguk tavir takimmak",
-      "b": "Kazanana kadar tartismak",
-      "c": "Onlarin bakis acisini gormeye calismak",
-      "d": "Sakin bir sekilde duygularini ifade etmek ve uzlasma bulmak"
-    },
-    "q4": {
-      "text": "Iste/okulda hata yaptin. Nasil tepki verirsin?",
-      "a": "Baskalarina suratmak veya bahane bulmak",
-      "b": "Gunlerce kendini kotu hissetmek",
-      "c": "Kabul etmek ve ders cikarmak",
-      "d": "Sahiplenmek, ozur dilemek ve iyilestirme plani yapmak"
-    },
-    "q5": {
-      "text": "Biri seni elestiriyor. Ilk tepkin ne?",
-      "a": "Savunmaya gecmek ve kizmak",
-      "b": "Incinmek ama umursamiyormus gibi yapmak",
-      "c": "Cevap vermeden once gecerli olup olmadigini dusunmek",
-      "d": "Tesekkur edip ictenlikle dusunmek"
-    },
-    "q6": {
-      "text": "Bir arkadas seni tuketen iyilikler istemeye devam ediyor.",
-      "a": "Tukenmis olsam bile her seferinde evet demek",
-      "b": "Evet deyip icinden kin tutmak",
-      "c": "Bazen hayir demek ama sucluluk hissetmek",
-      "d": "Nazikce ama kararli bir sekilde sinir koymak"
-    },
-    "q7": {
-      "text": "Bunalmis hissettiginde nasil basa cikarsin?",
-      "a": "Zaman ayirip saglikli basa cikma stratejileri kullanmak",
-      "b": "Guvendigim biriyle konusmak",
-      "c": "Duygu gecene kadar dikkatimi dagitmak",
-      "d": "Cevremedekilere patlamak"
-    },
-    "q8": {
-      "text": "Birinin haksizliga ugrandigini goruyorsun. Ne yaparsin?",
-      "a": "Baska tarafa bakmak — benim sorunum degil",
-      "b": "Kotu hissetmek ama karismak istememek",
-      "c": "Guvendeysen sesini cikarmak",
-      "d": "Durum ne olursa olsun onlari savunmak"
-    },
-    "q9": {
-      "text": "Bir tartismadan sonra yanlis oldugunu fark ettin.",
-      "a": "Ictenlikle ozur dileyip telafi etmek",
-      "b": "Yanlis oldugumu kabul edip buyutmemek",
-      "c": "Unutulmasini beklemek",
-      "d": "Hata kabul etmek zayiflik gibi gorundugundan inat etmek"
-    },
-    "q10": {
-      "text": "Neden boyle hissettigini ne kadar iyi anliyorsun?",
-      "a": "Duygularimi ve kok nedenlerini belirleyebilirim",
-      "b": "Dusundukten sonra genellikle anlarim",
-      "c": "Bir seyler hissettigimi biliyorum ama her zaman adlandiramiyorum",
-      "d": "Neden bir seyler hissettigim hakkinda pek dusunmem"
-    },
-    "q11": {
-      "text": "Baskalarina karsi savunmasiz olmak seni ne kadar rahat hissettiriyor?",
-      "a": "Guvendigim insanlarla duygularimi acikca paylasiyorum",
-      "b": "Savunmasiz olabiliyorum ama zaman aliyor",
-      "c": "Nadiren savunmasizlik gosteriyorum — riskli geliyor",
-      "d": "Hicbir zaman kimseye zayiflik gostermem"
-    },
-    "q12": {
-      "text": "Onem verdigin biri seni inciten bir sey yapti.",
-      "a": "Duygularimi sakin ve dogrudan iletmek",
-      "b": "Islemek icin zaman ayirip sonra konusmak",
-      "c": "Uzgun oldugumu ima edip fark etmelerini ummak",
-      "d": "Kin tutup uzaklasiyorum"
-    }
+    "next": "İleri",
+    "finish": "Sonucumu Gör"
   },
   "tiers": {
     "child": {
@@ -200,5 +115,57 @@
     "book2Desc": "Brené Brown • Karmaşık duyguları net biçimde anlama rehberi.",
     "readPill": "Kitabı Gör ↗",
     "disclosure": "Seçilmiş duygusal okuryazarlık kitapları. Bölgesel bağlantılar (dopabrain-20)."
+  },
+  "scenarios": {
+    "s1": {
+      "text": "Arkadaşın planları son dakikada iptal ediyor.",
+      "left": "Öfkeyle patlamak",
+      "right": "Anlayışla karşılayıp sakinçe yeniden planlamak"
+    },
+    "s2": {
+      "text": "Biri işini başkalarının önünde eleştiriyor.",
+      "left": "Savunmaya geçip tartışmak",
+      "right": "Geri bildirime açık kalmak"
+    },
+    "s3": {
+      "text": "Partnerin saatlerdir mesajına cevap vermedi.",
+      "left": "Kaygıya kapılıp aşırı düşünmek",
+      "right": "Güvenmek ve sakin kalmak"
+    },
+    "s4": {
+      "text": "İşte büyük bir hata yaptın.",
+      "left": "Kendinden nefret edip utanca boğulmak",
+      "right": "Kendine şefkat gösterip hatayı düzeltmek"
+    },
+    "s5": {
+      "text": "Biri sırada tam önüne geçiyor.",
+      "left": "Sert ve agresif şekilde çıkışmak",
+      "right": "Akışına bırakmak, enerjine değmez"
+    },
+    "s6": {
+      "text": "Eski sevgilin yeni biriyle fotoğraf paylaşıyor.",
+      "left": "Takıntı yapıp profilini incelemek",
+      "right": "Onun adına içtenlikle mutlu olmak"
+    },
+    "s7": {
+      "text": "Arkadaşın her zaman hayalini kurduğun şeyi başarıyor.",
+      "left": "Kıskançlığa kapılmak",
+      "right": "Başarısını tüm kalbinle kutlamak"
+    },
+    "s8": {
+      "text": "Biri niyetini tamamen yanlış anlıyor.",
+      "left": "Sinirlenip açıklamaktan vazgeçmek",
+      "right": "Sabırla ve empatiyle açıklığa kavuşturmak"
+    },
+    "s9": {
+      "text": "Hayattaki her şeyin seni tamamen bunalttığını hissediyorsun.",
+      "left": "Kapanıp kendini herkesten soyutlamak",
+      "right": "Destek istemek ve kendine dinlenme izni vermek"
+    },
+    "s10": {
+      "text": "Bir yabancı hiçbir sebep yokken sana kaba davranıyor.",
+      "left": "Aynı kabalıkla karşılık vermek",
+      "right": "Empati kurmak — belki kötü bir gün geçiriyordur"
+    }
   }
 }
