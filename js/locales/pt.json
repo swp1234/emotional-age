@@ -158,5 +158,11 @@
     "book2Desc": "Brené Brown • Linguagem clara para lidar com emoções complexas.",
     "readPill": "Ver livro ↗",
     "disclosure": "Leituras curadas de inteligência emocional. Links por região (dopabrain-20)."
+  },
+  "nextStep": {
+    "label": "Próximo passo recomendado",
+    "title": "Teste de Alta Sensibilidade HSP",
+    "desc": "Descubra em 3 minutos como sua sensibilidade molda suas reações diárias.",
+    "cta": "Fazer Teste HSP →"
   }
 }

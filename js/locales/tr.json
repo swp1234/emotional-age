@@ -167,5 +167,11 @@
       "left": "Aynı kabalıkla karşılık vermek",
       "right": "Empati kurmak — belki kötü bir gün geçiriyordur"
     }
+  },
+  "nextStep": {
+    "label": "Önerilen Sonraki Adım",
+    "title": "HSP Hassasiyet Testi",
+    "desc": "Duyusal ve duygusal hassasiyetinin günlük tepkilerini nasıl şekillendirdiğini keşfet.",
+    "cta": "HSP Testini Başlat →"
   }
 }

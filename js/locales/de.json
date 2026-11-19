@@ -167,5 +167,11 @@
       "left": "Genauso unhöflich zurücksein",
       "right": "Empathie zeigen – vielleicht hat die Person einen schlechten Tag"
     }
+  },
+  "nextStep": {
+    "label": "Empfohlener nächster Schritt",
+    "title": "HSP-Sensibilitätstest",
+    "desc": "Entdecke in 3 Minuten, wie sensorische und emotionale Tiefe deinen Alltag prägen.",
+    "cta": "HSP-Test starten →"
   }
 }

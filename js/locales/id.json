@@ -167,5 +167,11 @@
       "left": "Membalasnya dengan sikap kasar juga",
       "right": "Berempati — mungkin harinya sedang buruk"
     }
+  },
+  "nextStep": {
+    "label": "Langkah Berikutnya",
+    "title": "Tes Sensitivitas HSP",
+    "desc": "Kenali bagaimana kepekaan sensorik dan emosimu memengaruhi keseharian dalam 3 menit.",
+    "cta": "Mulai Tes HSP →"
   }
 }

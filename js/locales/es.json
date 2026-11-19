@@ -158,5 +158,11 @@
     "book2Desc": "Brené Brown • Lenguaje práctico para navegar emociones complejas.",
     "readPill": "Ver libro ↗",
     "disclosure": "Lecturas curadas de educación emocional. Enlaces adaptados por región (dopabrain-20)."
+  },
+  "nextStep": {
+    "label": "Siguiente paso recomendado",
+    "title": "Test de Alta Sensibilidad HSP",
+    "desc": "Descubre en 3 minutos cómo influye tu sensibilidad sensorial y emocional.",
+    "cta": "Hacer Test HSP →"
   }
 }

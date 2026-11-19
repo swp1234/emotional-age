@@ -167,5 +167,11 @@
       "left": "Lui répondre tout aussi sèchement",
       "right": "Avoir de l’empathie — il passe peut-être une mauvaise journée"
     }
+  },
+  "nextStep": {
+    "label": "Prochaine étape recommandée",
+    "title": "Test d’Hypersensibilité HSP",
+    "desc": "Découvrez en 3 minutes comment votre sensibilité façonne vos réactions.",
+    "cta": "Faire le test HSP →"
   }
 }

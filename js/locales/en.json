@@ -158,5 +158,11 @@
     "book2Desc": "Brené Brown • Practical language for navigating complex feelings cleanly.",
     "readPill": "View Book ↗",
     "disclosure": "Curated emotional literacy reading. Links adapt by region (dopabrain-20)."
+  },
+  "nextStep": {
+    "label": "Recommended Next Step",
+    "title": "HSP Sensitivity Test",
+    "desc": "Explore how sensory and emotional sensitivity shape your daily reactions in 3 minutes.",
+    "cta": "Take HSP Test →"
   }
 }
